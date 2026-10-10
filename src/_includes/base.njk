@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if titulo %}{{ titulo }} | {{ iglesia.sigla }} Logroño{% else %}Iglesia evangélica bautista en Logroño | {{ iglesia.sigla }}{% endif %}</title>
+  <meta name="description" content="{{ descripcion or 'Iglesia Bautista Internacional de Logroño. Te esperamos el domingo a las 11:30 en Ronda de los Cuarteles, 32.' }}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32">
+  <link rel="preload" href="/fuentes/cormorant-garamond-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fuentes/public-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera">
+    <div class="contenedor">
+      <a class="cabecera__logo" href="/" aria-label="{{ iglesia.nombre }}, inicio">
+        <img src="/img/marca/logo-horizontal.svg" alt="" width="260" height="73">
+      </a>
+      <nav class="menu" aria-label="Principal">
+        <a href="/eres-nuevo/">¿Eres nuevo?</a>
+        <a href="/conoce-a-jesus/">Conoce a Jesús</a>
+        <a href="/predicaciones/">Predicaciones</a>
+        <a href="/nosotros/">Nosotros</a>
+        <a href="/vida-de-iglesia/">Vida de iglesia</a>
+        <a href="/contacto/">Contacto</a>
+        <a class="boton boton--primario" href="/eres-nuevo/">Visítanos este domingo</a>
+      </nav>
+      <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-movil">Menú</button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    {{ content | safe }}
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie__logo"><img src="/img/marca/logo-vertical-blanco.svg" alt="{{ iglesia.nombre }}" width="112" height="86"></div>
+      <div>
+        <h4>Dónde y cuándo</h4>
+        <address>{{ iglesia.direccion.calle }}<br>{{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}</address>
+        <p>Domingos a las {{ iglesia.horarios.domingo[2].hora }}, culto de adoración.</p>
+      </div>
+      <div>
+        <h4>Escríbenos</h4>
+        <ul role="list">
+          <li><a href="{{ iglesia.contacto.whatsappUrl }}">WhatsApp {{ iglesia.contacto.whatsapp }}</a></li>
+          <li><a href="/contacto/">Formulario de contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Síguenos</h4>
+        <ul role="list">
+          <li><a href="{{ iglesia.redes.youtube }}" rel="noopener">YouTube</a></li>
+          <li><a href="{{ iglesia.redes.instagram }}" rel="noopener">Instagram</a></li>
+          <li><a href="{{ iglesia.redes.facebook }}" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+      <div class="pie__legal">
+        <span>© {{ anio }} {{ iglesia.nombre }}</span>
+        <span>Miembro de la UEBE</span>
+        <a href="/aviso-legal/">Aviso legal</a>
+        <a href="/privacidad/">Privacidad</a>
+        <a href="/cookies/">Cookies</a>
+        <a href="/accesibilidad/">Accesibilidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="barra-movil" aria-label="Acceso rápido">
+    <a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>Cómo llegar</a>
+    <a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l1.3-3.8A8 8 0 1 1 8 19.2L4 20z"/></svg>WhatsApp</a>
+  </nav>
+</body>
+</html>

@@ -4,6 +4,9 @@ export default function (eleventyConfig) {
   // Archivos que se copian tal cual a la web generada
   eleventyConfig.addPassthroughCopy({ public: "/" });
   eleventyConfig.addPassthroughCopy({ "marca/04 Tipografia/webfonts": "/fuentes" });
+  eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addWatchTarget("src/css");
 
   // Datos globales: datos/iglesia.json → disponible como `iglesia` en todas las plantillas
   eleventyConfig.addGlobalData("iglesia", async () => {

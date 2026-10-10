@@ -1,0 +1,50 @@
+/* Sistema de diseño de la web de IBIL. Cambiar un valor aquí lo cambia en toda la web.
+   Paleta: marca/03 Colores/colores-ibil.css (decisión 10/10/2026: principal #163A52). */
+:root {
+  /* Color */
+  --azul: #163A52;          /* principal: titulares, botones, cabecera, pie */
+  --azul-ibil: #1F5F80;     /* enlaces, botones secundarios, estados activos */
+  --granate: #7A2E3B;       /* acento (≤10 %): referencias bíblicas, foco */
+  --arena: #EFE7DA;         /* secciones cálidas */
+  --arena-clara: #F7F2E9;   /* fondo de página */
+  --blanco: #FFFFFF;        /* tarjetas */
+  --carbon: #2A2A2A;        /* texto */
+  --pizarra: #4B5A64;       /* texto secundario */
+  --piedra: #8A9AA6;        /* solo decorativo, nunca texto */
+  --hueso: #E3DACB;         /* bordes */
+  --rosa-palido: #C9A0A8;   /* etiquetas sobre azul */
+  --azul-claro: #C9D3DA;    /* texto secundario sobre azul */
+
+  /* Tipografía */
+  --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Escala (1.25, base 17/18 px) */
+  --t-xs: 0.8125rem;   /* 13 */
+  --t-s: 0.9375rem;    /* 15 */
+  --t-m: 1.0625rem;    /* 17 */
+  --t-l: 1.25rem;      /* 20 */
+  --t-xl: 1.5rem;      /* 24 */
+  --t-2xl: clamp(1.75rem, 1.3rem + 1.6vw, 2.25rem);   /* 28-36 */
+  --t-3xl: clamp(2.25rem, 1.6rem + 2.6vw, 3.25rem);   /* 36-52 */
+  --t-4xl: clamp(2.75rem, 1.8rem + 4.2vw, 4.75rem);   /* 44-76 */
+  --t-giant: clamp(4rem, 2.2rem + 8vw, 8.5rem);       /* 64-136: la hora del culto */
+
+  /* Espacio */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+  --s-9: 6.5rem;
+
+  /* Medidas */
+  --ancho: 72rem;
+  --ancho-texto: 38rem;   /* ≈ 68 caracteres */
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+  --alto-boton: 3.25rem;  /* 52 px */
+  --barra-movil: 3.5rem;  /* 56 px */
+}

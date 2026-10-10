@@ -1,0 +1,146 @@
+---
+layout: base.njk
+titulo: Muestra de estilo
+descripcion: Página de muestra del sistema visual de la web de IBIL.
+permalink: /estilo/
+---
+
+<section class="hero">
+  <img class="hero__foto" src="/img/fotos/32-DSC01638.webp" alt="" width="1600" height="1067" fetchpriority="high">
+  <div class="contenedor">
+    <h1>Una iglesia en Logroño para conocer a <em>Jesús</em></h1>
+    <p>Somos una iglesia evangélica bautista. Ven tal como eres: alguien te recibirá en la puerta.</p>
+    <div class="botones">
+      <a class="boton boton--primario" href="/eres-nuevo/">Visítanos este domingo</a>
+      <a class="boton boton--secundario" href="/predicaciones/">Escuchar la última predicación</a>
+    </div>
+  </div>
+</section>
+
+<div class="franja">
+  <div class="contenedor">
+    <p class="franja__hora"><small>Cada domingo</small>{{ iglesia.horarios.domingo[2].hora }}</p>
+    <p class="franja__lugar"><strong>{{ iglesia.direccion.calle }}</strong>{{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Entrada por la calle, a pie de acera.</p>
+    <a class="boton boton--secundario" href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Cómo llegar</a>
+  </div>
+</div>
+
+<section class="seccion">
+  <div class="contenedor">
+    <h2>¿Primera vez?</h2>
+    <div class="tarjetas">
+      <article class="tarjeta">
+        <h3>Qué esperar</h3>
+        <p>Canciones, oración y una predicación de la Biblia. Dura unas dos horas y antes hay café.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>Niños</h3>
+        <p>Los niños de hasta 12 años tienen su propia clase durante la predicación.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>Te acompañamos</h3>
+        <p>Escríbenos antes de venir y alguien te esperará en la puerta.</p>
+        <p><a href="{{ iglesia.contacto.whatsappUrl }}">WhatsApp {{ iglesia.contacto.whatsapp }}</a></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="seccion seccion--blanco">
+  <div class="contenedor dos">
+    <div class="texto">
+      <h2>Así es la mañana del domingo</h2>
+      <p class="grande" style="margin-top: var(--s-4); margin-bottom: var(--s-5);">Puedes llegar a cualquiera de las horas. Nadie te va a señalar ni te va a pedir que hagas nada.</p>
+      <ol class="horario" role="list">
+        {% for acto in iglesia.horarios.domingo %}
+        <li>
+          <time>{{ acto.hora }}</time>
+          <div><h4>{{ acto.nombre }}</h4>{% if acto.detalle %}<p>{{ acto.detalle }}</p>{% endif %}</div>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+    <figure class="figura">
+      <img src="/img/fotos/29-DSC01635.webp" alt="Una predicadora habla desde el púlpito mientras la congregación escucha" width="1600" height="1067" loading="lazy">
+      <figcaption>Culto de un domingo en IBIL.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="seccion seccion--azul">
+  <div class="contenedor dos dos--invertida">
+    <div class="texto">
+      <h2>¿Quién es Jesús?</h2>
+      <p class="grande" style="margin-top: var(--s-4);">Jesús no vino a fundar una religión más. Vino a buscarnos. Murió en nuestro lugar y resucitó, y hoy ofrece perdón y una vida nueva a quien confía en Él. Si nunca te lo han explicado con calma, empieza aquí.</p>
+      <div class="botones" style="margin-top: var(--s-5);">
+        <a class="boton boton--claro" href="/conoce-a-jesus/">Conoce a Jesús</a>
+      </div>
+    </div>
+    <blockquote class="versiculo">
+      Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.
+      <cite>Juan 3:16</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="seccion seccion--arena">
+  <div class="contenedor">
+    <h2>Qué creemos</h2>
+    <div class="texto">
+      <p class="grande">Creemos que la Biblia es la Palabra de Dios y nuestra guía de fe y vida. Creemos que la salvación es un regalo de Dios por la fe en Jesucristo, no un premio a nuestras obras. Creemos que la iglesia es una familia de creyentes que se reúne para adorar a Dios, aprender su Palabra y servir a los demás.</p>
+      <p style="margin-top: var(--s-5);"><a href="/nosotros/que-creemos/">Leer nuestra confesión de fe</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="seccion seccion--blanco">
+  <div class="contenedor">
+    <h2>Muestra del sistema</h2>
+    <p class="secundario">Esta sección solo existe en esta página de prueba: enseña las piezas con las que se construirá toda la web.</p>
+
+    <div class="muestra">
+      <p class="muestra__titulo">Paleta</p>
+      <div class="paleta">
+        <div style="background:#163A52;color:#fff">Azul profundo</div>
+        <div style="background:#1F5F80;color:#fff">Azul IBIL</div>
+        <div style="background:#7A2E3B;color:#fff">Granate</div>
+        <div style="background:#EFE7DA">Arena</div>
+        <div style="background:#F7F2E9">Arena clara</div>
+        <div style="background:#FFFFFF">Blanco</div>
+        <div style="background:#2A2A2A;color:#fff">Carbón</div>
+        <div style="background:#4B5A64;color:#fff">Pizarra</div>
+        <div style="background:#E3DACB">Hueso</div>
+      </div>
+    </div>
+
+    <div class="muestra">
+      <p class="muestra__titulo">Tipografía</p>
+      <h1>Título de portada, Cormorant Garamond</h1>
+      <h2 style="margin-top: var(--s-4)">Título de sección</h2>
+      <h3 style="margin-top: var(--s-4)">Título de tarjeta o apartado</h3>
+      <h4 style="margin-top: var(--s-4)">Subtítulo en Public Sans</h4>
+      <p class="texto" style="margin-top: var(--s-4)">Texto corrido en Public Sans de 17 píxeles. Frases cortas. Un mensaje por bloque. Al visitante se le tutea («te esperamos») y en plural se usa «ustedes». Las citas de la Biblia se dejan literales en Reina-Valera 1960.</p>
+      <p class="secundario" style="margin-top: var(--s-3)">Texto secundario para pies de foto, fechas y notas.</p>
+      <p class="etiqueta" style="margin-top: var(--s-3)">Etiqueta en mayúsculas</p>
+      <blockquote class="versiculo" style="margin-top: var(--s-5)">Lámpara es a mis pies tu palabra, y lumbrera a mi camino.<cite>Salmo 119:105</cite></blockquote>
+    </div>
+
+    <div class="muestra">
+      <p class="muestra__titulo">Botones y enlaces</p>
+      <div class="botones">
+        <a class="boton boton--primario" href="#">Botón principal</a>
+        <a class="boton boton--secundario" href="#">Botón secundario</a>
+        <a href="#" style="align-self:center">Enlace en el texto</a>
+      </div>
+    </div>
+
+    <div class="muestra">
+      <p class="muestra__titulo">Fotos</p>
+      <div class="tarjetas">
+        <figure class="figura"><img src="/img/fotos/16-DSC01598.webp" alt="Una Biblia abierta entre las manos de una persona" width="1600" height="1067" loading="lazy"><figcaption>Detalle: Biblia abierta durante la Escuela Bíblica.</figcaption></figure>
+        <figure class="figura"><img src="/img/fotos/4-DSC01568.webp" alt="El pastor predica ante la congregación" width="1600" height="1067" loading="lazy"><figcaption>Predicación del domingo.</figcaption></figure>
+        <figure class="figura"><img src="/img/fotos/15-DSC01597.webp" alt="Un predicador habla con la Biblia en la mano" width="1600" height="1067" loading="lazy"><figcaption>Un hermano predica en el culto.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>

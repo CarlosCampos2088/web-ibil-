@@ -7,3 +7,4 @@ fotos/_optimizadas/
 *.log
 .DS_Store
 Thumbs.db
+_tmp/
