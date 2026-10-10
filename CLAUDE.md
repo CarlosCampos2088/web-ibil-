@@ -17,6 +17,18 @@ Prioridad si algo se contradice: 1) lo que diga Carlos en la sesión; 2) este ar
 - **Doctrina:** solo de las fuentes de la iglesia: `docs/Guia Doctrinas Basicas - vigente 2025.pdf`, el folleto y la web actual (brief, Anexos A y B). Nada de doctrina propia. Todo texto doctrinal es BORRADOR hasta que lo revise el pastor.
 - **Veto:** nada de Gabriel Pérez se publica (predicaciones, reels).
 
+## Qué se actualiza solo y qué es fijo (decisión de Carlos, 10/10/2026)
+**Se actualiza solo, sin tocar nada**, a partir de las colas de redes del PC (`edit/_sistema`):
+- **Predicaciones** (última en portada, listado, página por sermón): cada sermón publicado en YouTube (estado «hecho» en `cola_youtube.json`) → `scripts/exportar_feed.py` crea su archivo en `contenido/predicaciones/` con resumen, pasaje y capítulos del `PUBLICACION.md`.
+- **En un minuto**: los shorts publicados (misma cola).
+- **Agenda**: parábolas del discipulado, vigilias, Años Dorados y Cena del Señor de `agenda_iglesia.json` (+ actos especiales escritos a mano en `datos/agenda.json`). Nunca muestra actos pasados.
+- **Reflexión diaria**: los archivos de `contenido/reflexion-diaria/` (Carlos pasa los mensajes de los predicadores una vez a la semana; Claude los corrige y crea los archivos).
+- **Año del pie.**
+
+**Mecanismo** (se monta en la fase 5, cuando exista GitHub y Cloudflare): la tarea del PC que publica en YouTube/Meta ejecuta después `py scripts/exportar_feed.py`, hace `git commit` y `git push`; Cloudflare Pages reconstruye la web en un minuto. Si el PC está apagado, la web muestra lo último; nunca queda vacía. Mientras no exista ese enlace, el exportador se ejecuta a mano.
+
+**Fijo** (se cambia a mano, con revisión): portada, ¿Eres nuevo?, Conoce a Jesús, Nosotros (3), Vida de iglesia, Niños y jóvenes, Contacto, legales. Horarios, dirección y WhatsApp solo en `datos/iglesia.json`. Fotos en `datos/fotos.json`. Reflexión del mes: un archivo en `contenido/reflexiones/`.
+
 ## Marca y voz (resumen; detalle en brief §4)
 - Logo B horizontal en cabecera, A en negativo en el pie, D para favicon. Los SVG de `marca/01 Logotipo` ya están en #163A52: no recolorear.
 - Fotos reales de la iglesia; nunca banco de imágenes ni IA. Catálogo en `datos/fotos.json`; las de menores llevan `menores: true` y solo se muestran con `autorizada: true` (Carlos confirmó el 10/10/2026 que los padres firmaron la autorización LOPD). Hueco de foto = `[FOTO PENDIENTE: descripción]`.
