@@ -6,15 +6,25 @@ descripcion: "Tu primera visita a IBIL, iglesia evangélica en Logroño: qué pa
 fotoCabecera: "saludo"
 permalink: /eres-nuevo/
 ---
+{% import "macros.njk" as m %}
+<div class="franja">
+  <div class="contenedor">
+    <p class="franja__hora"><small>Este domingo</small>{{ iglesia.horarios.domingo[2].hora }}</p>
+    <p class="franja__lugar"><strong>{{ iglesia.direccion.calle }}</strong>{{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Si nos avisas, alguien te espera en la puerta. Si no, ven igual.</p>
+    <a class="boton boton--primario boton--icono" href="{{ iglesia.contacto.whatsappVisita }}" rel="noopener">{{ m.iconoWhatsapp() }}<span>Avísanos que vienes</span></a>
+  </div>
+</div>
+
 <section class="seccion">
   <div class="contenedor dos">
     <div class="texto">
       <h2>Así es un domingo</h2>
+      <p style="margin-top: var(--s-3)">Puedes llegar a cualquiera de las horas. Lo más habitual, si es tu primera vez, es venir a las {{ iglesia.horarios.domingo[2].hora }}.</p>
       <ol class="horario" role="list" style="margin-top: var(--s-5)">
-        <li><time>{{ iglesia.horarios.domingo[1].hora }}</time><div><h4>Escuela Bíblica para jóvenes y adultos</h4><p>Un rato de estudio de la Biblia en grupo. Puedes venir solo a escuchar.</p></div></li>
-        <li><time>11:15</time><div><h4>Café</h4><p>Es buen momento para conocernos.</p></div></li>
-        <li><time>{{ iglesia.horarios.domingo[2].hora }}</time><div><h4>Culto de adoración, nuestra reunión principal</h4><p>Canciones, oración, lectura de la Biblia y una predicación que explica un pasaje bíblico. Los niños de hasta 12 años pasan a su clase a las {{ iglesia.horarios.domingo[3].hora }}.</p></div></li>
-        <li><time>13:30</time><div><h4>Final</h4><p>Una vez al trimestre comemos juntos después del culto.</p></div></li>
+        {% for a in iglesia.horarios.domingo %}
+        <li><time>{{ a.hora }}</time><div><h4>{{ a.nombre }}{% if a.alias %} <span class="secundario">(la «{{ a.alias }}»)</span>{% endif %}</h4><p>{{ a.detalle }}</p></div></li>
+        {% endfor %}
+        <li><time>13:30</time><div><h4>Terminamos</h4><p>Nos quedamos un rato charlando. Una vez al trimestre comemos juntos después del culto.</p></div></li>
       </ol>
     </div>
     <figure class="figura">{% foto "sala-culto" %}<figcaption>La sala durante un culto.</figcaption></figure>
@@ -24,18 +34,19 @@ permalink: /eres-nuevo/
 <section class="seccion seccion--blanco">
   <div class="contenedor">
     <h2>Preguntas que nos hacen</h2>
-    <div class="faq">
+    <div class="faq" style="margin-top: var(--s-5)">
       <details><summary>¿Tengo que ser creyente para venir?</summary><div class="faq__cuerpo"><p>No. Puedes venir a escuchar, observar y preguntar. Nadie te va a señalar ni te va a pedir que hagas nada.</p></div></details>
+      <details><summary>¿Puedo venir si soy católico, de otra religión o de ninguna?</summary><div class="faq__cuerpo"><p>Sí. Muchos de los que hoy forman la iglesia llegaron así. Ven, escucha y pregunta lo que quieras.</p></div></details>
+      <details><summary>¿Qué es una iglesia evangélica bautista?</summary><div class="faq__cuerpo"><p>Una iglesia cristiana protestante. Creemos que la Biblia es la única autoridad en la fe, que la salvación es por la fe personal en Jesucristo y que el bautismo es para quien decide seguirle por sí mismo. <a href="/nosotros/que-creemos/">Qué creemos</a>.</p></div></details>
       <details><summary>¿Cómo tengo que vestir?</summary><div class="faq__cuerpo"><p>Ven como te sientas cómodo. <span class="pendiente">[PENDIENTE: confirmar]</span></p></div></details>
       <details><summary>¿Cuánto dura?</summary><div class="faq__cuerpo"><p>El culto dura unas dos horas, de 11:30 a 13:30.</p></div></details>
-      <details><summary>¿Y mis hijos?</summary><div class="faq__cuerpo"><p>Los niños de hasta 12 años tienen Escuela Dominical durante la predicación, con monitores de la iglesia. Al principio puedes acompañarlos. <span class="pendiente">[PENDIENTE: confirmar funcionamiento]</span></p></div></details>
+      <details><summary>¿Y mis hijos?</summary><div class="faq__cuerpo"><p>Los niños de hasta 12 años tienen su propia clase a las 12:00, durante la predicación, con monitores de la iglesia. El primer día puedes acompañarlos. <span class="pendiente">[PENDIENTE: confirmar funcionamiento]</span></p></div></details>
       <details><summary>¿Tengo que dar dinero?</summary><div class="faq__cuerpo"><p>No. La iglesia se sostiene con las ofrendas voluntarias de sus miembros. Tú solo ven.</p></div></details>
-      <details><summary>¿Qué es la Santa Cena?</summary><div class="faq__cuerpo"><p>Una vez al mes recordamos la muerte de Jesús tomando pan y fruto de la vid. Participan los creyentes bautizados; si no es tu caso, puedes quedarte tranquilamente en tu sitio.</p></div></details>
+      <details><summary>¿Qué es la Cena del Señor?</summary><div class="faq__cuerpo"><p>Una vez al mes recordamos la muerte de Jesús tomando pan y zumo de uva, como Él pidió. Participan los creyentes bautizados; si no es tu caso, puedes quedarte tranquilamente en tu sitio.</p></div></details>
       <details><summary>¿En qué idioma es?</summary><div class="faq__cuerpo"><p>En español. Somos una iglesia internacional: hay personas de muchos países. <span class="pendiente">[PENDIENTE: ¿hay traducción o ayuda en otros idiomas?]</span></p></div></details>
       <details><summary>¿Es accesible?</summary><div class="faq__cuerpo"><p><span class="pendiente">[PENDIENTE: escalones, rampa, aseos]</span></p></div></details>
       <details><summary>¿Dónde aparco? ¿Qué autobús me deja cerca?</summary><div class="faq__cuerpo"><p><span class="pendiente">[PENDIENTE: aparcamiento y autobuses]</span></p></div></details>
-      <details><summary>¿Qué es una iglesia bautista?</summary><div class="faq__cuerpo"><p>Una iglesia evangélica, cristiana y protestante. Creemos que la Biblia es la única autoridad en la fe, que la salvación es por la fe personal en Jesucristo y que el bautismo es para quien decide seguirle por sí mismo. <a href="/nosotros/que-creemos/">Qué creemos</a>.</p></div></details>
-      <details><summary>¿Puedo venir si soy católico, o de otra religión, o de ninguna?</summary><div class="faq__cuerpo"><p>Sí. Muchos de los que hoy forman la iglesia llegaron así. Ven, escucha y pregunta lo que quieras.</p></div></details>
+      <details><summary>¿Y si escribo un sábado por la noche, me responderán antes del domingo?</summary><div class="faq__cuerpo"><p><span class="pendiente">[PENDIENTE: quién responde el WhatsApp y en qué horario]</span></p></div></details>
     </div>
   </div>
 </section>
@@ -44,10 +55,10 @@ permalink: /eres-nuevo/
   <div class="contenedor dos">
     <div class="texto">
       <h2>Te acompañamos</h2>
-      <p class="grande" style="margin-top: var(--s-4)">Si nos escribes antes de venir, alguien te esperará en la puerta y se sentará contigo.</p>
+      <p class="grande" style="margin-top: var(--s-4)">Si nos escribes antes de venir, alguien te esperará en la puerta y se sentará contigo. Si prefieres el correo, también vale.</p>
       <div class="botones" style="margin-top: var(--s-5)">
-        <a class="boton boton--claro" href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">WhatsApp {{ iglesia.contacto.whatsapp }}</a>
-        <a class="boton boton--secundario" href="/contacto/">Escribir un correo</a>
+        <a class="boton boton--claro boton--icono" href="{{ iglesia.contacto.whatsappVisita }}" rel="noopener">{{ m.iconoWhatsapp() }}<span>WhatsApp {{ iglesia.contacto.whatsapp }}</span></a>
+        <a class="boton boton--secundario" href="mailto:{{ iglesia.contacto.correo }}">{{ iglesia.contacto.correo }}</a>
       </div>
     </div>
     <figure class="figura">{% foto "conversando" %}</figure>
@@ -57,16 +68,13 @@ permalink: /eres-nuevo/
 <section class="seccion seccion--blanco">
   <div class="contenedor">
     <h2>Cómo llegar</h2>
-    <div class="llegar">
-      <a class="mapa" href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>
-        <strong>Abrir en Google Maps</strong>
-        <span class="secundario">El mapa no se carga aquí para no enviar tus datos a Google sin tu permiso.</span>
-      </a>
+    <div class="llegar" style="margin-top: var(--s-5)">
+      <figure class="figura"><div class="foto-pendiente">[FOTO PENDIENTE: fachada y puerta de entrada, para que la reconozcas al llegar]</div></figure>
       <dl class="datos-llegar">
-        <dt>Dirección</dt><dd>{{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Local a pie de calle. <span class="pendiente">[FOTO PENDIENTE: fachada y puerta]</span></dd>
+        <dt>Dirección</dt><dd>{{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Local a pie de calle.</dd>
         <dt>Aparcamiento</dt><dd><span class="pendiente">[PENDIENTE]</span></dd>
         <dt>Autobús</dt><dd><span class="pendiente">[PENDIENTE]</span></dd>
+        <dt>Mapa</dt><dd><a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Abrir en Google Maps</a> (se abre en otra aplicación)</dd>
       </dl>
     </div>
   </div>

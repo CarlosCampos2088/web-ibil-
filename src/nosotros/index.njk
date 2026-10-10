@@ -31,12 +31,28 @@ permalink: /nosotros/
   </div>
 </section>
 
-<section class="seccion seccion--blanco">
+<section class="seccion seccion--blanco" id="pertenecemos">
+  <div class="contenedor">
+    <h2>A qué pertenecemos</h2>
+    <p class="texto" style="margin-top: var(--s-3)">Ninguna iglesia bautista va sola. IBIL nació como punto de misión de la {{ iglesia.iglesiaMadre.nombre }} y forma parte de una familia que va de Logroño al mundo entero.</p>
+    <div class="grupos" style="margin-top: var(--s-5)">
+      {% for a in iglesia.afiliaciones %}
+      <article class="grupo">
+        <p class="cuando">{{ a.ambito }}</p>
+        <h3>{% if a.url %}<a href="{{ a.url }}" rel="noopener" style="color: inherit; text-decoration: none">{{ a.sigla }}</a>{% else %}{{ a.sigla }}{% endif %}</h3>
+        <p><strong>{{ a.nombre }}.</strong> {{ a.detalle }}{% if a.pendiente %} <span class="pendiente">[PENDIENTE: {{ a.pendiente }}]</span>{% endif %}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="seccion seccion--arena">
   <div class="contenedor">
     <h2>Una familia más grande</h2>
     <div class="tarjetas" style="margin-top: var(--s-5)">
       <article class="tarjeta"><h3>Iglesias hermanas</h3><ul role="list">{% for i in iglesia.iglesiasHermanas %}<li style="margin-top: var(--s-2)"><strong>{{ i.nombre }}</strong><br><span class="secundario">{{ i.direccion }}</span></li>{% endfor %}<li style="margin-top: var(--s-2)"><strong>Cintruénigo</strong><br><span class="pendiente">[PENDIENTE: dirección]</span></li></ul></article>
-      <article class="tarjeta"><h3>Afiliaciones</h3><ul role="list">{% for a in iglesia.afiliaciones %}<li style="margin-top: var(--s-2)">{% if a.url %}<a href="{{ a.url }}" rel="noopener">{{ a.nombre }}</a>{% else %}{{ a.nombre }}{% endif %}{% if a.pendiente %} <span class="pendiente">[PENDIENTE: {{ a.pendiente }}]</span>{% endif %}</li>{% endfor %}</ul></article>
+      <article class="tarjeta"><h3>Noticias de la familia bautista</h3><p>Convenciones, campañas y encuentros de la UEBE, la AIBNE y las iglesias hermanas.</p><p><a href="/noticias/">Ver las noticias</a></p></article>
       <article class="tarjeta"><h3>Conoce más</h3><ul role="list"><li><a href="/nosotros/que-creemos/">Qué creemos</a></li><li style="margin-top: var(--s-2)"><a href="/nosotros/liderazgo/">Liderazgo</a></li><li style="margin-top: var(--s-2)"><a href="/vida-de-iglesia/">Reuniones y grupos</a></li></ul></article>
     </div>
   </div>

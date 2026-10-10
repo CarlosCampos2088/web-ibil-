@@ -17,8 +17,10 @@
   "contacto": {
     "whatsapp": "624 09 86 80",
     "whatsappUrl": "https://wa.me/34624098680",
+    "whatsappVisita": "https://wa.me/34624098680?text=Hola%2C%20me%20gustar%C3%ADa%20ir%20este%20domingo%20a%20la%20iglesia.%20%C2%BFMe%20pod%C3%A9is%20decir%20c%C3%B3mo%20llegar%3F",
     "telefono": "624 09 86 80",
-    "correo": "[PENDIENTE: correo que se publica; mientras tanto redesiebal@gmail.com]"
+    "correo": "redesiebal@gmail.com",
+    "correoNota": "Decisión de Carlos 10/10/2026: se publica el Gmail hasta que exista contacto@iglesiabautistalogrono.com"
   },
   "redes": {
     "youtube": "https://www.youtube.com/@IglesiaBautistaLogroño",
@@ -28,15 +30,15 @@
   "horarios": {
     "vigenteDesde": "2026-09-13",
     "domingo": [
-      { "hora": "10:00", "nombre": "Oración" },
-      { "hora": "10:15", "nombre": "Escuela Bíblica para jóvenes y adultos", "detalle": "Un rato de estudio de la Biblia en grupo. Puedes venir solo a escuchar." },
-      { "hora": "11:30", "nombre": "Culto de adoración", "detalle": "Nuestra reunión principal: canciones, oración, lectura de la Biblia y una predicación que explica un pasaje bíblico. Santa Cena una vez al mes." },
-      { "hora": "12:00", "nombre": "Clases para niños", "detalle": "Escuela Dominical para niños de hasta 12 años, durante la predicación." }
+      { "hora": "10:00", "nombre": "Oración", "detalle": "Un rato breve de oración para empezar el día. Puedes venir o llegar más tarde." },
+      { "hora": "10:15", "nombre": "Estudio bíblico en grupo", "alias": "Escuela Bíblica", "detalle": "Leemos y comentamos un libro de la Biblia, jóvenes y adultos juntos. Puedes venir solo a escuchar." },
+      { "hora": "11:30", "nombre": "Culto de adoración", "detalle": "Nuestra reunión principal: canciones, oración, lectura de la Biblia y una predicación que explica un pasaje. Dura unas dos horas. Una vez al mes celebramos la Cena del Señor." },
+      { "hora": "12:00", "nombre": "Clase para niños", "alias": "Escuela Dominical", "detalle": "Para niños de hasta 12 años, durante la predicación, con monitores de la iglesia." }
     ],
     "semana": [
       { "cuando": "Miércoles", "hora": "19:00 - 20:30", "nombre": "Discipulado y oración", "detalle": "Leemos la Biblia juntos y oramos. Abierto a niños, jóvenes y adultos." },
-      { "cuando": "Tercer viernes de cada mes", "hora": "20:00 - 22:00", "nombre": "Vigilia de oración", "detalle": "Adoración, gratitud e intercesión por la iglesia, Logroño, España y las naciones." },
-      { "cuando": "Primer sábado de cada mes", "hora": "18:00", "nombre": "Años Dorados", "detalle": "Para mayores de 50 años. Además, paseos, encuentros y actividades durante el año." }
+      { "cuando": "Tercer viernes de cada mes", "hora": "20:00 - 22:00", "nombre": "Vigilia de oración", "detalle": "Una tarde larga de oración: adoración, gratitud e intercesión por la iglesia, Logroño, España y las naciones." },
+      { "cuando": "Primer sábado de cada mes", "hora": "18:00", "nombre": "Años Dorados", "detalle": "Encuentro para mayores de 50 años. Además, paseos, encuentros y actividades durante el año." }
     ]
   },
   "liderazgo": {
@@ -44,9 +46,13 @@
     "pastorEsposa": "Patricia Fernández",
     "diaconos": ["Carlos Campos", "Evelyn Torres"]
   },
+  "iglesiaMadre": { "nombre": "Iglesia Evangélica Bautista de Tudela", "sigla": "IEBT", "direccion": "C/ Mediavilla 21, 31500 Tudela (Navarra)" },
   "afiliaciones": [
-    { "nombre": "Unión Evangélica Bautista de España (UEBE)", "url": "https://www.uebe.org/" },
-    { "nombre": "AIBNE (Asociación de Iglesias Bautistas del Norte de España)", "url": "", "pendiente": "confirmar y si va su logo" }
+    { "nombre": "Unión Evangélica Bautista de España", "sigla": "UEBE", "url": "https://uebe.org/", "ambito": "España", "detalle": "La unión de iglesias bautistas de España, con más de cien años de historia." },
+    { "nombre": "Asociación de Iglesias Bautistas del Norte de España", "sigla": "AIBNE", "url": "", "ambito": "Norte de España", "detalle": "Las iglesias bautistas de Navarra, La Rioja, Aragón y el norte, que trabajan juntas en misión. Nuestro pastor es su presidente.", "pendiente": "confirmar nombre exacto, web y ámbito" },
+    { "nombre": "Federación de Entidades Religiosas Evangélicas de España", "sigla": "FEREDE", "url": "https://ferede.es/", "ambito": "España", "detalle": "A través de la UEBE. Es la federación que representa a las iglesias evangélicas ante el Estado.", "pendiente": "confirmar" },
+    { "nombre": "Federación Bautista Europea", "sigla": "EBF", "url": "https://www.ebf.org/", "ambito": "Europa", "detalle": "A través de la UEBE.", "pendiente": "confirmar" },
+    { "nombre": "Alianza Bautista Mundial", "sigla": "BWA", "url": "https://baptistworld.org/member/baptist-evangelical-union-of-spain/", "ambito": "Mundo", "detalle": "A través de la UEBE, que es miembro de la Alianza Bautista Mundial." }
   ],
   "iglesiasHermanas": [
     { "nombre": "Iglesia Evangélica Bautista de Tudela (iglesia madre)", "direccion": "C/ Mediavilla 21, 31500 Tudela (Navarra)" },
@@ -55,10 +61,10 @@
   ],
   "pendientes": [
     "Año de fundación (2019 o 2024)",
-    "Correo que se publica",
     "Entidad titular, NIF y registro de entidades religiosas (aviso legal)",
     "Aparcamiento, autobuses y accesibilidad del local",
     "Enlace del calendario de Google público",
-    "Dirección de la iglesia de Cintruénigo"
+    "Dirección de la iglesia de Cintruénigo",
+    "Confirmar afiliaciones marcadas como pendientes (AIBNE, FEREDE, EBF)"
   ]
 }

@@ -53,6 +53,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("predicaciones", () => leerCarpeta("contenido/predicaciones"));
   eleventyConfig.addGlobalData("reflexiones", () => leerCarpeta("contenido/reflexiones"));
   eleventyConfig.addGlobalData("reflexionesDiarias", () => leerCarpeta("contenido/reflexion-diaria"));
+  eleventyConfig.addGlobalData("noticias", () => leerCarpeta("contenido/noticias"));
   eleventyConfig.addWatchTarget("contenido");
   eleventyConfig.addWatchTarget("datos");
   eleventyConfig.setLibrary("md", md);

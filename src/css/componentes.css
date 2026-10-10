@@ -27,6 +27,7 @@
 .video button { position: absolute; inset: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--s-3); background: transparent; border: 0; color: var(--blanco); font: 600 var(--t-m) var(--sans); cursor: pointer; padding: var(--s-5); text-align: center; }
 .video button svg { width: 4rem; height: 4rem; }
 .video button small { display: block; font-weight: 400; font-size: var(--t-xs); color: var(--azul-claro); max-width: 30rem; }
+.video--vertical button small { display: none; }
 .video button:hover { background: rgba(22,58,82,0.35); }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .video--vertical { aspect-ratio: 9 / 16; }

@@ -34,6 +34,7 @@
         { url: "/eres-nuevo/", texto: "¿Eres nuevo?" },
         { url: "/conoce-a-jesus/", texto: "Conoce a Jesús" },
         { url: "/predicaciones/", texto: "Predicaciones" },
+        { url: "/noticias/", texto: "Noticias" },
         { url: "/nosotros/", texto: "Nosotros" },
         { url: "/vida-de-iglesia/", texto: "Vida de iglesia" },
         { url: "/contacto/", texto: "Contacto" }
@@ -76,6 +77,7 @@
         <h4>Escríbenos</h4>
         <ul role="list">
           <li><a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">WhatsApp {{ iglesia.contacto.whatsapp }}</a></li>
+          <li><a href="mailto:{{ iglesia.contacto.correo }}">{{ iglesia.contacto.correo }}</a></li>
           <li><a href="/contacto/">Formulario de contacto</a></li>
           <li><a href="/agenda/">Agenda</a></li>
         </ul>
@@ -90,7 +92,7 @@
       </div>
       <div class="pie__legal">
         <span>© {{ anio }} {{ iglesia.nombre }}</span>
-        <span>Miembro de la UEBE</span>
+        <span>Iglesia de la <a href="https://uebe.org/" rel="noopener">UEBE</a>, punto de misión de la {{ iglesia.iglesiaMadre.nombre }}</span>
         <a href="/aviso-legal/">Aviso legal</a>
         <a href="/privacidad/">Privacidad</a>
         <a href="/cookies/">Cookies</a>

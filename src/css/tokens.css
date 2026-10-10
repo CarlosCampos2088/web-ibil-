@@ -20,8 +20,8 @@
   --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* Escala (1.25, base 17/18 px) */
-  --t-xs: 0.8125rem;   /* 13 */
-  --t-s: 0.9375rem;    /* 15 */
+  --t-xs: 0.875rem;    /* 14 (mínimo legible en móvil) */
+  --t-s: 1rem;         /* 16 */
   --t-m: 1.0625rem;    /* 17 */
   --t-l: 1.25rem;      /* 20 */
   --t-xl: 1.5rem;      /* 24 */

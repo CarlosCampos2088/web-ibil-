@@ -1,0 +1,12 @@
+Plantilla de noticia. Copia este archivo, quítale el ".txt", ponle el nombre AAAA-MM-DD-titulo-corto.md y rellénalo.
+
+---
+titulo: "Título de la noticia"
+fecha: 2026-11-01
+ambito: "IBIL"          # IBIL · AIBNE · UEBE · Europa · Mundo
+resumen: "Una frase que resuma la noticia (sale en el listado y en la portada)."
+foto: ""                # opcional: nombre de una foto del catálogo datos/fotos.json, por ejemplo "congregacion-culto"
+enlace: ""              # opcional: enlace a la noticia original (UEBE, AIBNE…)
+---
+
+Texto de la noticia. Párrafos separados por una línea en blanco.

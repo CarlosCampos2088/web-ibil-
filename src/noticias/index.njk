@@ -1,0 +1,24 @@
+---
+layout: pagina.njk
+titulo: "Noticias"
+intro: "Lo que pasa en la iglesia y en la familia bautista de España y del mundo: campañas, encuentros, convenciones y lo que celebramos."
+descripcion: "Noticias de IBIL, Iglesia Bautista Internacional de Logroño, y de la familia bautista de España."
+permalink: /noticias/
+---
+<section class="seccion">
+  <div class="contenedor" style="max-width: 48rem">
+    {% if noticias.length %}
+      {% for n in noticias %}
+      <article class="reflexion"{% if not loop.first %} style="margin-top: var(--s-4)"{% endif %}>
+        <time datetime="{{ n.fecha | iso }}">{{ n.fecha | fechaLarga }}{% if n.ambito %} · {{ n.ambito }}{% endif %}</time>
+        <h3><a href="/noticias/{{ n.slug }}/" style="color: inherit; text-decoration: none">{{ n.titulo }}</a></h3>
+        <p>{{ n.resumen }}</p>
+        <p><a href="/noticias/{{ n.slug }}/">Leer más</a></p>
+      </article>
+      {% endfor %}
+    {% else %}
+      <p>Pronto habrá noticias aquí. Mientras tanto, mira la <a href="/agenda/">agenda</a>.</p>
+    {% endif %}
+  </div>
+</section>
+{% include "cta.njk" %}

@@ -1,0 +1,25 @@
+---
+layout: base.njk
+pagination:
+  data: noticias
+  size: 1
+  alias: n
+permalink: "/noticias/{{ n.slug }}/"
+eleventyComputed:
+  titulo: "{{ n.titulo }}"
+  descripcion: "{{ n.resumen }}"
+---
+<div class="cabecera-pagina">
+  <div class="contenedor">
+    <p class="meta"><a href="/noticias/">Noticias</a><time datetime="{{ n.fecha | iso }}">{{ n.fecha | fechaLarga }}</time>{% if n.ambito %}<span>{{ n.ambito }}</span>{% endif %}</p>
+    <h1 style="margin-top: var(--s-3)">{{ n.titulo }}</h1>
+  </div>
+</div>
+<section class="seccion">
+  <div class="contenedor">
+    {% if n.foto %}<figure class="figura" style="max-width: 48rem; margin-bottom: var(--s-6)">{% foto n.foto, { sizes: "(min-width: 48rem) 48rem, 100vw" } %}</figure>{% endif %}
+    <div class="prosa">{{ n.cuerpo | safe }}</div>
+    {% if n.enlace %}<p style="margin-top: var(--s-5)"><a href="{{ n.enlace }}" rel="noopener">Más información</a></p>{% endif %}
+  </div>
+</section>
+{% include "cta.njk" %}
