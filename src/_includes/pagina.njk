@@ -1,0 +1,11 @@
+---
+layout: base.njk
+---
+<div class="cabecera-pagina{% if fotoCabecera %} cabecera-pagina--foto{% endif %}">
+  {% if fotoCabecera %}{% foto fotoCabecera, { clase: "cabecera-pagina__foto", sizes: "100vw", prioridad: true, alt: "" } %}{% endif %}
+  <div class="contenedor">
+    <h1>{{ titulo }}</h1>
+    {% if intro %}<p class="cabecera-pagina__intro">{{ intro }}</p>{% endif %}
+  </div>
+</div>
+{{ content | safe }}

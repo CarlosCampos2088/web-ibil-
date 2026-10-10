@@ -3,14 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if titulo %}{{ titulo }} | {{ iglesia.sigla }} Logroño{% else %}Iglesia evangélica bautista en Logroño | {{ iglesia.sigla }}{% endif %}</title>
+  {%- set tituloCompleto = (titulo + " | " + iglesia.sigla + " Logroño") if titulo else ("Iglesia evangélica bautista en Logroño | " + iglesia.sigla) %}
+  <title>{{ tituloCompleto }}</title>
   <meta name="description" content="{{ descripcion or 'Iglesia Bautista Internacional de Logroño. Te esperamos el domingo a las 11:30 en Ronda de los Cuarteles, 32.' }}">
+  <link rel="canonical" href="https://www.iglesiabautistalogrono.com{{ page.url }}">
+  <meta property="og:title" content="{{ tituloCompleto }}">
+  <meta property="og:description" content="{{ descripcion or 'Iglesia Bautista Internacional de Logroño. Te esperamos el domingo a las 11:30.' }}">
+  <meta property="og:image" content="https://www.iglesiabautistalogrono.com/img/og.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/icono-192.png">
   <link rel="preload" href="/fuentes/cormorant-garamond-500.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fuentes/public-sans-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/tokens.css">
   <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/componentes.css">
+  {% if noindex %}<meta name="robots" content="noindex">{% endif %}
 </head>
 <body>
   <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -20,17 +30,33 @@
       <a class="cabecera__logo" href="/" aria-label="{{ iglesia.nombre }}, inicio">
         <img src="/img/marca/logo-horizontal.svg" alt="" width="260" height="73">
       </a>
+      {%- set menu = [
+        { url: "/eres-nuevo/", texto: "¿Eres nuevo?" },
+        { url: "/conoce-a-jesus/", texto: "Conoce a Jesús" },
+        { url: "/predicaciones/", texto: "Predicaciones" },
+        { url: "/nosotros/", texto: "Nosotros" },
+        { url: "/vida-de-iglesia/", texto: "Vida de iglesia" },
+        { url: "/contacto/", texto: "Contacto" }
+      ] %}
       <nav class="menu" aria-label="Principal">
-        <a href="/eres-nuevo/">¿Eres nuevo?</a>
-        <a href="/conoce-a-jesus/">Conoce a Jesús</a>
-        <a href="/predicaciones/">Predicaciones</a>
-        <a href="/nosotros/">Nosotros</a>
-        <a href="/vida-de-iglesia/">Vida de iglesia</a>
-        <a href="/contacto/">Contacto</a>
+        {%- for m in menu %}
+        <a href="{{ m.url }}"{% if page.url == m.url or (m.url != '/' and page.url.startsWith(m.url)) %} aria-current="page"{% endif %}>{{ m.texto }}</a>
+        {%- endfor %}
         <a class="boton boton--primario" href="/eres-nuevo/">Visítanos este domingo</a>
       </nav>
       <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-movil">Menú</button>
     </div>
+    <nav id="menu-movil" class="menu-movil" aria-label="Principal (móvil)" hidden>
+      <ul role="list">
+        {%- for m in menu %}
+        <li><a href="{{ m.url }}"{% if page.url.startsWith(m.url) %} aria-current="page"{% endif %}>{{ m.texto }}</a></li>
+        {%- endfor %}
+        <li><a href="/predicaciones/en-un-minuto/" class="menu-movil__sub">En un minuto (reels)</a></li>
+        <li><a href="/reflexion-diaria/" class="menu-movil__sub">Reflexión diaria</a></li>
+        <li><a href="/agenda/" class="menu-movil__sub">Agenda</a></li>
+      </ul>
+      <a class="boton boton--primario" href="/eres-nuevo/">Visítanos este domingo</a>
+    </nav>
   </header>
 
   <main id="contenido">
@@ -44,12 +70,14 @@
         <h4>Dónde y cuándo</h4>
         <address>{{ iglesia.direccion.calle }}<br>{{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}</address>
         <p>Domingos a las {{ iglesia.horarios.domingo[2].hora }}, culto de adoración.</p>
+        <p><a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Cómo llegar</a></p>
       </div>
       <div>
         <h4>Escríbenos</h4>
         <ul role="list">
-          <li><a href="{{ iglesia.contacto.whatsappUrl }}">WhatsApp {{ iglesia.contacto.whatsapp }}</a></li>
+          <li><a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">WhatsApp {{ iglesia.contacto.whatsapp }}</a></li>
           <li><a href="/contacto/">Formulario de contacto</a></li>
+          <li><a href="/agenda/">Agenda</a></li>
         </ul>
       </div>
       <div>
@@ -67,6 +95,7 @@
         <a href="/privacidad/">Privacidad</a>
         <a href="/cookies/">Cookies</a>
         <a href="/accesibilidad/">Accesibilidad</a>
+        <span class="pie__rv60">Texto bíblico: Reina-Valera 1960 © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988. Utilizado con permiso.</span>
       </div>
     </div>
   </footer>
@@ -75,5 +104,7 @@
     <a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>Cómo llegar</a>
     <a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l1.3-3.8A8 8 0 1 1 8 19.2L4 20z"/></svg>WhatsApp</a>
   </nav>
+
+  <script src="/js/web.js" defer></script>
 </body>
 </html>

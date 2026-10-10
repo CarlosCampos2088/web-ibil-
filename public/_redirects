@@ -1,0 +1,17 @@
+# Redirecciones desde la web antigua (Google Sites). Formato de Cloudflare Pages / Netlify.
+# Equivalente para Apache (.htaccess): Redirect 301 /inicio /
+/inicio                                   /                              301
+/quiénes-somos                            /nosotros/                     301
+/qui%C3%A9nes-somos                       /nosotros/                     301
+/quiénes-somos/en-que-creemos             /nosotros/que-creemos/         301
+/qui%C3%A9nes-somos/en-que-creemos        /nosotros/que-creemos/         301
+/ministerios                              /vida-de-iglesia/              301
+/reuniones                                /vida-de-iglesia/              301
+/recursos                                 /predicaciones/                301
+/recursos/devocionales                    /predicaciones/                301
+/recursos/estudios-biblicos               /predicaciones/                301
+/noticias                                 /reflexiones/                  301
+/noticias/galeria-de-eventos              /vida-de-iglesia/fotos/        301
+/política-de-privacidad                   /privacidad/                   301
+/pol%C3%ADtica-de-privacidad              /privacidad/                   301
+/estilo/                                  /                              302

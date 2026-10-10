@@ -1,0 +1,41 @@
+---
+layout: base.njk
+pagination:
+  data: predicaciones
+  size: 1
+  alias: p
+permalink: "/predicaciones/{{ p.slug }}/"
+eleventyComputed:
+  titulo: "{{ p.titulo }}"
+  descripcion: "{{ p.pasaje }} · {{ p.predicador }}. {{ p.resumen | truncate(120) }}"
+---
+<div class="cabecera-pagina">
+  <div class="contenedor">
+    <p class="meta"><a href="/predicaciones/">Predicaciones</a><span class="pasaje">{{ p.pasaje }}</span><span>{{ p.predicador }}</span><time datetime="{{ p.fecha | iso }}">{{ p.fecha | fechaLarga }}</time>{% if p.serie %}<span>Serie: {{ p.serie }}</span>{% endif %}</p>
+    <h1 style="margin-top: var(--s-3)">{{ p.titulo }}</h1>
+  </div>
+</div>
+
+<section class="seccion">
+  <div class="contenedor">
+    <div class="predicacion-destacada">
+      <div>
+        {% set id = p.youtube %}{% set titulo = p.titulo %}{% set fotoVideo = "predicacion-pulpito" %}{% set vertical = false %}
+        {% include "video.njk" %}
+        <div class="botones" style="margin-top: var(--s-4)">
+          <a class="boton boton--secundario" href="https://wa.me/?text={{ (p.titulo + ' · ' + p.pasaje + ' · https://www.iglesiabautistalogrono.com/predicaciones/' + p.slug + '/') | urlencode }}" rel="noopener">Compartir por WhatsApp</a>
+          <a class="boton boton--secundario" href="https://www.youtube.com/watch?v={{ p.youtube }}" rel="noopener">Ver en YouTube</a>
+        </div>
+      </div>
+      <div class="prosa">
+        {{ p.cuerpo | safe }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "cta.njk" %}
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"VideoObject","name":{{ p.titulo | dump | safe }},"description":{{ p.resumen | dump | safe }},"uploadDate":"{{ p.fecha | iso }}","embedUrl":"https://www.youtube-nocookie.com/embed/{{ p.youtube }}","thumbnailUrl":"https://www.iglesiabautistalogrono.com/img/fotos/predicacion-pulpito-960.webp","publisher":{"@type":"Organization","name":"{{ iglesia.nombre }}"}}
+</script>

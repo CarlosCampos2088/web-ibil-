@@ -1,0 +1,27 @@
+---
+layout: pagina.njk
+titulo: "Reflexión diaria"
+intro: "Cada día, un pensamiento breve escrito por el pastor y los predicadores de la iglesia. Para leer en un minuto y llevar el resto del día."
+descripcion: "Reflexión diaria de IBIL, iglesia evangélica bautista en Logroño: un pensamiento breve cada día, con la Biblia en la mano."
+permalink: /reflexion-diaria/
+---
+<section class="seccion">
+  <div class="contenedor" style="max-width: 48rem">
+    {% if reflexionesDiarias.length %}
+      {% for r in reflexionesDiarias.slice(0, 30) %}
+      <article class="reflexion{% if loop.first %} reflexion--hoy{% endif %}"{% if not loop.first %} style="margin-top: var(--s-4)"{% endif %}>
+        <time datetime="{{ r.fecha | iso }}">{{ r.fecha | fechaLarga }}</time>
+        <h3>{{ r.titulo }}</h3>
+        <div class="texto">{{ r.cuerpo | safe }}</div>
+        {% if r.autor %}<p class="firma">{{ r.autor }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    {% else %}
+      <article class="reflexion reflexion--hoy">
+        <h3>Lámpara es a mis pies tu palabra, y lumbrera a mi camino</h3>
+        <div class="texto"><p>Salmo 119:105. Las reflexiones diarias empezarán a publicarse aquí en cuanto el pastor y los predicadores entreguen las primeras. <span class="pendiente">[PENDIENTE: primeras reflexiones]</span></p></div>
+      </article>
+    {% endif %}
+  </div>
+</section>
+{% include "cta.njk" %}

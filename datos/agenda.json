@@ -1,0 +1,8 @@
+{
+  "_nota": "Actos especiales que no están en la agenda semanal automática (feed.json). Se escriben a mano. Los pasados se ocultan solos.",
+  "actos": [
+    { "fecha": "2026-10-31", "hora": "16:30", "fin": "20:00", "nombre": "Tarde familiar", "detalle": "Dinámicas prácticas para niños y jóvenes: descubrir lo que cada uno sabe hacer y usarlo para ayudar a otros. Para toda la familia." },
+    { "fecha": "2026-11-13", "hora": "19:30", "nombre": "Hombres de Valor y Mujeres de Fe", "detalle": "[PENDIENTE: descripción del encuentro]" },
+    { "fecha": "2026-12-20", "hora": "11:30", "nombre": "Cantata y culto de Navidad", "detalle": "Recordamos que nació el mismo Jesús que murió y resucitó. Culto especial abierto a todos." }
+  ]
+}

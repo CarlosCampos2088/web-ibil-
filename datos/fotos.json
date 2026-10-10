@@ -1,0 +1,31 @@
+{
+  "_nota": "Catálogo de fotos de la web. 'archivo' está en fotos/. 'pos' es el punto de interés (object-position) para los recortes. 'menores': true = hay niños identificables; solo se usa si Carlos lo autoriza expresamente. El script scripts/imagenes.js genera las versiones WebP en src/img/fotos/.",
+  "fotos": {
+    "congregacion-culto":     { "archivo": "7.png", "alt": "La congregación de IBIL de pie durante el culto del domingo", "pos": "50% 40%" },
+    "congregacion-espaldas":  { "archivo": "32-DSC01638.jpg", "alt": "La congregación escucha la predicación en el culto", "pos": "55% 45%" },
+    "sala-culto":             { "archivo": "DSC01563 (4).jpg", "alt": "La sala de IBIL durante un culto, con la congregación sentada", "pos": "50% 50%" },
+    "predicacion-pulpito":    { "archivo": "DSC01738 (1).JPG", "alt": "Un hermano predica desde el púlpito con la Biblia abierta", "pos": "50% 30%" },
+    "predicador-biblia":      { "archivo": "15-DSC01597.jpg", "alt": "Un predicador habla con la Biblia en la mano", "pos": "30% 40%" },
+    "predicadora":            { "archivo": "29-DSC01635.jpg", "alt": "Una hermana predica mientras la congregación escucha", "pos": "50% 40%" },
+    "pastor-predica":         { "archivo": "4-DSC01568.jpg", "alt": "El pastor predica ante la congregación", "pos": "50% 30%" },
+    "biblia-abierta":         { "archivo": "16-DSC01598.jpg", "alt": "Una Biblia abierta entre las manos de una persona", "pos": "50% 50%" },
+    "biblia-manos":           { "archivo": "DSC01589.jpg", "alt": "Una persona sigue la lectura en su Biblia", "pos": "50% 50%" },
+    "biblia-bn":              { "archivo": "5.png", "alt": "Manos sobre una Biblia abierta durante el culto, en blanco y negro", "pos": "50% 50%" },
+    "cantando":               { "archivo": "8.png", "alt": "Varias hermanas cantan durante la alabanza", "pos": "50% 35%" },
+    "alabanza":               { "archivo": "DSC01730.JPG", "alt": "Una hermana canta con los ojos cerrados durante la alabanza", "pos": "50% 30%" },
+    "cantantes":              { "archivo": "DSC01732.JPG", "alt": "Dos hermanas dirigen la alabanza con el micrófono", "pos": "50% 40%" },
+    "oracion-grupo":          { "archivo": "DSC01729.JPG", "alt": "Varias personas oran juntas con la cabeza inclinada", "pos": "50% 40%" },
+    "oracion-hombre":         { "archivo": "15.png", "alt": "Un hombre ora en silencio con la mano en la frente", "pos": "50% 40%" },
+    "oracion-bn":             { "archivo": "DSC01683.jpg", "alt": "La congregación ora de pie, vista desde atrás, en blanco y negro", "pos": "50% 40%" },
+    "saludo":                 { "archivo": "9.png", "alt": "Un hermano saluda a otros a la entrada del culto", "pos": "50% 40%" },
+    "mano-alzada":            { "archivo": "10.png", "alt": "Un hermano levanta la mano durante la alabanza", "pos": "50% 30%" },
+    "pastores":               { "archivo": "6.png", "alt": "El pastor Felipe Albacete y su esposa, Patricia Fernández", "pos": "50% 30%", "nota": "[confirmar que son ellos]" },
+    "jovenes":                { "archivo": "DSC01590.jpg", "alt": "Jóvenes de pie durante el culto, vistos desde atrás", "pos": "50% 40%" },
+    "leyendo":                { "archivo": "14.png", "alt": "Una hermana lee un texto en voz alta durante la reunión", "pos": "50% 35%" },
+    "conversando":            { "archivo": "DSC01647.jpg", "alt": "Hermanos conversan de pie después del culto", "pos": "50% 40%" },
+    "predicador-mayor":       { "archivo": "12.png", "alt": "Un hermano mayor predica desde el púlpito", "pos": "50% 30%" },
+    "joven-escucha":          { "archivo": "11.png", "alt": "Un joven escucha la predicación", "pos": "50% 30%" },
+    "ninos-actuacion":        { "archivo": "DSC01727.JPG", "alt": "Los niños de la Escuela Dominical presentan una actuación", "pos": "50% 40%", "menores": true },
+    "familia":                { "archivo": "DSC01735.JPG", "alt": "Una familia con sus hijos durante el culto", "pos": "50% 40%", "menores": true }
+  }
+}

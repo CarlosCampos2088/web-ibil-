@@ -1,0 +1,22 @@
+---
+layout: pagina.njk
+titulo: "Niños y jóvenes"
+intro: "Los niños tienen su sitio en IBIL: una clase a su medida mientras los adultos siguen en el culto."
+descripcion: "Escuela Dominical para niños y reuniones para jóvenes en IBIL, iglesia evangélica en Logroño."
+permalink: /vida-de-iglesia/ninos-y-jovenes/
+---
+<section class="seccion">
+  <div class="contenedor destacado">
+    <div class="prosa">
+      <h2 style="margin-top: 0">Escuela Dominical</h2>
+      <p class="secundario">Domingos a las {{ iglesia.horarios.domingo[3].hora }}, durante la predicación</p>
+      <p>Para niños de hasta 12 años. Historias de la Biblia, canciones y actividades adaptadas a su edad, con monitores de la iglesia. Al principio puedes acompañarlos. <span class="pendiente">[PENDIENTE: confirmar funcionamiento y certificados de los monitores]</span></p>
+      <h2>Jóvenes</h2>
+      <p>La reunión del miércoles a las 19:00 está abierta a niños, jóvenes y adultos. Además hay reuniones y salidas de jóvenes durante el año. <span class="pendiente">[PENDIENTE: detalles]</span></p>
+      <h2>Tarde familiar</h2>
+      <p>Varias veces al año organizamos una tarde para toda la familia: niños, jóvenes, padres y abuelos. La próxima está en la <a href="/agenda/">agenda</a>.</p>
+    </div>
+    <figure class="figura">{% foto "ninos-actuacion", { sizes: "(min-width: 48rem) 50vw, 100vw" } %}<figcaption>Los niños en una actuación de la Escuela Dominical.</figcaption></figure>
+  </div>
+</section>
+{% include "cta.njk" %}

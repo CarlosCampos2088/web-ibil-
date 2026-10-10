@@ -1,0 +1,27 @@
+---
+layout: pagina.njk
+titulo: "En un minuto"
+intro: "Una idea completa de cada predicación, en un vídeo corto. Nada de cortes al azar: cada uno deja algo con sentido."
+descripcion: "Vídeos cortos de las predicaciones de IBIL, iglesia evangélica en Logroño. Una idea completa en un minuto."
+permalink: /predicaciones/en-un-minuto/
+---
+<section class="seccion">
+  <div class="contenedor">
+    {% if feed.shorts.length %}
+    <div class="shorts">
+      {% for s in feed.shorts.slice(0, 24) %}
+      <article class="short">
+        {% set id = s.video_id %}{% set titulo = s.titulo %}{% set fotoVideo = false %}{% set vertical = true %}
+        {% include "video.njk" %}
+        <h3>{{ s.titulo }}</h3>
+        <p>{{ s.predicador }} · {{ s.sermon }}</p>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p>Pronto habrá vídeos aquí. Mientras tanto, los tienes en <a href="{{ iglesia.redes.youtube }}" rel="noopener">nuestro canal de YouTube</a>.</p>
+    {% endif %}
+    <p class="secundario" style="margin-top: var(--s-6)">Más en <a href="{{ iglesia.redes.youtube }}" rel="noopener">YouTube</a> y en <a href="{{ iglesia.redes.instagram }}" rel="noopener">Instagram</a>.</p>
+  </div>
+</section>
+{% include "cta.njk" %}

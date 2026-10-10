@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /estilo/
+Sitemap: https://www.iglesiabautistalogrono.com/sitemap.xml

@@ -1,0 +1,77 @@
+---
+layout: pagina.njk
+titulo: "Vida de iglesia"
+intro: "Una iglesia no es un edificio ni un horario: es gente que se reúne. Esto es lo que hacemos juntos cada semana."
+descripcion: "Reuniones y grupos de IBIL, iglesia evangélica en Logroño: culto, Escuela Bíblica, discipulado, vigilia, Años Dorados, niños y jóvenes."
+fotoCabecera: "oracion-grupo"
+permalink: /vida-de-iglesia/
+---
+<section class="seccion">
+  <div class="contenedor">
+    <h2>Cada semana</h2>
+    <div class="grupos" style="margin-top: var(--s-5)">
+      {% for a in iglesia.horarios.domingo %}
+      <article class="grupo"><p class="cuando">Domingo {{ a.hora }}</p><h3>{{ a.nombre }}</h3><p>{{ a.detalle or "" }}</p></article>
+      {% endfor %}
+      {% for a in iglesia.horarios.semana %}
+      <article class="grupo"><p class="cuando">{{ a.cuando }}, {{ a.hora }}</p><h3>{{ a.nombre }}</h3><p>{{ a.detalle }}</p></article>
+      {% endfor %}
+    </div>
+    <p class="secundario" style="margin-top: var(--s-4)">Al menos una vez al trimestre comemos juntos después del culto. Durante el año: jóvenes, Hombres de Valor, Mujeres de Fe, matrimonios, caminatas de oración, salidas evangelísticas y talleres. <a href="/agenda/">Agenda</a>.</p>
+  </div>
+</section>
+
+<section class="seccion seccion--arena" id="anos-dorados">
+  <div class="contenedor destacado">
+    <figure class="figura">{% foto "cantando", { sizes: "(min-width: 48rem) 50vw, 100vw" } %}</figure>
+    <div class="prosa">
+      <p class="secundario">Primer sábado de cada mes, a las 18:00</p>
+      <h2 style="margin-top: var(--s-2)">Años Dorados</h2>
+      <p class="grande">Un encuentro para mayores de 50 años: merienda, conversación, la Biblia y mucha risa. Y durante el año, paseos, encuentros y salidas.</p>
+      <p>Si tienes más de 50 y te apetece conocer gente en Logroño, este es tu sitio. No hace falta ser de la iglesia. <span class="pendiente">[PENDIENTE: confirmar descripción y quién lo coordina]</span></p>
+      <div class="botones" style="margin-top: var(--s-5)"><a class="boton boton--primario" href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">Pregúntanos por WhatsApp</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion seccion--blanco">
+  <div class="contenedor destacado">
+    <div class="prosa">
+      <p class="secundario">Domingos a las {{ iglesia.horarios.domingo[3].hora }} y miércoles a las 19:00</p>
+      <h2 style="margin-top: var(--s-2)">Niños y jóvenes</h2>
+      <p class="grande">Los niños de hasta 12 años tienen su propia clase el domingo, mientras los adultos siguen en el culto. La reunión del miércoles está abierta a niños, jóvenes y adultos.</p>
+      <div class="botones" style="margin-top: var(--s-5)"><a class="boton boton--secundario" href="/vida-de-iglesia/ninos-y-jovenes/">Más sobre niños y jóvenes</a></div>
+    </div>
+    <figure class="figura">{% foto "jovenes", { sizes: "(min-width: 48rem) 50vw, 100vw" } %}</figure>
+  </div>
+</section>
+
+<section class="seccion">
+  <div class="contenedor">
+    <h2>Cómo servimos</h2>
+    <p class="secundario" style="margin-top: var(--s-2)">Los ministerios de la iglesia. <span class="pendiente">[PENDIENTE: confirmar cuáles siguen activos]</span></p>
+    <div class="grupos" style="margin-top: var(--s-5)">
+      <article class="grupo"><h3>Adoración</h3><p>Adorar a Dios, rendirle culto y alabarle con cantos y oración.</p></article>
+      <article class="grupo"><h3>Oración</h3><p>Acercarnos a Jesús con confianza; en Él hay descanso y esperanza.</p></article>
+      <article class="grupo"><h3>Enseñanza</h3><p>Edificar y formar mediante el estudio de la Biblia.</p></article>
+      <article class="grupo"><h3>Evangelismo</h3><p>Ser luz y proclamar que Jesús ha resucitado y ofrece salvación y vida eterna a quien pone su fe en Él.</p></article>
+      <article class="grupo"><h3>Servicio</h3><p>Servir a la iglesia y a la comunidad (Mateo 25:31-46; Marcos 10:45; Efesios 4:12).</p></article>
+      <article class="grupo"><h3>Administración y comunicación</h3><p>Anuncios, redes sociales y la organización de cada semana.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="seccion seccion--blanco">
+  <div class="contenedor">
+    <h2>Momentos</h2>
+    <div class="galeria" style="margin-top: var(--s-5)">
+      <figure class="ancha">{% foto "congregacion-culto", { sizes: "(min-width: 48rem) 66vw, 100vw" } %}</figure>
+      <figure>{% foto "alabanza", { sizes: "33vw" } %}</figure>
+      <figure>{% foto "mano-alzada", { sizes: "33vw" } %}</figure>
+      <figure>{% foto "leyendo", { sizes: "33vw" } %}</figure>
+      <figure>{% foto "predicadora", { sizes: "33vw" } %}</figure>
+    </div>
+    <p style="margin-top: var(--s-5)"><a href="/vida-de-iglesia/fotos/">Ver más fotos</a></p>
+  </div>
+</section>
+{% include "cta.njk" %}

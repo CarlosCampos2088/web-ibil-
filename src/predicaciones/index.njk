@@ -1,0 +1,61 @@
+---
+layout: pagina.njk
+titulo: "Predicaciones"
+intro: "Cada domingo alguien explica un pasaje de la Biblia con palabras de hoy. Aquí están, con un resumen para leer y el vídeo completo."
+descripcion: "Predicaciones de IBIL, iglesia evangélica bautista en Logroño: resumen, pasaje bíblico y vídeo de cada sermón."
+permalink: /predicaciones/
+---
+{%- set ultima = predicaciones[0] %}
+{% if ultima %}
+<section class="seccion">
+  <div class="contenedor">
+    <h2>La última</h2>
+    <div class="predicacion-destacada">
+      {% set id = ultima.youtube %}{% set titulo = ultima.titulo %}{% set fotoVideo = "predicacion-pulpito" %}{% set vertical = false %}
+      {% include "video.njk" %}
+      <div>
+        <p class="meta"><span class="pasaje">{{ ultima.pasaje }}</span><span>{{ ultima.predicador }}</span><time datetime="{{ ultima.fecha | iso }}">{{ ultima.fecha | fechaLarga }}</time></p>
+        <h3 style="margin-top: var(--s-3); font-size: var(--t-2xl)"><a href="/predicaciones/{{ ultima.slug }}/" style="color: inherit; text-decoration: none">{{ ultima.titulo }}</a></h3>
+        <p style="margin-top: var(--s-3)">{{ ultima.resumen }}</p>
+        <div class="botones" style="margin-top: var(--s-5)">
+          <a class="boton boton--primario" href="/predicaciones/{{ ultima.slug }}/">Leer y ver</a>
+          <a class="boton boton--secundario" href="https://wa.me/?text={{ (ultima.titulo + ' · ' + ultima.pasaje + ' · https://www.iglesiabautistalogrono.com/predicaciones/' + ultima.slug + '/') | urlencode }}" rel="noopener">Compartir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="seccion seccion--blanco">
+  <div class="contenedor">
+    <h2>Todas las predicaciones</h2>
+    <p class="secundario" style="margin-bottom: var(--s-4)">Libros de la Biblia: {% for l in predicaciones | unicos("libro") %}{{ l }}{% if not loop.last %} · {% endif %}{% endfor %}. Predicadores: {% for p in predicaciones | unicos("predicador") %}{{ p }}{% if not loop.last %} · {% endif %}{% endfor %}. <span class="pendiente">[Los filtros se activan cuando haya más predicaciones]</span></p>
+    <div class="lista-predicaciones">
+      {% for p in predicaciones %}
+      <article class="tarjeta" data-libro="{{ p.libro }}" data-predicador="{{ p.predicador }}">
+        <time datetime="{{ p.fecha | iso }}">{{ p.fecha | fechaLarga }}</time>
+        <h3><a href="/predicaciones/{{ p.slug }}/">{{ p.titulo }}</a></h3>
+        <p class="meta"><span class="pasaje">{{ p.pasaje }}</span><span>{{ p.predicador }}</span></p>
+        <p class="secundario">{{ p.resumen | truncate(160) }}</p>
+      </article>
+      {% endfor %}
+    </div>
+    {% if predicaciones.length < 3 %}<p class="secundario" style="margin-top: var(--s-5)">El archivo crece cada semana con las predicaciones que se publican en YouTube.</p>{% endif %}
+  </div>
+</section>
+
+<section class="seccion seccion--arena">
+  <div class="contenedor dos">
+    <div class="texto">
+      <h2>En un minuto</h2>
+      <p class="grande" style="margin-top: var(--s-4)">Una idea completa de cada predicación, en un vídeo corto. Para ver en el bus o compartir con alguien.</p>
+      <div class="botones" style="margin-top: var(--s-5)"><a class="boton boton--primario" href="/predicaciones/en-un-minuto/">Ver los vídeos cortos</a></div>
+    </div>
+    <div class="texto">
+      <h2>Reflexión diaria</h2>
+      <p class="grande" style="margin-top: var(--s-4)">Cada día, un pensamiento breve escrito por el pastor y los predicadores de la iglesia.</p>
+      <div class="botones" style="margin-top: var(--s-5)"><a class="boton boton--secundario" href="/reflexion-diaria/">Leer la de hoy</a></div>
+    </div>
+  </div>
+</section>

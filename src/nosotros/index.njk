@@ -1,0 +1,44 @@
+---
+layout: pagina.njk
+titulo: "Quiénes somos"
+intro: "Una iglesia evangélica bautista en Logroño. Pequeña, internacional y con la Biblia en el centro."
+descripcion: "Quiénes somos: la Iglesia Bautista Internacional de Logroño (IBIL), iglesia evangélica bautista, miembro de la UEBE."
+fotoCabecera: "congregacion-culto"
+permalink: /nosotros/
+---
+<section class="seccion">
+  <div class="contenedor dos">
+    <div class="prosa">
+      <p class="borrador">Borrador: texto pendiente de revisión por el pastor.</p>
+      <p class="grande">Somos la Iglesia Bautista Internacional de Logroño (IBIL), una iglesia evangélica que busca conocer y vivir la Palabra de Dios, anunciar el evangelio de Jesucristo y hacer discípulos.</p>
+      <p>Nacimos en <span class="pendiente">[PENDIENTE: año]</span> como fruto de la obra misionera de la Iglesia Evangélica Bautista de Tudela, de la mano del pastor Felipe Albacete y su esposa, la misionera Patricia Fernández, que desde 2011 se dedican a revitalizar y plantar iglesias en Navarra, La Rioja y Soria.</p>
+      <p>Somos parte de la tradición bautista en España: creemos en la autoridad de la Biblia, en la fe personal en Jesucristo y en el bautismo de los creyentes por inmersión. Pertenecemos a la Unión Evangélica Bautista de España (UEBE) y apoyamos el Pacto Bautista, que nos llama a ser fieles a Dios, crecer en Cristo y vivir en santidad y amor mientras cumplimos la Gran Comisión (Mateo 28:19-20).</p>
+      <p>Somos internacionales: en IBIL se reúnen personas de distintos países que hoy tienen su casa en Logroño.</p>
+    </div>
+    <figure class="figura figura--vertical">{% foto "cantantes" %}<figcaption>Alabanza en el culto del domingo.</figcaption></figure>
+  </div>
+</section>
+
+<section class="seccion seccion--azul">
+  <div class="contenedor">
+    <h2>Lo que nos mueve</h2>
+    <div class="tarjetas" style="margin-top: var(--s-5)">
+      <article class="tarjeta"><h3>Firmes en la Verdad</h3><p>La Biblia es nuestra guía de fe y de vida. La leemos, la estudiamos y la predicamos tal como es.</p></article>
+      <article class="tarjeta"><h3>Creciendo en Cristo</h3><p>Nadie llega terminado. Nos acompañamos para parecernos cada día más a Jesús.</p></article>
+      <article class="tarjeta"><h3>Haciendo discípulos</h3><p>Lo que hemos recibido lo compartimos: en Logroño, en La Rioja y hasta donde Dios nos lleve.</p></article>
+    </div>
+    <blockquote class="versiculo" style="margin-top: var(--s-7)">A quien anunciamos, amonestando a todo hombre, y enseñando a todo hombre en toda sabiduría, a fin de presentar perfecto en Cristo Jesús a todo hombre.<cite>Colosenses 1:28</cite></blockquote>
+  </div>
+</section>
+
+<section class="seccion seccion--blanco">
+  <div class="contenedor">
+    <h2>Una familia más grande</h2>
+    <div class="tarjetas" style="margin-top: var(--s-5)">
+      <article class="tarjeta"><h3>Iglesias hermanas</h3><ul role="list">{% for i in iglesia.iglesiasHermanas %}<li style="margin-top: var(--s-2)"><strong>{{ i.nombre }}</strong><br><span class="secundario">{{ i.direccion }}</span></li>{% endfor %}<li style="margin-top: var(--s-2)"><strong>Cintruénigo</strong><br><span class="pendiente">[PENDIENTE: dirección]</span></li></ul></article>
+      <article class="tarjeta"><h3>Afiliaciones</h3><ul role="list">{% for a in iglesia.afiliaciones %}<li style="margin-top: var(--s-2)">{% if a.url %}<a href="{{ a.url }}" rel="noopener">{{ a.nombre }}</a>{% else %}{{ a.nombre }}{% endif %}{% if a.pendiente %} <span class="pendiente">[PENDIENTE: {{ a.pendiente }}]</span>{% endif %}</li>{% endfor %}</ul></article>
+      <article class="tarjeta"><h3>Conoce más</h3><ul role="list"><li><a href="/nosotros/que-creemos/">Qué creemos</a></li><li style="margin-top: var(--s-2)"><a href="/nosotros/liderazgo/">Liderazgo</a></li><li style="margin-top: var(--s-2)"><a href="/vida-de-iglesia/">Reuniones y grupos</a></li></ul></article>
+    </div>
+  </div>
+</section>
+{% include "cta.njk" %}

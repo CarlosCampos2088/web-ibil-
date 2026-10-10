@@ -1,0 +1,24 @@
+---
+layout: pagina.njk
+titulo: "Reflexión del mes"
+intro: "Una vez al mes, un texto más largo: una reflexión, el resumen de una serie de predicaciones o un anuncio importante."
+descripcion: "Reflexiones mensuales de IBIL, iglesia evangélica bautista en Logroño."
+permalink: /reflexiones/
+---
+<section class="seccion">
+  <div class="contenedor" style="max-width: 48rem">
+    {% if reflexiones.length %}
+      {% for r in reflexiones %}
+      <article class="reflexion"{% if not loop.first %} style="margin-top: var(--s-4)"{% endif %}>
+        <time datetime="{{ r.fecha | iso }}">{{ r.fecha | fechaLarga }}</time>
+        <h3>{{ r.titulo }}</h3>
+        <div class="prosa">{{ r.cuerpo | safe }}</div>
+        {% if r.autor %}<p class="firma">{{ r.autor }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    {% else %}
+      <p>Aquí irá la reflexión de cada mes. Mientras tanto, puedes leer la <a href="/reflexion-diaria/">reflexión diaria</a> o escuchar <a href="/predicaciones/">la última predicación</a>.</p>
+    {% endif %}
+  </div>
+</section>
+{% include "cta.njk" %}

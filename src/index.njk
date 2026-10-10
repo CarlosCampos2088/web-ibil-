@@ -1,0 +1,174 @@
+---
+layout: base.njk
+descripcion: "Iglesia Bautista Internacional de Logroño (IBIL), iglesia evangélica bautista. Te esperamos el domingo a las 11:30 en Ronda de los Cuarteles, 32. Ven tal como eres."
+permalink: /
+---
+{%- set ultima = predicaciones[0] %}
+
+<section class="hero hero--portada">
+  {% foto "congregacion-espaldas", { clase: "hero__foto", sizes: "100vw", prioridad: true, alt: "" } %}
+  <div class="contenedor">
+    <h1>Una iglesia en Logroño para conocer a <em>Jesús</em></h1>
+    <p>Somos una iglesia evangélica bautista. Ven tal como eres: alguien te recibirá en la puerta.</p>
+    <div class="botones">
+      <a class="boton boton--primario" href="/eres-nuevo/">Visítanos este domingo</a>
+      {% if ultima %}<a class="boton boton--secundario" href="/predicaciones/{{ ultima.slug }}/">Escuchar la última predicación</a>{% endif %}
+    </div>
+  </div>
+</section>
+
+<div class="franja">
+  <div class="contenedor">
+    <p class="franja__hora"><small>Cada domingo</small>{{ iglesia.horarios.domingo[2].hora }}</p>
+    <p class="franja__lugar"><strong>{{ iglesia.direccion.calle }}</strong>{{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Escuela Bíblica a las {{ iglesia.horarios.domingo[1].hora }}; clases para niños a las {{ iglesia.horarios.domingo[3].hora }}.</p>
+    <a class="boton boton--secundario" href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Cómo llegar</a>
+  </div>
+</div>
+
+<section class="seccion">
+  <div class="contenedor">
+    <h2>¿Primera vez?</h2>
+    <div class="tarjetas">
+      <article class="tarjeta">
+        <h3>Qué esperar</h3>
+        <p>Canciones, oración y una predicación de la Biblia. Dura unas dos horas y antes hay café.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>Niños</h3>
+        <p>Los niños de hasta 12 años tienen su propia clase durante la predicación.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>Te acompañamos</h3>
+        <p>Escríbenos antes de venir y alguien te esperará en la puerta.</p>
+        <p><a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">WhatsApp {{ iglesia.contacto.whatsapp }}</a></p>
+      </article>
+    </div>
+    <p style="margin-top: var(--s-5)"><a href="/eres-nuevo/">Todo lo que necesitas saber antes de venir</a></p>
+  </div>
+</section>
+
+<section class="seccion seccion--azul">
+  <div class="contenedor dos dos--invertida">
+    <div class="texto">
+      <h2>¿Quién es Jesús?</h2>
+      <p class="grande" style="margin-top: var(--s-4)">Jesús no vino a fundar una religión más. Vino a buscarnos. Murió en nuestro lugar y resucitó, y hoy ofrece perdón y una vida nueva a quien confía en Él. Si nunca te lo han explicado con calma, empieza aquí.</p>
+      <div class="botones" style="margin-top: var(--s-5)"><a class="boton boton--claro" href="/conoce-a-jesus/">Conoce a Jesús</a></div>
+    </div>
+    <blockquote class="versiculo">Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.<cite>Juan 3:16</cite></blockquote>
+  </div>
+</section>
+
+{% if ultima %}
+<section class="seccion seccion--blanco">
+  <div class="contenedor">
+    <h2>La última predicación</h2>
+    <div class="predicacion-destacada">
+      {% set id = ultima.youtube %}{% set titulo = ultima.titulo %}{% set fotoVideo = "predicacion-pulpito" %}{% set vertical = false %}
+      {% include "video.njk" %}
+      <div>
+        <p class="meta"><span class="pasaje">{{ ultima.pasaje }}</span><span>{{ ultima.predicador }}</span><time datetime="{{ ultima.fecha | iso }}">{{ ultima.fecha | fechaLarga }}</time></p>
+        <h3 style="margin-top: var(--s-3); font-size: var(--t-2xl)">{{ ultima.titulo }}</h3>
+        <p style="margin-top: var(--s-3)">{{ ultima.resumen }}</p>
+        <div class="botones" style="margin-top: var(--s-5)">
+          <a class="boton boton--primario" href="/predicaciones/{{ ultima.slug }}/">Ver predicación</a>
+          <a class="boton boton--secundario" href="/predicaciones/">Todas las predicaciones</a>
+          <a class="boton boton--secundario" href="https://wa.me/?text={{ (ultima.titulo + ' · ' + ultima.pasaje + ' · https://www.iglesiabautistalogrono.com/predicaciones/' + ultima.slug + '/') | urlencode }}" rel="noopener">Compartir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="seccion seccion--arena">
+  <div class="contenedor dos">
+    <div class="texto">
+      <h2>Qué creemos</h2>
+      <p class="grande" style="margin-top: var(--s-4)">Creemos que la Biblia es la Palabra de Dios y nuestra guía de fe y vida. Creemos que la salvación es un regalo de Dios por la fe en Jesucristo, no un premio a nuestras obras. Creemos que la iglesia es una familia de creyentes que se reúne para adorar a Dios, aprender su Palabra y servir a los demás.</p>
+      <p style="margin-top: var(--s-5)"><a href="/nosotros/que-creemos/">Leer nuestra confesión de fe</a></p>
+    </div>
+    <figure class="figura">{% foto "biblia-abierta" %}</figure>
+  </div>
+</section>
+
+{% if agendaProxima.length %}
+<section class="seccion seccion--blanco">
+  <div class="contenedor dos">
+    <div>
+      <h2>Próximamente</h2>
+      <ol class="agenda agenda--compacta" role="list" style="margin-top: var(--s-5)">
+        {% for a in agendaProxima.slice(0, 4) %}
+        <li>
+          <div class="agenda__fecha"><b>{{ a.fecha | dia }}</b><span>{{ a.fecha | mes }}</span></div>
+          <div><span class="agenda__hora">{{ a.fecha | diaSemana }} {{ a.hora }}</span><h4>{{ a.nombre }}</h4>{% if a.detalle %}<p class="agenda__detalle">{{ a.detalle }}</p>{% endif %}</div>
+        </li>
+        {% endfor %}
+      </ol>
+      <p style="margin-top: var(--s-5)"><a href="/agenda/">Ver toda la agenda</a></p>
+    </div>
+    <div>
+      <h2>Reflexión diaria</h2>
+      {% set r = reflexionesDiarias[0] %}
+      {% if r %}
+      <article class="reflexion" style="margin-top: var(--s-5)">
+        <time datetime="{{ r.fecha | iso }}">{{ r.fecha | fechaLarga }}</time>
+        <h3>{{ r.titulo }}</h3>
+        <div class="texto">{{ r.cuerpo | safe }}</div>
+        {% if r.autor %}<p class="firma">{{ r.autor }}</p>{% endif %}
+      </article>
+      {% else %}
+      <article class="reflexion" style="margin-top: var(--s-5)">
+        <h3>Lámpara es a mis pies tu palabra</h3>
+        <div class="texto"><p>Cada día, un pensamiento breve de los predicadores de la iglesia. <span class="pendiente">[PENDIENTE: primeras reflexiones]</span></p></div>
+        <p class="firma">Salmo 119:105</p>
+      </article>
+      {% endif %}
+      <p style="margin-top: var(--s-5)"><a href="/reflexion-diaria/">Reflexiones anteriores</a></p>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="seccion">
+  <div class="contenedor">
+    <h2>Así somos</h2>
+    <div class="mosaico">
+      <figure>{% foto "congregacion-culto", { sizes: "(min-width: 48rem) 50vw, 50vw" } %}</figure>
+      <figure>{% foto "cantando", { sizes: "25vw" } %}</figure>
+      <figure>{% foto "oracion-grupo", { sizes: "25vw" } %}</figure>
+      <figure>{% foto "conversando", { sizes: "25vw" } %}</figure>
+      <figure>{% foto "biblia-manos", { sizes: "25vw" } %}</figure>
+    </div>
+    <p style="margin-top: var(--s-5)">Personas de muchos países que hoy tienen su casa en Logroño. <a href="/nosotros/">Quiénes somos</a></p>
+  </div>
+</section>
+
+<section class="seccion seccion--azul">
+  <div class="contenedor texto">
+    <h2>¿Podemos orar por ti?</h2>
+    <p class="grande" style="margin-top: var(--s-4)">Si estás pasando por algo y quieres que oremos por ti, escríbenos. Lo que nos cuentes queda entre nosotros.</p>
+    <div class="botones" style="margin-top: var(--s-5)">
+      <a class="boton boton--claro" href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">Escribir por WhatsApp</a>
+      <a class="boton boton--secundario" href="/contacto/">Otras formas de contacto</a>
+    </div>
+  </div>
+</section>
+
+<section class="seccion seccion--blanco">
+  <div class="contenedor">
+    <h2>Cómo llegar</h2>
+    <div class="llegar">
+      <a class="mapa" href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>
+        <strong>Abrir en Google Maps</strong>
+        <span class="secundario">El mapa no se carga aquí para no enviar tus datos a Google sin tu permiso.</span>
+      </a>
+      <dl class="datos-llegar">
+        <dt>Dirección</dt><dd>{{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}</dd>
+        <dt>Domingos</dt><dd>{% for a in iglesia.horarios.domingo %}{{ a.hora }} {{ a.nombre }}{% if not loop.last %} · {% endif %}{% endfor %}</dd>
+        <dt>Aparcamiento</dt><dd><span class="pendiente">[PENDIENTE: dónde aparcar]</span></dd>
+        <dt>Autobús</dt><dd><span class="pendiente">[PENDIENTE: líneas y parada]</span></dd>
+      </dl>
+    </div>
+  </div>
+</section>

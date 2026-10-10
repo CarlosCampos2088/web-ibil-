@@ -1,0 +1,456 @@
+{
+  "congregacion-culto": {
+    "mtime": 1791647253919.893,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "congregacion-espaldas": {
+    "mtime": 1791644111006.5476,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "sala-culto": {
+    "mtime": 1791647255505.0508,
+    "ancho": 2048,
+    "alto": 1365,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1066
+      }
+    }
+  },
+  "predicacion-pulpito": {
+    "mtime": 1791647256401.2212,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "predicador-biblia": {
+    "mtime": 1791644110963.755,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "predicadora": {
+    "mtime": 1791644110996.9893,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "pastor-predica": {
+    "mtime": 1791644111019.3552,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "biblia-abierta": {
+    "mtime": 1791644110973.8687,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "biblia-manos": {
+    "mtime": 1791647255586.5588,
+    "ancho": 2048,
+    "alto": 1365,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1066
+      }
+    }
+  },
+  "biblia-bn": {
+    "mtime": 1791647253851.0266,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "cantando": {
+    "mtime": 1791647253950.84,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "alabanza": {
+    "mtime": 1791647256148.7356,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "cantantes": {
+    "mtime": 1791647256186.8325,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "oracion-grupo": {
+    "mtime": 1791647256112.7676,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "oracion-hombre": {
+    "mtime": 1791647255478.861,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "oracion-bn": {
+    "mtime": 1791647255886.2239,
+    "ancho": 2048,
+    "alto": 1365,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1066
+      }
+    }
+  },
+  "saludo": {
+    "mtime": 1791647254383.1948,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "mano-alzada": {
+    "mtime": 1791647254852.5945,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "pastores": {
+    "mtime": 1791647253887.2864,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "jovenes": {
+    "mtime": 1791647255611.6116,
+    "ancho": 2048,
+    "alto": 1365,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1066
+      }
+    }
+  },
+  "leyendo": {
+    "mtime": 1791647255448.2632,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "conversando": {
+    "mtime": 1791647255743.4243,
+    "ancho": 2048,
+    "alto": 1365,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1066
+      }
+    }
+  },
+  "predicador-mayor": {
+    "mtime": 1791647254918.931,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "joven-escucha": {
+    "mtime": 1791647254886.3303,
+    "ancho": 1350,
+    "alto": 1350,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 480
+      },
+      "960": {
+        "width": 960,
+        "height": 960
+      }
+    }
+  },
+  "ninos-actuacion": {
+    "mtime": 1791647256036.9783,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "familia": {
+    "mtime": 1791647256303.368,
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  }
+}
