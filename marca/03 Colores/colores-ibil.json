@@ -1,0 +1,74 @@
+[
+  {
+    "nombre": "Azul profundo",
+    "hex": "#163A52",
+    "rgb": "22, 58, 82",
+    "uso": "Principal. Fondos oscuros, titulares, logotipo, botones."
+  },
+  {
+    "nombre": "Azul IBIL",
+    "hex": "#1F5F80",
+    "rgb": "31, 95, 128",
+    "uso": "Secundario. Enlaces, estados activos, botones secundarios."
+  },
+  {
+    "nombre": "Granate",
+    "hex": "#7A2E3B",
+    "rgb": "122, 46, 59",
+    "uso": "Acento (máx. 10 %). Segunda línea del nombre, etiquetas, referencias, foco."
+  },
+  {
+    "nombre": "Arena",
+    "hex": "#EFE7DA",
+    "rgb": "239, 231, 218",
+    "uso": "Fondo cálido principal."
+  },
+  {
+    "nombre": "Arena clara",
+    "hex": "#F7F2E9",
+    "rgb": "247, 242, 233",
+    "uso": "Fondo de página web; superficie bajo tarjetas blancas."
+  },
+  {
+    "nombre": "Blanco",
+    "hex": "#FFFFFF",
+    "rgb": "255, 255, 255",
+    "uso": "Tarjetas, aire."
+  },
+  {
+    "nombre": "Carbón",
+    "hex": "#2A2A2A",
+    "rgb": "42, 42, 42",
+    "uso": "Texto corrido."
+  },
+  {
+    "nombre": "Pizarra",
+    "hex": "#4B5A64",
+    "rgb": "75, 90, 100",
+    "uso": "Texto secundario (pies, fechas, notas)."
+  },
+  {
+    "nombre": "Piedra",
+    "hex": "#8A9AA6",
+    "rgb": "138, 154, 166",
+    "uso": "Solo decorativo: filetes, separadores. Nunca texto (2,9:1)."
+  },
+  {
+    "nombre": "Hueso",
+    "hex": "#E3DACB",
+    "rgb": "227, 218, 203",
+    "uso": "Bordes, líneas de tabla."
+  },
+  {
+    "nombre": "Rosa pálido",
+    "hex": "#C9A0A8",
+    "rgb": "201, 160, 168",
+    "uso": "Etiquetas y segunda línea del nombre SOBRE azul profundo."
+  },
+  {
+    "nombre": "Azul claro",
+    "hex": "#C9D3DA",
+    "rgb": "201, 211, 218",
+    "uso": "Texto secundario sobre azul profundo."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "web-ibil",
+  "version": "1.0.0",
+  "description": "Web de la Iglesia Bautista Internacional de Logroño",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "check": "html-validate _site/**/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/public-sans": "^5.3.0",
+    "html-validate": "^11.16.2",
+    "sharp": "^0.35.5"
+  },
+  "private": "true"
+}

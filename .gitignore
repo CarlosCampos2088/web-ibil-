@@ -1,0 +1,9 @@
+node_modules/
+_site/
+.cache/
+.claude/settings.local.json
+.impeccable/
+fotos/_optimizadas/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+:root{
+  --ibil-azul-profundo: #163A52; /* rgb(22, 58, 82) · Principal. Fondos oscuros, titulares, logotipo, botones. */
+  --ibil-azul-ibil: #1F5F80; /* rgb(31, 95, 128) · Secundario. Enlaces, estados activos, botones secundarios. */
+  --ibil-granate: #7A2E3B; /* rgb(122, 46, 59) · Acento (máx. 10 %). Segunda línea del nombre, etiquetas, referencias, foco. */
+  --ibil-arena: #EFE7DA; /* rgb(239, 231, 218) · Fondo cálido principal. */
+  --ibil-arena-clara: #F7F2E9; /* rgb(247, 242, 233) · Fondo de página web; superficie bajo tarjetas blancas. */
+  --ibil-blanco: #FFFFFF; /* rgb(255, 255, 255) · Tarjetas, aire. */
+  --ibil-carbon: #2A2A2A; /* rgb(42, 42, 42) · Texto corrido. */
+  --ibil-pizarra: #4B5A64; /* rgb(75, 90, 100) · Texto secundario (pies, fechas, notas). */
+  --ibil-piedra: #8A9AA6; /* rgb(138, 154, 166) · Solo decorativo: filetes, separadores. Nunca texto (2,9:1). */
+  --ibil-hueso: #E3DACB; /* rgb(227, 218, 203) · Bordes, líneas de tabla. */
+  --ibil-rosa-palido: #C9A0A8; /* rgb(201, 160, 168) · Etiquetas y segunda línea del nombre SOBRE azul profundo. */
+  --ibil-azul-claro: #C9D3DA; /* rgb(201, 211, 218) · Texto secundario sobre azul profundo. */
+}
+
+/* Heredados del logotipo original (solo referencia, no se usan en la web) */
+:root{ --ibil-heredado-simbolo: #0C5373; /* rgb(12, 83, 115) */ --ibil-heredado-texto: #19495C; /* rgb(25, 73, 92) */ }

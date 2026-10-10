@@ -1,0 +1,64 @@
+{
+  "nombre": "Iglesia Bautista Internacional de Logroño",
+  "sigla": "IBIL",
+  "firma": "IBIL · Logroño",
+  "lema": "Firmes en la Verdad · Creciendo en Cristo · Haciendo discípulos",
+  "mision": "Llevar la luz de Cristo a cada persona, ciudad y nación",
+  "direccion": {
+    "calle": "C/ Ronda de los Cuarteles, 32, bajo",
+    "cp": "26005",
+    "ciudad": "Logroño",
+    "provincia": "La Rioja",
+    "pais": "España",
+    "lat": 42.468558,
+    "lng": -2.458016,
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Iglesia+Bautista+Internacional+de+Logro%C3%B1o+Ronda+de+los+Cuarteles+32"
+  },
+  "contacto": {
+    "whatsapp": "624 09 86 80",
+    "whatsappUrl": "https://wa.me/34624098680",
+    "telefono": "624 09 86 80",
+    "correo": "[PENDIENTE: correo que se publica; mientras tanto redesiebal@gmail.com]"
+  },
+  "redes": {
+    "youtube": "https://www.youtube.com/@IglesiaBautistaLogroño",
+    "instagram": "https://www.instagram.com/ibilogro/",
+    "facebook": "https://www.facebook.com/IBILogro/"
+  },
+  "horarios": {
+    "vigenteDesde": "2026-09-13",
+    "domingo": [
+      { "hora": "10:00", "nombre": "Oración" },
+      { "hora": "10:15", "nombre": "Escuela Bíblica para jóvenes y adultos", "detalle": "Un rato de estudio de la Biblia en grupo. Puedes venir solo a escuchar." },
+      { "hora": "11:30", "nombre": "Culto de adoración", "detalle": "Nuestra reunión principal: canciones, oración, lectura de la Biblia y una predicación que explica un pasaje bíblico. Santa Cena una vez al mes." },
+      { "hora": "12:00", "nombre": "Clases para niños", "detalle": "Escuela Dominical para niños de hasta 12 años, durante la predicación." }
+    ],
+    "semana": [
+      { "cuando": "Miércoles", "hora": "19:00 - 20:30", "nombre": "Discipulado y oración", "detalle": "Leemos la Biblia juntos y oramos. Abierto a niños, jóvenes y adultos." },
+      { "cuando": "Tercer viernes de cada mes", "hora": "20:00 - 22:00", "nombre": "Vigilia de oración", "detalle": "Adoración, gratitud e intercesión por la iglesia, Logroño, España y las naciones." },
+      { "cuando": "Primer sábado de cada mes", "hora": "18:00", "nombre": "Años Dorados", "detalle": "Para mayores de 50 años. Además, paseos, encuentros y actividades durante el año." }
+    ]
+  },
+  "liderazgo": {
+    "pastor": "Felipe Albacete",
+    "pastorEsposa": "Patricia Fernández",
+    "diaconos": ["Carlos Campos", "Evelyn Torres"]
+  },
+  "afiliaciones": [
+    { "nombre": "Unión Evangélica Bautista de España (UEBE)", "url": "https://www.uebe.org/" },
+    { "nombre": "AIBNE (Asociación de Iglesias Bautistas del Norte de España)", "url": "", "pendiente": "confirmar y si va su logo" }
+  ],
+  "iglesiasHermanas": [
+    { "nombre": "Iglesia Evangélica Bautista de Tudela (iglesia madre)", "direccion": "C/ Mediavilla 21, 31500 Tudela (Navarra)" },
+    { "nombre": "Iglesia Evangélica Bautista de Pamplona", "direccion": "C/ Iturrama 25, 31007 Pamplona (Navarra)" },
+    { "nombre": "Iglesia Bautista Internacional de Calahorra", "direccion": "C/ Cavas 44, 26500 Calahorra (La Rioja)" }
+  ],
+  "pendientes": [
+    "Año de fundación (2019 o 2024)",
+    "Correo que se publica",
+    "Entidad titular, NIF y registro de entidades religiosas (aviso legal)",
+    "Aparcamiento, autobuses y accesibilidad del local",
+    "Enlace del calendario de Google público",
+    "Dirección de la iglesia de Cintruénigo"
+  ]
+}
