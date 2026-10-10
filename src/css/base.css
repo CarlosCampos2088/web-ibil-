@@ -73,6 +73,8 @@ h4 { font-family: var(--sans); font-weight: 600; font-size: var(--t-m); line-hei
 .boton--claro:hover { background: var(--blanco); border-color: var(--blanco); color: var(--azul); }
 .seccion--azul .boton--claro, .seccion--azul .boton--claro:hover { color: var(--azul); }
 .botones { display: flex; flex-wrap: wrap; gap: var(--s-3); }
+.boton--icono svg { width: 1.35rem; height: 1.35rem; flex: none; }
+.boton--icono { gap: var(--s-3); }
 
 /* Tarjetas: blanco, borde hueso, radio 0, sin sombra */
 .tarjetas { display: grid; gap: var(--s-4); }

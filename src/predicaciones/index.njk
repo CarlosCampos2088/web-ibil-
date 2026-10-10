@@ -5,6 +5,7 @@ intro: "Cada domingo alguien explica un pasaje de la Biblia con palabras de hoy.
 descripcion: "Predicaciones de IBIL, iglesia evangélica bautista en Logroño: resumen, pasaje bíblico y vídeo de cada sermón."
 permalink: /predicaciones/
 ---
+{% import "macros.njk" as m %}
 {%- set ultima = predicaciones[0] %}
 {% if ultima %}
 <section class="seccion">
@@ -19,7 +20,7 @@ permalink: /predicaciones/
         <p style="margin-top: var(--s-3)">{{ ultima.resumen }}</p>
         <div class="botones" style="margin-top: var(--s-5)">
           <a class="boton boton--primario" href="/predicaciones/{{ ultima.slug }}/">Leer y ver</a>
-          <a class="boton boton--secundario" href="https://wa.me/?text={{ (ultima.titulo + ' · ' + ultima.pasaje + ' · https://www.iglesiabautistalogrono.com/predicaciones/' + ultima.slug + '/') | urlencode }}" rel="noopener">Compartir por WhatsApp</a>
+          {{ m.whatsapp(ultima.titulo + " · " + ultima.pasaje + " · https://www.iglesiabautistalogrono.com/predicaciones/" + ultima.slug + "/") }}
         </div>
       </div>
     </div>

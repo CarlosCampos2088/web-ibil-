@@ -14,7 +14,7 @@
     "cantando":               { "archivo": "8.png", "alt": "Varias hermanas cantan durante la alabanza", "pos": "50% 35%" },
     "alabanza":               { "archivo": "DSC01730.JPG", "alt": "Una hermana canta con los ojos cerrados durante la alabanza", "pos": "50% 30%" },
     "cantantes":              { "archivo": "DSC01732.JPG", "alt": "Dos hermanas dirigen la alabanza con el micrófono", "pos": "50% 40%" },
-    "oracion-grupo":          { "archivo": "DSC01729.JPG", "alt": "Varias personas oran juntas con la cabeza inclinada", "pos": "50% 40%" },
+    "oracion-grupo":          { "archivo": "DSC01729.JPG", "alt": "Varias personas oran juntas con la cabeza inclinada", "pos": "45% 40%", "recorte": [0, 0, 0.83, 1], "nota": "recortada por la derecha (petición de Carlos 10/10/2026)" },
     "oracion-hombre":         { "archivo": "15.png", "alt": "Un hombre ora en silencio con la mano en la frente", "pos": "50% 40%" },
     "oracion-bn":             { "archivo": "DSC01683.jpg", "alt": "La congregación ora de pie, vista desde atrás, en blanco y negro", "pos": "50% 40%" },
     "saludo":                 { "archivo": "9.png", "alt": "Un hermano saluda a otros a la entrada del culto", "pos": "50% 40%" },

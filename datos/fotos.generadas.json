@@ -1,6 +1,6 @@
 {
   "congregacion-culto": {
-    "mtime": 1791647253919.893,
+    "clave": "1791647253919.893|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -15,7 +15,7 @@
     }
   },
   "congregacion-espaldas": {
-    "mtime": 1791644111006.5476,
+    "clave": "1791644111006.5476|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -34,7 +34,7 @@
     }
   },
   "sala-culto": {
-    "mtime": 1791647255505.0508,
+    "clave": "1791647255505.0508|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -53,7 +53,7 @@
     }
   },
   "predicacion-pulpito": {
-    "mtime": 1791647256401.2212,
+    "clave": "1791647256401.2212|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -72,7 +72,7 @@
     }
   },
   "predicador-biblia": {
-    "mtime": 1791644110963.755,
+    "clave": "1791644110963.755|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -91,7 +91,7 @@
     }
   },
   "predicadora": {
-    "mtime": 1791644110996.9893,
+    "clave": "1791644110996.9893|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -110,7 +110,7 @@
     }
   },
   "pastor-predica": {
-    "mtime": 1791644111019.3552,
+    "clave": "1791644111019.3552|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -129,7 +129,7 @@
     }
   },
   "biblia-abierta": {
-    "mtime": 1791644110973.8687,
+    "clave": "1791644110973.8687|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -148,7 +148,7 @@
     }
   },
   "biblia-manos": {
-    "mtime": 1791647255586.5588,
+    "clave": "1791647255586.5588|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -167,7 +167,7 @@
     }
   },
   "biblia-bn": {
-    "mtime": 1791647253851.0266,
+    "clave": "1791647253851.0266|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -182,7 +182,7 @@
     }
   },
   "cantando": {
-    "mtime": 1791647253950.84,
+    "clave": "1791647253950.84|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -197,7 +197,7 @@
     }
   },
   "alabanza": {
-    "mtime": 1791647256148.7356,
+    "clave": "1791647256148.7356|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -216,7 +216,7 @@
     }
   },
   "cantantes": {
-    "mtime": 1791647256186.8325,
+    "clave": "1791647256186.8325|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -235,26 +235,26 @@
     }
   },
   "oracion-grupo": {
-    "mtime": 1791647256112.7676,
-    "ancho": 6000,
+    "clave": "1791647256112.7676|[0,0,0.83,1]",
+    "ancho": 4980,
     "alto": 4000,
     "medidas": {
       "480": {
         "width": 480,
-        "height": 320
+        "height": 386
       },
       "960": {
         "width": 960,
-        "height": 640
+        "height": 771
       },
       "1600": {
         "width": 1600,
-        "height": 1067
+        "height": 1285
       }
     }
   },
   "oracion-hombre": {
-    "mtime": 1791647255478.861,
+    "clave": "1791647255478.861|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -269,7 +269,7 @@
     }
   },
   "oracion-bn": {
-    "mtime": 1791647255886.2239,
+    "clave": "1791647255886.2239|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -288,7 +288,7 @@
     }
   },
   "saludo": {
-    "mtime": 1791647254383.1948,
+    "clave": "1791647254383.1948|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -303,7 +303,7 @@
     }
   },
   "mano-alzada": {
-    "mtime": 1791647254852.5945,
+    "clave": "1791647254852.5945|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -318,7 +318,7 @@
     }
   },
   "pastores": {
-    "mtime": 1791647253887.2864,
+    "clave": "1791647253887.2864|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -333,7 +333,7 @@
     }
   },
   "jovenes": {
-    "mtime": 1791647255611.6116,
+    "clave": "1791647255611.6116|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -352,7 +352,7 @@
     }
   },
   "leyendo": {
-    "mtime": 1791647255448.2632,
+    "clave": "1791647255448.2632|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -367,7 +367,7 @@
     }
   },
   "conversando": {
-    "mtime": 1791647255743.4243,
+    "clave": "1791647255743.4243|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -386,7 +386,7 @@
     }
   },
   "predicador-mayor": {
-    "mtime": 1791647254918.931,
+    "clave": "1791647254918.931|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -401,7 +401,7 @@
     }
   },
   "joven-escucha": {
-    "mtime": 1791647254886.3303,
+    "clave": "1791647254886.3303|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -416,7 +416,7 @@
     }
   },
   "ninos-actuacion": {
-    "mtime": 1791647256036.9783,
+    "clave": "1791647256036.9783|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -435,7 +435,7 @@
     }
   },
   "familia": {
-    "mtime": 1791647256303.368,
+    "clave": "1791647256303.368|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {

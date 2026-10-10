@@ -9,6 +9,7 @@ eleventyComputed:
   titulo: "{{ p.titulo }}"
   descripcion: "{{ p.pasaje }} · {{ p.predicador }}. {{ p.resumen | truncate(120) }}"
 ---
+{% import "macros.njk" as m %}
 <div class="cabecera-pagina">
   <div class="contenedor">
     <p class="meta"><a href="/predicaciones/">Predicaciones</a><span class="pasaje">{{ p.pasaje }}</span><span>{{ p.predicador }}</span><time datetime="{{ p.fecha | iso }}">{{ p.fecha | fechaLarga }}</time>{% if p.serie %}<span>Serie: {{ p.serie }}</span>{% endif %}</p>
@@ -23,7 +24,7 @@ eleventyComputed:
         {% set id = p.youtube %}{% set titulo = p.titulo %}{% set fotoVideo = "predicacion-pulpito" %}{% set vertical = false %}
         {% include "video.njk" %}
         <div class="botones" style="margin-top: var(--s-4)">
-          <a class="boton boton--secundario" href="https://wa.me/?text={{ (p.titulo + ' · ' + p.pasaje + ' · https://www.iglesiabautistalogrono.com/predicaciones/' + p.slug + '/') | urlencode }}" rel="noopener">Compartir por WhatsApp</a>
+          {{ m.whatsapp(p.titulo + " · " + p.pasaje + " · https://www.iglesiabautistalogrono.com/predicaciones/" + p.slug + "/") }}
           <a class="boton boton--secundario" href="https://www.youtube.com/watch?v={{ p.youtube }}" rel="noopener">Ver en YouTube</a>
         </div>
       </div>

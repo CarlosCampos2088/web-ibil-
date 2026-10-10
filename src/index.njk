@@ -3,6 +3,7 @@ layout: base.njk
 descripcion: "Iglesia Bautista Internacional de Logroño (IBIL), iglesia evangélica bautista. Te esperamos el domingo a las 11:30 en Ronda de los Cuarteles, 32. Ven tal como eres."
 permalink: /
 ---
+{% import "macros.njk" as m %}
 {%- set ultima = predicaciones[0] %}
 
 <section class="hero hero--portada">
@@ -72,7 +73,7 @@ permalink: /
         <div class="botones" style="margin-top: var(--s-5)">
           <a class="boton boton--primario" href="/predicaciones/{{ ultima.slug }}/">Ver predicación</a>
           <a class="boton boton--secundario" href="/predicaciones/">Todas las predicaciones</a>
-          <a class="boton boton--secundario" href="https://wa.me/?text={{ (ultima.titulo + ' · ' + ultima.pasaje + ' · https://www.iglesiabautistalogrono.com/predicaciones/' + ultima.slug + '/') | urlencode }}" rel="noopener">Compartir por WhatsApp</a>
+          {{ m.whatsapp(ultima.titulo + " · " + ultima.pasaje + " · https://www.iglesiabautistalogrono.com/predicaciones/" + ultima.slug + "/") }}
         </div>
       </div>
     </div>
