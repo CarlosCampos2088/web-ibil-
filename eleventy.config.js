@@ -68,7 +68,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("foto", (slug, op = {}) => {
     const f = fotos[slug], m = medidas[slug];
     if (!f || !m) return `<div class="foto-pendiente">[FOTO PENDIENTE: ${slug}]</div>`;
-    if (f.menores && !op.autorizada) return `<div class="foto-pendiente">[FOTO PENDIENTE: ${slug} (menores, falta autorización)]</div>`;
+    if (f.menores && !(f.autorizada || op.autorizada)) return `<div class="foto-pendiente">[FOTO PENDIENTE: ${slug} (menores, falta autorización)]</div>`;
     const anchos = Object.keys(m.medidas).map(Number).sort((a, b) => a - b);
     const mayor = anchos[anchos.length - 1];
     const srcset = anchos.map((w) => `/img/fotos/${slug}-${w}.webp ${w}w`).join(", ");

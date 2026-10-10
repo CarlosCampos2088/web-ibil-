@@ -19,7 +19,7 @@ Prioridad si algo se contradice: 1) lo que diga Carlos en la sesión; 2) este ar
 
 ## Marca y voz (resumen; detalle en brief §4)
 - Logo B horizontal en cabecera, A en negativo en el pie, D para favicon. Los SVG de `marca/01 Logotipo` ya están en #163A52: no recolorear.
-- Fotos reales de la iglesia; nunca banco de imágenes ni IA. Sin caras de menores salvo las que aporte Carlos. Hueco de foto = `[FOTO PENDIENTE: descripción]`.
+- Fotos reales de la iglesia; nunca banco de imágenes ni IA. Catálogo en `datos/fotos.json`; las de menores llevan `menores: true` y solo se muestran con `autorizada: true` (Carlos confirmó el 10/10/2026 que los padres firmaron la autorización LOPD). Hueco de foto = `[FOTO PENDIENTE: descripción]`.
 - Frases cortas, tutear en singular («te esperamos»), «ustedes» en plural (nunca «vosotros» salvo citas RV60). Sin jerga sin explicar, sin emojis, sin mayúsculas para gritar. Versículos siempre con referencia, RV60 literal.
 - Un solo botón principal en toda la web: «Visítanos este domingo» → `/eres-nuevo/`.
 - Nombre: primera mención «Iglesia Bautista Internacional de Logroño»; después «IBIL». Firma «IBIL · Logroño».

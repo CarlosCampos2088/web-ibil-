@@ -1,5 +1,5 @@
 {
-  "_nota": "Catálogo de fotos de la web. 'archivo' está en fotos/. 'pos' es el punto de interés (object-position) para los recortes. 'menores': true = hay niños identificables; solo se usa si Carlos lo autoriza expresamente. El script scripts/imagenes.js genera las versiones WebP en src/img/fotos/.",
+  "_nota": "Catálogo de fotos de la web. 'archivo' está en fotos/. 'pos' es el punto de interés (object-position) para los recortes. 'menores': true = hay niños identificables. 'autorizada': true = Carlos confirmó el 10/10/2026 que los padres firmaron la autorización LOPD para publicar en redes y web. El script scripts/imagenes.js genera las versiones WebP en src/img/fotos/.",
   "fotos": {
     "congregacion-culto":     { "archivo": "7.png", "alt": "La congregación de IBIL de pie durante el culto del domingo", "pos": "50% 40%" },
     "congregacion-espaldas":  { "archivo": "32-DSC01638.jpg", "alt": "La congregación escucha la predicación en el culto", "pos": "55% 45%" },
@@ -25,7 +25,7 @@
     "conversando":            { "archivo": "DSC01647.jpg", "alt": "Hermanos conversan de pie después del culto", "pos": "50% 40%" },
     "predicador-mayor":       { "archivo": "12.png", "alt": "Un hermano mayor predica desde el púlpito", "pos": "50% 30%" },
     "joven-escucha":          { "archivo": "11.png", "alt": "Un joven escucha la predicación", "pos": "50% 30%" },
-    "ninos-actuacion":        { "archivo": "DSC01727.JPG", "alt": "Los niños de la Escuela Dominical presentan una actuación", "pos": "50% 40%", "menores": true },
-    "familia":                { "archivo": "DSC01735.JPG", "alt": "Una familia con sus hijos durante el culto", "pos": "50% 40%", "menores": true }
+    "ninos-actuacion":        { "archivo": "DSC01727.JPG", "alt": "Los niños de la Escuela Dominical presentan una actuación", "pos": "50% 40%", "menores": true, "autorizada": true },
+    "familia":                { "archivo": "DSC01735.JPG", "alt": "Una familia con sus hijos durante el culto", "pos": "50% 40%", "menores": true, "autorizada": true }
   }
 }
