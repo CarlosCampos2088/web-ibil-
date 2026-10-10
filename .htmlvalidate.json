@@ -6,6 +6,8 @@
     "doctype-style": "off",
     "no-trailing-whitespace": "off",
     "long-title": "off",
-    "require-sri": "off"
+    "require-sri": "off",
+    "prefer-native-element": "off",
+    "prefer-tbody": "off"
   }
 }
