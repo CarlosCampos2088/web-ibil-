@@ -9,7 +9,6 @@ permalink: /nosotros/
 <section class="seccion">
   <div class="contenedor dos">
     <div class="prosa">
-      <p class="borrador">Borrador: texto pendiente de revisión por el pastor.</p>
       <p class="grande">Somos la Iglesia Bautista Internacional de Logroño (IBIL), una iglesia evangélica que busca conocer y vivir la Palabra de Dios, anunciar el evangelio de Jesucristo y hacer discípulos.</p>
       <p>Nacimos en <span class="pendiente">[PENDIENTE: año]</span> como fruto de la obra misionera de la Iglesia Evangélica Bautista de Tudela, de la mano del pastor Felipe Albacete y su esposa, la misionera Patricia Fernández, que desde 2011 se dedican a revitalizar y plantar iglesias en Navarra, La Rioja y Soria.</p>
       <p>Somos parte de la tradición bautista en España: creemos en la autoridad de la Biblia, en la fe personal en Jesucristo y en el bautismo de los creyentes por inmersión. Pertenecemos a la Unión Evangélica Bautista de España (UEBE) y apoyamos el Pacto Bautista, que nos llama a ser fieles a Dios, crecer en Cristo y vivir en santidad y amor mientras cumplimos la Gran Comisión (Mateo 28:19-20).</p>
@@ -34,7 +33,7 @@ permalink: /nosotros/
 <section class="seccion seccion--blanco" id="pertenecemos">
   <div class="contenedor">
     <h2>A qué pertenecemos</h2>
-    <p class="texto" style="margin-top: var(--s-3)">Ninguna iglesia bautista va sola. IBIL nació como punto de misión de la {{ iglesia.iglesiaMadre.nombre }} y forma parte de una familia que va de Logroño al mundo entero.</p>
+    <p class="texto" style="margin-top: var(--s-3)">Ninguna iglesia bautista va sola. IBIL nació de la {{ iglesia.iglesiaMadre.nombre }}, nuestra iglesia madre, y forma parte de una familia que va de Logroño al mundo entero.</p>
     <div class="grupos" style="margin-top: var(--s-5)">
       {% for a in iglesia.afiliaciones %}
       <article class="grupo">
@@ -51,7 +50,7 @@ permalink: /nosotros/
   <div class="contenedor">
     <h2>Una familia más grande</h2>
     <div class="tarjetas" style="margin-top: var(--s-5)">
-      <article class="tarjeta"><h3>Iglesias hermanas</h3><ul role="list">{% for i in iglesia.iglesiasHermanas %}<li style="margin-top: var(--s-2)"><strong>{{ i.nombre }}</strong><br><span class="secundario">{{ i.direccion }}</span></li>{% endfor %}<li style="margin-top: var(--s-2)"><strong>Cintruénigo</strong><br><span class="pendiente">[PENDIENTE: dirección]</span></li></ul></article>
+      <article class="tarjeta"><h3>Iglesias hermanas</h3><ul role="list">{% for i in iglesia.iglesiasHermanas %}<li style="margin-top: var(--s-2)"><strong>{{ i.nombre }}</strong><br><span class="secundario">{{ i.direccion }}</span></li>{% endfor %}</ul></article>
       <article class="tarjeta"><h3>Noticias de la familia bautista</h3><p>Convenciones, campañas y encuentros de la UEBE, la AIBNE y las iglesias hermanas.</p><p><a href="/noticias/">Ver las noticias</a></p></article>
       <article class="tarjeta"><h3>Conoce más</h3><ul role="list"><li><a href="/nosotros/que-creemos/">Qué creemos</a></li><li style="margin-top: var(--s-2)"><a href="/nosotros/liderazgo/">Liderazgo</a></li><li style="margin-top: var(--s-2)"><a href="/vida-de-iglesia/">Reuniones y grupos</a></li></ul></article>
     </div>

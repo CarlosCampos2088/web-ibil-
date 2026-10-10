@@ -151,12 +151,12 @@ permalink: /
       </div>
     </div>
     <div>
-      <h2>Cómo llegar</h2>
+      <h2>Dónde encontrarnos</h2>
       <dl class="datos-llegar" style="margin-top: var(--s-4)">
-        <dt>Dirección</dt><dd>{{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Local a pie de calle. <span class="pendiente">[FOTO PENDIENTE: fachada y puerta]</span></dd>
-        <dt>Aparcamiento y autobús</dt><dd><span class="pendiente">[PENDIENTE]</span></dd>
+        <dt>En Logroño</dt><dd>{{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Local a pie de calle. <a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Abrir en Google Maps</a><br><span class="pendiente">[FOTO PENDIENTE: fachada y puerta · aparcamiento y autobús]</span></dd>
+        <dt>En las redes</dt><dd><a href="{{ iglesia.redes.youtube }}" rel="noopener">YouTube</a> · <a href="{{ iglesia.redes.instagram }}" rel="noopener">Instagram</a> · <a href="{{ iglesia.redes.facebook }}" rel="noopener">Facebook</a> · TikTok, próximamente</dd>
+        <dt>Por escrito</dt><dd><a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">WhatsApp {{ iglesia.contacto.whatsapp }}</a> · <a href="mailto:{{ iglesia.contacto.correo }}">{{ iglesia.contacto.correo }}</a></dd>
       </dl>
-      <div class="botones" style="margin-top: var(--s-4)"><a class="boton boton--secundario" href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Abrir en Google Maps</a></div>
     </div>
   </div>
 </section>

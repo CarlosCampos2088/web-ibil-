@@ -148,5 +148,11 @@
     "De qué países es la congregación",
     "Tres testimonios breves",
     "Fotos: puerta con bienvenida, café, sala desde la entrada, fachada"
-  ]
+  ],
+  "calendarioGoogle": {
+    "id": "2b81d06caaf7045c1570a08c9cafacb676308ebf6067971c039713cb6d94a87e@group.calendar.google.com",
+    "nombre": "IBIL (Actividades IBIL)",
+    "publico": false,
+    "nota": "Hacerlo publico desde Google Calendar (ajustes del calendario > Permisos de acceso > Hacer disponible publicamente). Despues, el exportador podra leer el iCal."
+  }
 }
