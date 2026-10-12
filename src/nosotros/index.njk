@@ -3,7 +3,8 @@ layout: pagina.njk
 titulo: "Quiénes somos"
 intro: "Una iglesia evangélica bautista en Logroño. Pequeña, internacional y con la Biblia en el centro."
 descripcion: "Quiénes somos: la Iglesia Bautista Internacional de Logroño (IBIL), iglesia evangélica bautista, miembro de la UEBE."
-fotoCabecera: "congregacion-culto"
+fotoCabecera: "culto-de-pie-2"
+ctaFoto: "oracion-mayores"
 permalink: /nosotros/
 ---
 <section class="seccion">
@@ -17,6 +18,17 @@ permalink: /nosotros/
       <p>{{ iglesia.historia }}</p>
     </div>
     <figure class="figura figura--vertical">{% foto "cantantes" %}<figcaption>Alabanza en el culto del domingo.</figcaption></figure>
+  </div>
+</section>
+
+<section class="seccion seccion--blanco">
+  <div class="contenedor">
+    <div class="tira">
+      <figure class="tira__a">{% foto "predicador-joven-2", { sizes: "(min-width: 48rem) 40vw, 100vw" } %}</figure>
+      <figure class="tira__b">{% foto "hermana-lee", { sizes: "(min-width: 48rem) 30vw, 50vw" } %}</figure>
+      <figure class="tira__c">{% foto "joven-ora", { sizes: "(min-width: 48rem) 30vw, 50vw" } %}</figure>
+      <figure class="tira__d">{% foto "biblia-abierta", { sizes: "(min-width: 48rem) 30vw, 50vw" } %}</figure>
+    </div>
   </div>
 </section>
 

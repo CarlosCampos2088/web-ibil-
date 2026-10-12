@@ -172,3 +172,15 @@
 .pie .redes { flex-direction: column; gap: var(--s-2); }
 .pie .redes li a { color: var(--arena); min-height: 0; }
 .pie .redes__pronto { color: var(--azul-claro); }
+
+/* Tira de fotos: collage de cuatro con ritmo distinto (sin sombras ni esquinas) */
+.tira { display: grid; gap: var(--s-3); grid-template-columns: repeat(2, 1fr); }
+.tira figure img { width: 100%; height: 100%; object-fit: cover; }
+.tira__a { grid-column: span 2; } .tira__a img { aspect-ratio: 2 / 1; }
+.tira__b img, .tira__c img, .tira__d img { aspect-ratio: 1; }
+@media (min-width: 48rem) {
+  .tira { grid-template-columns: 4fr 3fr 3fr; grid-template-rows: 18rem 14rem; }
+  .tira__a { grid-column: 1; grid-row: 1 / 3; } .tira__a img { aspect-ratio: auto; }
+  .tira__b { grid-column: 2; grid-row: 1; } .tira__c { grid-column: 3; grid-row: 1; } .tira__d { grid-column: 2 / 4; grid-row: 2; }
+  .tira__b img, .tira__c img, .tira__d img { aspect-ratio: auto; }
+}

@@ -9,6 +9,8 @@
         <a class="boton boton--secundario" href="/eres-nuevo/">Qué esperar el domingo</a>
       </div>
     </div>
-    <figure class="figura">{% foto "saludo", { sizes: "(min-width: 48rem) 50vw, 100vw" } %}</figure>
+    {%- set rotacion = ["conversando","oracion-mayores","familia-lee","lector-biblia","hermana-lee","joven-ora","predicador-joven-2","oracion-de-pie"] -%}
+    {%- set f = ctaFoto or rotacion[(page.url | length) % 8] -%}
+    <figure class="figura">{% foto f, { sizes: "(min-width: 48rem) 50vw, 100vw" } %}</figure>
   </div>
 </section>
