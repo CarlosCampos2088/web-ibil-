@@ -110,7 +110,7 @@ h4 { font-family: var(--sans); font-weight: 600; font-size: var(--t-m); line-hei
   .cabecera .contenedor { min-height: 5.5rem; }
   .cabecera__logo img { height: 3.25rem; }
   .menu { display: flex; gap: var(--s-5); align-items: center; }
-  .menu a { color: var(--azul); text-decoration: none; font-weight: 600; font-size: var(--t-s); padding: var(--s-2) 0; border-bottom: 2px solid transparent; }
+  .menu a { color: var(--azul); text-decoration: none; font-weight: 600; font-size: var(--t-s); padding: var(--s-2) 0; border-bottom: 2px solid transparent; white-space: nowrap; }
   .menu a:hover, .menu a[aria-current="page"] { border-bottom-color: var(--azul); }
   .menu a.boton { color: var(--blanco); padding: 0 var(--s-4); border: 1.5px solid var(--azul); }
   .menu a.boton:hover { background: var(--azul-ibil); border-color: var(--azul-ibil); }
