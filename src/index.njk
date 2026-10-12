@@ -9,7 +9,7 @@ permalink: /
 
 {# 1. Quiénes somos, dónde y cuándo: en una pantalla #}
 <section class="hero hero--portada">
-  {% foto "congregacion-espaldas", { clase: "hero__foto", sizes: "100vw", prioridad: true, alt: "" } %}
+  {% foto "culto-de-pie", { clase: "hero__foto", sizes: "100vw", prioridad: true, alt: "" } %}
   <div class="contenedor">
     <h1>Una iglesia en Logroño para conocer a <em>Jesús</em></h1>
     <p>Somos una iglesia evangélica bautista con personas de muchos países que hoy tienen su casa en Logroño. Ven tal como eres: alguien te recibirá en la puerta.</p>
@@ -154,7 +154,7 @@ permalink: /
       <h2>Dónde encontrarnos</h2>
       <dl class="datos-llegar" style="margin-top: var(--s-4)">
         <dt>En Logroño</dt><dd>{{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Local a pie de calle. <a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Abrir en Google Maps</a><br>{{ iglesia.llegar.autobus }} {{ iglesia.llegar.aparcamiento }}</dd>
-        <dt>En las redes</dt><dd><a href="{{ iglesia.redes.youtube }}" rel="noopener">YouTube</a> · <a href="{{ iglesia.redes.instagram }}" rel="noopener">Instagram</a> · <a href="{{ iglesia.redes.facebook }}" rel="noopener">Facebook</a> · TikTok, próximamente</dd>
+        <dt>En las redes</dt><dd>{{ m.redes(iglesia) }}</dd>
         <dt>Por escrito</dt><dd><a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">WhatsApp {{ iglesia.contacto.whatsapp }}</a> · <a href="mailto:{{ iglesia.contacto.correo }}">{{ iglesia.contacto.correo }}</a></dd>
       </dl>
     </div>

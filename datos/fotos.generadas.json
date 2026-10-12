@@ -1,6 +1,6 @@
 {
   "congregacion-culto": {
-    "clave": "1791647253919.893|null",
+    "clave": "1791647253919.893|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -15,7 +15,7 @@
     }
   },
   "congregacion-espaldas": {
-    "clave": "1791644111006.5476|null",
+    "clave": "1791644111006.5476|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -34,7 +34,7 @@
     }
   },
   "sala-culto": {
-    "clave": "1791647255505.0508|null",
+    "clave": "1791647255505.0508|null|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -53,7 +53,7 @@
     }
   },
   "predicacion-pulpito": {
-    "clave": "1791647256401.2212|null",
+    "clave": "1791647256401.2212|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -72,7 +72,7 @@
     }
   },
   "predicador-biblia": {
-    "clave": "1791644110963.755|null",
+    "clave": "1791644110963.755|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -91,7 +91,7 @@
     }
   },
   "predicadora": {
-    "clave": "1791644110996.9893|null",
+    "clave": "1791644110996.9893|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -110,7 +110,7 @@
     }
   },
   "pastor-predica": {
-    "clave": "1791644111019.3552|null",
+    "clave": "1791644111019.3552|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -129,7 +129,7 @@
     }
   },
   "biblia-abierta": {
-    "clave": "1791644110973.8687|null",
+    "clave": "1791644110973.8687|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -148,7 +148,7 @@
     }
   },
   "biblia-manos": {
-    "clave": "1791647255586.5588|null",
+    "clave": "1791647255586.5588|null|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -167,7 +167,7 @@
     }
   },
   "biblia-bn": {
-    "clave": "1791647253851.0266|null",
+    "clave": "1791647253851.0266|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -182,7 +182,7 @@
     }
   },
   "cantando": {
-    "clave": "1791647253950.84|null",
+    "clave": "1791647253950.84|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -197,7 +197,7 @@
     }
   },
   "alabanza": {
-    "clave": "1791647256148.7356|null",
+    "clave": "1791647256148.7356|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -216,7 +216,7 @@
     }
   },
   "cantantes": {
-    "clave": "1791647256186.8325|null",
+    "clave": "1791647256186.8325|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -235,7 +235,7 @@
     }
   },
   "oracion-grupo": {
-    "clave": "1791647256112.7676|[0,0,0.83,1]",
+    "clave": "1791647256112.7676|[0,0,0.83,1]|null",
     "ancho": 4980,
     "alto": 4000,
     "medidas": {
@@ -254,7 +254,7 @@
     }
   },
   "oracion-hombre": {
-    "clave": "1791647255478.861|null",
+    "clave": "1791647255478.861|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -269,7 +269,7 @@
     }
   },
   "oracion-bn": {
-    "clave": "1791647255886.2239|null",
+    "clave": "1791647255886.2239|null|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -288,7 +288,7 @@
     }
   },
   "saludo": {
-    "clave": "1791647254383.1948|null",
+    "clave": "1791647254383.1948|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -303,7 +303,7 @@
     }
   },
   "mano-alzada": {
-    "clave": "1791647254852.5945|null",
+    "clave": "1791647254852.5945|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -318,7 +318,7 @@
     }
   },
   "pastores": {
-    "clave": "1791647253887.2864|null",
+    "clave": "1791647253887.2864|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -333,7 +333,7 @@
     }
   },
   "jovenes": {
-    "clave": "1791647255611.6116|null",
+    "clave": "1791647255611.6116|null|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -352,7 +352,7 @@
     }
   },
   "leyendo": {
-    "clave": "1791647255448.2632|null",
+    "clave": "1791647255448.2632|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -367,7 +367,7 @@
     }
   },
   "conversando": {
-    "clave": "1791647255743.4243|null",
+    "clave": "1791647255743.4243|null|null",
     "ancho": 2048,
     "alto": 1365,
     "medidas": {
@@ -386,7 +386,7 @@
     }
   },
   "predicador-mayor": {
-    "clave": "1791647254918.931|null",
+    "clave": "1791647254918.931|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -401,7 +401,7 @@
     }
   },
   "joven-escucha": {
-    "clave": "1791647254886.3303|null",
+    "clave": "1791647254886.3303|null|null",
     "ancho": 1350,
     "alto": 1350,
     "medidas": {
@@ -416,7 +416,7 @@
     }
   },
   "ninos-actuacion": {
-    "clave": "1791647256036.9783|null",
+    "clave": "1791647256036.9783|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -435,7 +435,7 @@
     }
   },
   "familia": {
-    "clave": "1791647256303.368|null",
+    "clave": "1791647256303.368|null|null",
     "ancho": 6000,
     "alto": 4000,
     "medidas": {
@@ -450,6 +450,310 @@
       "1600": {
         "width": 1600,
         "height": 1067
+      }
+    }
+  },
+  "culto-de-pie": {
+    "clave": "1791807722347.36|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "culto-de-pie-2": {
+    "clave": "1791807721377.478|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "sala-luminosa": {
+    "clave": "1791807715546.2488|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "biblia-subrayada": {
+    "clave": "1791807698694.4272|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "jovenes-biblia": {
+    "clave": "1791807712854.4941|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "familia-lee": {
+    "clave": "1791807718072.9624|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "mayores-leen": {
+    "clave": "1791807705687.8994|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "oracion-de-pie": {
+    "clave": "1791807706332.1997|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "oracion-mayores": {
+    "clave": "1791807713560.5613|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 320
+      },
+      "960": {
+        "width": 960,
+        "height": 640
+      },
+      "1600": {
+        "width": 1600,
+        "height": 1067
+      }
+    }
+  },
+  "hermano-biblia": {
+    "clave": "1791807720358.4934|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "predicador-joven": {
+    "clave": "1791807703048.0552|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "predicador-joven-2": {
+    "clave": "1791807702408.6084|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "hermana-lee": {
+    "clave": "1791807710003.9534|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "guitarra": {
+    "clave": "1791807714861.509|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "lector-biblia": {
+    "clave": "1791807707749.2158|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  },
+  "joven-ora": {
+    "clave": "1791807698060.6257|null|{\"brillo\":1.06,\"contraste\":1.08,\"saturacion\":0.92}",
+    "ancho": 6000,
+    "alto": 4000,
+    "medidas": {
+      "480": {
+        "width": 480,
+        "height": 720
+      },
+      "960": {
+        "width": 960,
+        "height": 1440
+      },
+      "1600": {
+        "width": 1600,
+        "height": 2400
       }
     }
   }

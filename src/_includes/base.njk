@@ -1,4 +1,4 @@
-<!doctype html>
+{% import "macros.njk" as m %}<!doctype html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
@@ -84,12 +84,7 @@
       </div>
       <div>
         <h4>Síguenos</h4>
-        <ul role="list">
-          <li><a href="{{ iglesia.redes.youtube }}" rel="noopener">YouTube</a></li>
-          <li><a href="{{ iglesia.redes.instagram }}" rel="noopener">Instagram</a></li>
-          <li><a href="{{ iglesia.redes.facebook }}" rel="noopener">Facebook</a></li>
-          <li>TikTok, próximamente</li>
-        </ul>
+        {{ m.redes(iglesia) }}
       </div>
       <div class="pie__legal">
         <span>© {{ anio }} {{ iglesia.nombre }}</span>

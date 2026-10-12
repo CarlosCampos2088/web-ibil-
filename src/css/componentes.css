@@ -162,3 +162,13 @@
 .datos-llegar dt { font-weight: 600; color: var(--azul); margin-top: var(--s-4); }
 .datos-llegar dd { margin: var(--s-1) 0 0; color: var(--carbon); }
 .datos-llegar dt:first-child { margin-top: 0; }
+
+/* Redes sociales con icono (monocromo, color de marca) */
+.redes { display: flex; flex-wrap: wrap; gap: var(--s-3) var(--s-5); }
+.redes li a, .redes li.redes__pronto { display: inline-flex; align-items: center; gap: var(--s-2); font-weight: 600; text-decoration: none; color: var(--azul); min-height: 2.75rem; }
+.redes li a:hover span { text-decoration: underline; }
+.redes svg { width: 1.6rem; height: 1.6rem; flex: none; }
+.redes__pronto { color: var(--pizarra); font-weight: 400; }
+.pie .redes { flex-direction: column; gap: var(--s-2); }
+.pie .redes li a { color: var(--arena); min-height: 0; }
+.pie .redes__pronto { color: var(--azul-claro); }

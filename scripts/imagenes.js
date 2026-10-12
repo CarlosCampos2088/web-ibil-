@@ -16,7 +16,7 @@ try { generadas = JSON.parse(await readFile("datos/fotos.generadas.json", "utf8"
 for (const [slug, f] of Object.entries(catalogo)) {
   const origen = path.join("fotos", f.archivo);
   const mtime = (await stat(origen)).mtimeMs;
-  const clave = mtime + "|" + JSON.stringify(f.recorte || null);
+  const clave = mtime + "|" + JSON.stringify(f.recorte || null) + "|" + JSON.stringify(f.ajuste || null);
   if (generadas[slug]?.clave === clave) continue; // ya está hecha
 
   let base = sharp(origen).rotate();
@@ -27,6 +27,12 @@ for (const [slug, f] of Object.entries(catalogo)) {
     const ancho = meta.orientation >= 5 ? meta.height : meta.width, alto = meta.orientation >= 5 ? meta.width : meta.height;
     base = base.extract({ left: Math.round(l * ancho), top: Math.round(t * alto), width: Math.round(w * ancho), height: Math.round(h * alto) });
     meta = { width: Math.round(w * ancho), height: Math.round(h * alto) };
+  }
+  // Retoque suave opcional
+  if (f.ajuste) {
+    const a = f.ajuste;
+    base = base.modulate({ brightness: a.brillo ?? 1, saturation: a.saturacion ?? 1 });
+    if (a.contraste && a.contraste !== 1) base = base.linear(a.contraste, 128 * (1 - a.contraste));
   }
   const medidas = {};
   for (const w of ANCHOS) {
