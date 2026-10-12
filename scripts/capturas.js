@@ -6,7 +6,7 @@ import { mkdir } from "node:fs/promises";
 const base = process.argv[2] || "http://localhost:8080";
 const salida = process.argv[3] || "_tmp/capturas";
 const CHROME = "C:/Program Files/Google/Chrome/Application/chrome.exe";
-const paginas = ["/", "/eres-nuevo/", "/conoce-a-jesus/", "/predicaciones/", "/predicaciones/2026-09-20-cuando-un-hermano-se-extravia/", "/vida-de-iglesia/", "/nosotros/", "/contacto/"];
+const paginas = ["/", "/eres-nuevo/", "/conoce-a-jesus/", "/predicaciones/", "/predicaciones/2026-09-20-cuando-un-hermano-se-extravia/", "/predicaciones/en-un-minuto/", "/noticias/", "/agenda/", "/nosotros/", "/nosotros/que-creemos/", "/vida-de-iglesia/", "/vida-de-iglesia/ninos-y-jovenes/", "/contacto/"];
 const vistas = { movil: { width: 390, height: 844, isMobile: true, hasTouch: true, deviceScaleFactor: 2 }, escritorio: { width: 1440, height: 900 } };
 
 await mkdir(salida, { recursive: true });

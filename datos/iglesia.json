@@ -70,7 +70,7 @@
       },
       {
         "cuando": "Primer sábado de cada mes",
-        "hora": "18:00",
+        "hora": "17:30 - 20:00",
         "nombre": "Años Dorados",
         "detalle": "Encuentro para mayores de 50 años. Además, paseos, encuentros y actividades durante el año."
       }
@@ -141,18 +141,66 @@
     }
   ],
   "pendientes": [
-    "Año de fundación (Carlos lo pasa)",
     "Entidad titular, NIF y registro de entidades religiosas (solo para aviso legal y privacidad)",
     "Aparcamiento y autobús (Carlos lo pasa)",
-    "Calendario de Google público (lo crea Claude con Carlos)",
+    "Calendario de Google «IBIL»: hacerlo público (Carlos) y conectarlo (Claude)",
     "De qué países es la congregación",
     "Tres testimonios breves",
-    "Fotos: puerta con bienvenida, café, sala desde la entrada, fachada"
+    "Fotos: puerta con bienvenida, café, sala desde la entrada, fachada",
+    "Descripciones oficiales de los ministerios (documento de Patricia Fernández)",
+    "Ministerio juvenil: confirmar que ha arrancado para mostrarlo",
+    "Proyecto social concreto, si se quiere mencionar"
   ],
   "calendarioGoogle": {
     "id": "2b81d06caaf7045c1570a08c9cafacb676308ebf6067971c039713cb6d94a87e@group.calendar.google.com",
     "nombre": "IBIL (Actividades IBIL)",
     "publico": false,
     "nota": "Hacerlo publico desde Google Calendar (ajustes del calendario > Permisos de acceso > Hacer disponible publicamente). Despues, el exportador podra leer el iCal."
-  }
+  },
+  "fundacion": {
+    "fecha": "2024-03",
+    "texto": "marzo de 2024",
+    "nota": "Firma del contrato del local de Ronda de los Cuarteles, 32 (Carlos, 12/10/2026)"
+  },
+  "historia": "Nuestra historia empieza en Calahorra. Durante un tiempo nos congregamos en la Iglesia Bautista Internacional de Calahorra, punto de misión de la Iglesia Evangélica Bautista de Tudela. Desde 2023 comenzamos a reunirnos en Logroño, en los hogares de dos familias de la congregación, y en marzo de 2024 dimos el paso de abrir nuestro propio local en la calle Ronda de los Cuarteles.",
+  "ministerios": [
+    {
+      "nombre": "Evangelización y Misiones",
+      "cuando": "",
+      "detalle": "Anunciar el evangelio en Logroño y apoyar la misión más allá de la ciudad.",
+      "pendiente": "descripción oficial"
+    },
+    {
+      "nombre": "Alabanza",
+      "cuando": "Domingos en el culto",
+      "detalle": "Dirigir los cantos del culto.",
+      "pendiente": "descripción oficial"
+    },
+    {
+      "nombre": "Servicio",
+      "cuando": "",
+      "detalle": "Atender las necesidades prácticas de la iglesia y de quien llega.",
+      "pendiente": "descripción oficial"
+    },
+    {
+      "nombre": "Escuela Dominical para niños",
+      "cuando": "Domingos a las 12:00, durante la predicación",
+      "detalle": "Clase para niños de hasta 12 años.",
+      "pendiente": "descripción oficial"
+    },
+    {
+      "nombre": "Años Dorados",
+      "cuando": "Primer sábado de cada mes, 17:30 - 20:00",
+      "detalle": "Encuentro para mayores de 50 años.",
+      "pendiente": "descripción oficial"
+    },
+    {
+      "nombre": "Ministerio juvenil",
+      "cuando": "",
+      "detalle": "Reuniones para jóvenes.",
+      "pendiente": "descripción oficial",
+      "oculto": true,
+      "nota": "Parado; se reactiva en octubre de 2026. Mostrar cuando Carlos confirme (quitar \"oculto\")."
+    }
+  ]
 }

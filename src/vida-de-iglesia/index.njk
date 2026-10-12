@@ -25,7 +25,7 @@ permalink: /vida-de-iglesia/
   <div class="contenedor destacado">
     <figure class="figura">{% foto "cantando", { sizes: "(min-width: 48rem) 50vw, 100vw" } %}</figure>
     <div class="prosa">
-      <p class="secundario">Primer sábado de cada mes, a las 18:00</p>
+      <p class="secundario">{{ iglesia.horarios.semana[2].cuando }}, de {{ iglesia.horarios.semana[2].hora }}</p>
       <h2 style="margin-top: var(--s-2)">Años Dorados</h2>
       <p class="grande">Un encuentro para mayores de 50 años: merienda, conversación, la Biblia y mucha risa. Y durante el año, paseos, encuentros y salidas.</p>
       <p>Si tienes más de 50 y te apetece conocer gente en Logroño, este es tu sitio. No hace falta ser de la iglesia. <span class="pendiente">[PENDIENTE: confirmar descripción y quién lo coordina]</span></p>
@@ -49,14 +49,11 @@ permalink: /vida-de-iglesia/
 <section class="seccion">
   <div class="contenedor">
     <h2>Cómo servimos</h2>
-    <p class="secundario" style="margin-top: var(--s-2)">Los ministerios de la iglesia. <span class="pendiente">[PENDIENTE: confirmar cuáles siguen activos]</span></p>
+    <p class="secundario" style="margin-top: var(--s-2)">Los ministerios de la iglesia. Las descripciones oficiales están en preparación.</p>
     <div class="grupos" style="margin-top: var(--s-5)">
-      <article class="grupo"><h3>Adoración</h3><p>Adorar a Dios, rendirle culto y alabarle con cantos y oración.</p></article>
-      <article class="grupo"><h3>Oración</h3><p>Acercarnos a Jesús con confianza; en Él hay descanso y esperanza.</p></article>
-      <article class="grupo"><h3>Enseñanza</h3><p>Edificar y formar mediante el estudio de la Biblia.</p></article>
-      <article class="grupo"><h3>Evangelismo</h3><p>Ser luz y proclamar que Jesús ha resucitado y ofrece salvación y vida eterna a quien pone su fe en Él.</p></article>
-      <article class="grupo"><h3>Servicio</h3><p>Servir a la iglesia y a la comunidad (Mateo 25:31-46; Marcos 10:45; Efesios 4:12).</p></article>
-      <article class="grupo"><h3>Administración y comunicación</h3><p>Anuncios, redes sociales y la organización de cada semana.</p></article>
+      {% for mi in iglesia.ministerios %}{% if not mi.oculto %}
+      <article class="grupo">{% if mi.cuando %}<p class="cuando">{{ mi.cuando }}</p>{% endif %}<h3>{{ mi.nombre }}</h3><p>{{ mi.detalle }}{% if mi.pendiente %} <span class="pendiente">[PENDIENTE: {{ mi.pendiente }}]</span>{% endif %}</p></article>
+      {% endif %}{% endfor %}
     </div>
   </div>
 </section>

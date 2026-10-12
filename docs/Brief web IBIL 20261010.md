@@ -59,7 +59,7 @@ Sustituir la web actual (Google Sites, https://www.iglesiabautistalogrono.com/) 
 | Pastor | Felipe Albacete (pastor presidente), con su esposa, la misionera Patricia Fernández | Guía, folleto, web actual |
 | Trayectoria del pastor | Desde 2011 dedicados a la revitalización y plantación de iglesias en Navarra, La Rioja y Soria; Felipe es presidente de la AIBNE (Asociación de Iglesias Bautistas del Norte de España) | Web actual |
 | Diáconos | Carlos Campos y su esposa Evelyn Torres (en la web actual aparece «Carmpos»: es una errata) | Web actual |
-| Origen | Fruto de la obra misionera de la Iglesia Evangélica Bautista de Tudela (IEBT). Año: [PENDIENTE, ver 2.2] | Folleto, web actual |
+| Origen | Fruto de la obra misionera de la Iglesia Evangélica Bautista de Tudela (IEBT), a través de su punto de misión de Calahorra. Fundación oficial: **marzo de 2024** (firma del contrato del local de Ronda de los Cuarteles, 32). Antes: reuniones en la IB Internacional de Calahorra y, desde 2023, en hogares de la congregación en Logroño (actualización 12/10/2026) | Folleto, web actual |
 | Afiliación | Unión Evangélica Bautista de España (UEBE); apoya el Pacto Bautista. Relación con la AIBNE a través del pastor | Folleto, web actual |
 | Misión | Llevar la luz de Cristo a cada persona, ciudad y nación (Col 1:28; Jn 8:12; Mt 5:14-16) | Web actual y folleto |
 | Lema | Firmes en la Verdad · Creciendo en Cristo · Haciendo discípulos | Web actual y folleto |
@@ -79,7 +79,7 @@ Sustituir la web actual (Google Sites, https://www.iglesiabautistalogrono.com/) 
 
 | Dato | Folleto (oct. 2024) | Web actual (2026) | Guía (ago. 2025) | Qué usar mientras tanto |
 |---|---|---|---|---|
-| Año de fundación | 2019 | 2024 | — | [PENDIENTE: año] |
+| Año de fundación | 2019 | 2024 | — | **Marzo de 2024** (resuelto el 12/10/2026: firma del contrato del local) |
 | Nombre | IBIL (con errata «IBIC») | IBIL; en la página de privacidad, «IEBIL» | IBIL | IBIL |
 | Correo | iglesiatudela@gmail.com | redesiebal@gmail.com | iglesiatudela@gmail.com | redesiebal@gmail.com [PENDIENTE confirmar] |
 | Domingo | Tarde: bienvenida 17:00, oración 17:30, culto 18:00 | Mañana: oración 10:00 a culto 13:30 | — | El de la web actual [PENDIENTE confirmar] |
@@ -125,7 +125,13 @@ Fuente: web actual (2026). [PENDIENTE: confirmar con Carlos que siguen vigentes.
 | Durante el año | Otras actividades | Jóvenes, Hombres de Valor, Mujeres de Fe, Matrimonios, caminatas de oración, salidas evangelísticas, talleres de capacitación y discipulado |
 | Semanal (folleto 2024) | Grupos Crecer | Grupos de 3 a 15 personas, presenciales y en línea, en la iglesia y en casas, para orar, estudiar la Biblia y ponerla en práctica [PENDIENTE: ¿siguen activos?] |
 
-### 3.3. Ministerios (web actual)
+### 3.3. Ministerios vigentes (actualización 12/10/2026; sustituye la lista de la web actual)
+- Evangelización y Misiones · Alabanza · Servicio · Escuela Dominical para niños (hasta 12 años, durante la predicación) · Años Dorados (mayores de 50; primer sábado de cada mes, 17:30-20:00).
+- Ministerio juvenil: parado, se reactivará en octubre de 2026. No se muestra hasta que Carlos confirme; su tarjeta queda preparada y oculta.
+- Descripciones oficiales: llegarán en un documento de Patricia Fernández. Mientras tanto, una frase breve y neutra por ministerio, marcada [PENDIENTE: descripción oficial], sin inventar actividades.
+- La oración del domingo, el estudio del miércoles y la vigilia mensual son actividades del horario, no ministerios.
+
+#### 3.3 (antiguo). Ministerios según la web actual (solo referencia)
 - Adoración: adorar a Dios, rendirle culto y alabarle.
 - Oración: acercarnos a Jesús con confianza; en Él hay descanso y esperanza.
 - Enseñanza: edificar y formar mediante el estudio de la Biblia.
@@ -354,7 +360,17 @@ Opcional: vídeo de unos dos minutos con un fragmento de predicación que presen
 - Añadir una predicación debe consistir en crear un solo archivo de texto (apartado 13.3).
 
 ### 7.4. Quiénes somos (/nosotros/)
-BORRADOR:
+BORRADOR (actualización 12/10/2026, prevalece):
+
+«Somos la Iglesia Bautista Internacional de Logroño (IBIL), una iglesia pequeña que está empezando, y eso nos permite conocernos por el nombre y caminar como una familia. Estamos bajo el ministerio del pastor Felipe Albacete, con la colaboración de los diáconos Carlos Campos y Evelyn Torres. Nuestra seña de identidad es volver a la Biblia: todo dentro de la Biblia y nada fuera de ella. Desde ahí queremos servir también a nuestra ciudad.»
+
+Bloque «Nuestra historia»: «Nuestra historia empieza en Calahorra. Durante un tiempo nos congregamos en la Iglesia Bautista Internacional de Calahorra, punto de misión de la Iglesia Evangélica Bautista de Tudela. Desde 2023 comenzamos a reunirnos en Logroño, en los hogares de dos familias de la congregación, y en marzo de 2024 dimos el paso de abrir nuestro propio local en la calle Ronda de los Cuarteles.» Nunca se publican las direcciones de esos hogares.
+
+Tono: ser pequeña es un valor (cercanía, familia, nadie pasa desapercibido), nunca una disculpa. Proyecto cristiano con carácter social, pero sobre todo bíblico. Sin inventar proyectos sociales: [PENDIENTE: proyecto social] si hace falta.
+
+Dominios: solo iglesiabautistalogrono.com (principal) e iglesiabautistalogroño.com (redirige). No se comprarán más.
+
+BORRADOR anterior (sustituido):
 
 «Somos la Iglesia Bautista Internacional de Logroño (IBIL), una iglesia evangélica que busca conocer y vivir la Palabra de Dios, anunciar el evangelio de Jesucristo y hacer discípulos.
 
@@ -782,7 +798,6 @@ Plazo orientativo: la primera versión publicable en unas 4-6 sesiones de trabaj
 | Dato | Lo aporta | Mientras tanto |
 |---|---|---|
 | Horario vigente (mañana o tarde) | Carlos | El de la web actual |
-| Año de fundación (2019 o 2024) | Carlos | [PENDIENTE: año] |
 | Correo que se publica | Carlos | redesiebal@gmail.com |
 | WhatsApp de la iglesia | Carlos | Sin botón de WhatsApp |
 | Consentimiento para publicar algún teléfono | Pastor | Sin teléfono |
