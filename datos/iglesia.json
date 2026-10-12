@@ -142,11 +142,9 @@
   ],
   "pendientes": [
     "Entidad titular, NIF y registro de entidades religiosas (solo para aviso legal y privacidad)",
-    "Aparcamiento y autobús (Carlos lo pasa)",
+    "Foto de la fachada y de Carlos y Evelyn (cuando se pueda)",
     "Calendario de Google «IBIL»: hacerlo público (Carlos) y conectarlo (Claude)",
     "De qué países es la congregación",
-    "Tres testimonios breves",
-    "Fotos: puerta con bienvenida, café, sala desde la entrada, fachada",
     "Descripciones oficiales de los ministerios (documento de Patricia Fernández)",
     "Ministerio juvenil: confirmar que ha arrancado para mostrarlo",
     "Proyecto social concreto, si se quiere mencionar"
@@ -202,5 +200,10 @@
       "oculto": true,
       "nota": "Parado; se reactiva en octubre de 2026. Mostrar cuando Carlos confirme (quitar \"oculto\")."
     }
-  ]
+  ],
+  "llegar": {
+    "aparcamiento": "Hay zona blanca (aparcamiento gratuito) en las calles de alrededor, aunque escasa, como en todo Logroño. Los domingos por la mañana suele ser más fácil.",
+    "autobus": "Línea 3 del autobús urbano (El Campillo – Villamediana), parada «Ronda de los Cuarteles», en la calle Carmen Medrano, a un paso del local.",
+    "autobusNota": "Fuente: guía de accesibilidad de Logroño y Ayuntamiento (línea 3). Conviene confirmar en transporteurbano.logrono.es antes de publicar."
+  }
 }

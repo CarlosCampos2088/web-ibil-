@@ -58,7 +58,7 @@ permalink: /
 <section class="seccion seccion--blanco">
   <div class="contenedor">
     <h2>Gente de muchos países, con casa en Logroño</h2>
-    <p class="grande texto" style="margin-top: var(--s-3)">Una iglesia pequeña donde se aprende el nombre de cada persona, con familias llegadas de distintos países y de aquí. <span class="pendiente">[PENDIENTE: de qué países; y tres testimonios breves]</span></p>
+    <p class="grande texto" style="margin-top: var(--s-3)">Una iglesia pequeña donde se aprende el nombre de cada persona, con familias llegadas de distintos países y de aquí. Si llegaste hace poco a la ciudad, aquí hay quien pasó por lo mismo.</p>
     <div class="mosaico" style="margin-top: var(--s-5)">
       <figure>{% foto "congregacion-culto", { sizes: "(min-width: 48rem) 50vw, 50vw" } %}</figure>
       <figure>{% foto "saludo", { sizes: "25vw" } %}</figure>
@@ -153,7 +153,7 @@ permalink: /
     <div>
       <h2>Dónde encontrarnos</h2>
       <dl class="datos-llegar" style="margin-top: var(--s-4)">
-        <dt>En Logroño</dt><dd>{{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Local a pie de calle. <a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Abrir en Google Maps</a><br><span class="pendiente">[FOTO PENDIENTE: fachada y puerta · aparcamiento y autobús]</span></dd>
+        <dt>En Logroño</dt><dd>{{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}. Local a pie de calle. <a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Abrir en Google Maps</a><br>{{ iglesia.llegar.autobus }} {{ iglesia.llegar.aparcamiento }}</dd>
         <dt>En las redes</dt><dd><a href="{{ iglesia.redes.youtube }}" rel="noopener">YouTube</a> · <a href="{{ iglesia.redes.instagram }}" rel="noopener">Instagram</a> · <a href="{{ iglesia.redes.facebook }}" rel="noopener">Facebook</a> · TikTok, próximamente</dd>
         <dt>Por escrito</dt><dd><a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">WhatsApp {{ iglesia.contacto.whatsapp }}</a> · <a href="mailto:{{ iglesia.contacto.correo }}">{{ iglesia.contacto.correo }}</a></dd>
       </dl>
