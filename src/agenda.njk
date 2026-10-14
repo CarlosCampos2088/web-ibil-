@@ -14,7 +14,7 @@ permalink: /agenda/
         {% for a in agendaProxima %}
         <li>
           <div class="agenda__fecha"><b>{{ a.fecha | dia }}</b><span>{{ a.fecha | mes }}</span></div>
-          <div><span class="agenda__hora">{{ a.fecha | diaSemana }} {{ a.hora }}{% if a.fin %} - {{ a.fin }}{% endif %}</span><h4>{{ a.nombre }}</h4>{% if a.detalle %}<p class="agenda__detalle">{{ a.detalle }}</p>{% endif %}</div>
+          <div><span class="agenda__hora">{{ a.fecha | diaSemana }} {{ a.hora }}{% if a.fin %} - {{ a.fin }}{% endif %}</span><h3 class="h4">{{ a.nombre }}</h3>{% if a.detalle %}<p class="agenda__detalle">{{ a.detalle }}</p>{% endif %}</div>
         </li>
         {% endfor %}
       </ol>
@@ -25,8 +25,8 @@ permalink: /agenda/
     <div>
       <h2>Cada semana</h2>
       <ol class="horario" role="list" style="margin-top: var(--s-5)">
-        {% for a in iglesia.horarios.domingo %}<li><time>{{ a.hora }}</time><div><h4>Domingo: {{ a.nombre }}</h4>{% if a.detalle %}<p>{{ a.detalle }}</p>{% endif %}</div></li>{% endfor %}
-        {% for a in iglesia.horarios.semana %}<li><time>{{ a.hora | truncate(5, true, "") }}</time><div><h4>{{ a.cuando }}: {{ a.nombre }}</h4><p>{{ a.detalle }}</p></div></li>{% endfor %}
+        {% for a in iglesia.horarios.domingo %}<li><time>{{ a.hora }}</time><div><h3 class="h4">Domingo: {{ a.nombre }}</h3>{% if a.detalle %}<p>{{ a.detalle }}</p>{% endif %}</div></li>{% endfor %}
+        {% for a in iglesia.horarios.semana %}<li><time>{{ a.hora | truncate(5, true, "") }}</time><div><h3 class="h4">{{ a.cuando }}: {{ a.nombre }}</h3><p>{{ a.detalle }}</p></div></li>{% endfor %}
       </ol>
       <p class="secundario" style="margin-top: var(--s-4)">Todo en {{ iglesia.direccion.calle }}, {{ iglesia.direccion.ciudad }}.</p>
     </div>
