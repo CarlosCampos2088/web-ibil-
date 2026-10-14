@@ -41,7 +41,7 @@ Prioridad si algo se contradice: 1) lo que diga Carlos en la sesión; 2) este ar
 ## Reglas técnicas
 - Móvil primero; WCAG 2.2 AA; Lighthouse móvil ≥ 90 en las cuatro categorías; zoom nunca bloqueado.
 - Nada de terceros antes del consentimiento. Decisión 14/10/2026 tras revisión legal doble: sin banner de cookies; la web no guarda nada en el navegador y YouTube solo se carga al pulsar cada vídeo, con aviso previo (cookies y EE. UU.) y alternativa «Ver en youtube.com». Maps y Calendar, solo enlaces.
-- Formulario sin preguntas religiosas (RGPD art. 9); peticiones de oración por WhatsApp o correo.
+- Formulario sin preguntas religiosas (RGPD art. 9); peticiones de oración por WhatsApp o correo, que solo ven el pastor y los diáconos (confirmado por Carlos el 15/10/2026; así figura en la privacidad).
 - Portabilidad: nada específico de Cloudflare en el HTML; `_redirects` y `_headers` en `public/`, con equivalente documentado en el README.
 - Año del pie automático. Nunca mostrar actos pasados.
 - Ninguna clave, contraseña ni dato personal no público en el repositorio.
