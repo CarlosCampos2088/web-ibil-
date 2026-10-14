@@ -185,3 +185,5 @@
   .tira__b { grid-column: 2; grid-row: 1; } .tira__c { grid-column: 3; grid-row: 1; } .tira__d { grid-column: 2 / 4; grid-row: 2; }
   .tira__b img, .tira__c img, .tira__d img { aspect-ratio: auto; }
 }
+
+.video__alternativa { margin-top: var(--s-2); font-size: var(--t-xs); color: var(--pizarra); }

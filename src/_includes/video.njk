@@ -1,9 +1,11 @@
-{#- Vídeo de YouTube que no carga nada hasta que la persona pulsa. Variables: id, titulo, vertical, foto -#}
+{#- Vídeo de YouTube que no carga nada hasta que la persona pulsa (el clic es su consentimiento para ese vídeo).
+    Variables: id, titulo, vertical, fotoVideo -#}
 <div class="video{% if vertical %} video--vertical{% endif %}" data-youtube="{{ id }}">
   {% if fotoVideo %}{% foto fotoVideo, { sizes: "(min-width: 64rem) 60vw, 100vw", alt: "" } %}{% endif %}
   <button type="button" data-titulo="{{ titulo }}">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-2 14.5v-9l7 4.5-7 4.5z"/></svg>
     <span>Ver {% if vertical %}el vídeo{% else %}la predicación{% endif %}</span>
-    <small>Se abre el reproductor de YouTube al pulsar.</small>
+    <small>Al pulsar se carga YouTube (Google), que puede instalar cookies de medición y publicidad y tratar datos en EE. UU.</small>
   </button>
 </div>
+{% if not vertical %}<p class="video__alternativa">¿Prefieres no cargarlo aquí? <a href="https://www.youtube.com/watch?v={{ id }}" rel="noopener">Ver en youtube.com</a> · <a href="/cookies/">Cookies</a></p>{% endif %}

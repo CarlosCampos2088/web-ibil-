@@ -8,6 +8,7 @@ permalink: /predicaciones/en-un-minuto/
 <section class="seccion">
   <div class="contenedor">
     {% if feed.shorts.length %}
+    <p class="secundario" style="margin-bottom: var(--s-5)">Al pulsar un vídeo se carga YouTube (Google), que puede instalar cookies de medición y publicidad y tratar datos en EE. UU. <a href="/cookies/">Más información</a>. También están en <a href="{{ iglesia.redes.youtube }}" rel="noopener">nuestro canal de YouTube</a>.</p>
     <div class="shorts">
       {% for s in feed.shorts.slice(0, 24) %}
       <article class="short">

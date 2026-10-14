@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="/css/tokens.css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/componentes.css">
-  <link rel="stylesheet" href="/css/cookies.css">
   {% if noindex %}<meta name="robots" content="noindex">{% endif %}
 </head>
 <body>
@@ -94,7 +93,6 @@
         <a href="/privacidad/">Privacidad</a>
         <a href="/cookies/">Cookies</a>
         <a href="/accesibilidad/">Accesibilidad</a>
-        <a href="/cookies/" data-abrir-cookies>Configurar cookies</a>
         <span class="pie__rv60">Texto bíblico: Reina-Valera 1960 © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988. Utilizado con permiso.</span>
       </div>
     </div>
@@ -105,11 +103,9 @@
     <a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l1.3-3.8A8 8 0 1 1 8 19.2L4 20z"/></svg>WhatsApp</a>
   </nav>
 
-  {% include "cookies.njk" %}
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Church","name":"{{ iglesia.nombre }}","alternateName":"{{ iglesia.sigla }}","url":"https://www.iglesiabautistalogrono.com/","logo":"https://www.iglesiabautistalogrono.com/icono-192.png","image":"https://www.iglesiabautistalogrono.com/img/og.jpg","email":"{{ iglesia.contacto.correo }}","telephone":"+34{{ iglesia.contacto.whatsapp | replace(" ", "") }}","address":{"@type":"PostalAddress","streetAddress":"Ronda de los Cuarteles, 32, bajo","postalCode":"{{ iglesia.direccion.cp }}","addressLocality":"{{ iglesia.direccion.ciudad }}","addressRegion":"{{ iglesia.direccion.provincia }}","addressCountry":"ES"},"geo":{"@type":"GeoCoordinates","latitude":{{ iglesia.direccion.lat }},"longitude":{{ iglesia.direccion.lng }}},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"10:00","closes":"13:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"19:00","closes":"20:30"}],"sameAs":["{{ iglesia.redes.youtube }}","{{ iglesia.redes.instagram }}","{{ iglesia.redes.facebook }}"],"memberOf":{"@type":"Organization","name":"Unión Evangélica Bautista de España","url":"https://uebe.org/"}}
   </script>
   <script src="/js/web.js" defer></script>
-  <script src="/js/cookies.js" defer></script>
 </body>
 </html>

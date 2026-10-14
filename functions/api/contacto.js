@@ -11,7 +11,8 @@
 // Portabilidad: si la web se muda de Cloudflare, este archivo se sustituye por cualquier
 // servicio de formularios; el HTML del formulario no cambia salvo el atributo action.
 
-const VERSION_PRIVACIDAD = "1.0 (octubre de 2026)";
+const VERSION_PRIVACIDAD = "1.0 (14 de octubre de 2026)"; // debe coincidir con el pie de /privacidad/
+const URL_PRIVACIDAD = "https://www.iglesiabautistalogrono.com/privacidad/";
 
 export async function onRequestPost({ request, env }) {
   const datos = await request.formData();
@@ -43,9 +44,9 @@ export async function onRequestPost({ request, env }) {
     `Nombre: ${nombre}\nCorreo: ${correo}\n\n${mensaje}\n\n` +
     `— — —\nPrueba del consentimiento (RGPD art. 7.1):\n` +
     `Fecha y hora: ${ahora} (hora de Madrid)\n` +
-    `Casilla «He leído y acepto la política de privacidad»: marcada\n` +
-    `Versión de la política aceptada: ${VERSION_PRIVACIDAD}\n` +
-    `Conservar este correo como máximo un año (ver política de privacidad).`;
+    `Casilla «Consiento que la Iglesia Evangélica Bautista de Tudela trate los datos que facilito para atender mi consulta. He leído la política de privacidad»: marcada\n` +
+    `Versión de la política: ${VERSION_PRIVACIDAD} (${URL_PRIVACIDAD})\n` +
+    `Conservación: borrar este correo al año de recibirlo; lo imprescindible, bloqueado (art. 32 LOPDGDD).`;
 
   const envio = await fetch("https://api.resend.com/emails", {
     method: "POST",
