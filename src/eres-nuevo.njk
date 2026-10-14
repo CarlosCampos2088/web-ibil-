@@ -23,9 +23,9 @@ permalink: /eres-nuevo/
       <p style="margin-top: var(--s-3)">Puedes llegar a cualquiera de las horas. Lo más habitual, si es tu primera vez, es venir a las {{ iglesia.horarios.domingo[2].hora }}.</p>
       <ol class="horario" role="list" style="margin-top: var(--s-5)">
         {% for a in iglesia.horarios.domingo %}
-        <li><time>{{ a.hora }}</time><div><h4>{{ a.nombre }}{% if a.alias %} <span class="secundario">(la «{{ a.alias }}»)</span>{% endif %}</h4><p>{{ a.detalle }}</p></div></li>
+        <li><time>{{ a.hora }}</time><div><h3 class="h4">{{ a.nombre }}{% if a.alias %} <span class="secundario">(la «{{ a.alias }}»)</span>{% endif %}</h3><p>{{ a.detalle }}</p></div></li>
         {% endfor %}
-        <li><time>13:30</time><div><h4>Terminamos</h4><p>Nos quedamos un rato charlando. Una vez al trimestre comemos juntos después del culto.</p></div></li>
+        <li><time>13:30</time><div><h3 class="h4">Terminamos</h3><p>Nos quedamos un rato charlando. Una vez al trimestre comemos juntos después del culto.</p></div></li>
       </ol>
     </div>
     <figure class="figura">{% foto "sala-culto" %}<figcaption>La sala durante un culto.</figcaption></figure>

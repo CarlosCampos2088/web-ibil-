@@ -69,13 +69,13 @@
     <div class="contenedor">
       <div class="pie__logo"><img src="/img/marca/logo-vertical-blanco.svg" alt="{{ iglesia.nombre }}" width="112" height="86"></div>
       <div>
-        <h4>Dónde y cuándo</h4>
+        <h3 class="h4">Dónde y cuándo</h3>
         <address>{{ iglesia.direccion.calle }}<br>{{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}</address>
         <p>Domingos a las {{ iglesia.horarios.domingo[2].hora }}, culto de adoración.</p>
         <p><a href="{{ iglesia.direccion.mapsUrl }}" rel="noopener">Cómo llegar</a></p>
       </div>
       <div>
-        <h4>Escríbenos</h4>
+        <h3 class="h4">Escríbenos</h3>
         <ul role="list">
           <li><a href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">WhatsApp {{ iglesia.contacto.whatsapp }}</a></li>
           <li><a href="mailto:{{ iglesia.contacto.correo }}">{{ iglesia.contacto.correo }}</a></li>
@@ -84,7 +84,7 @@
         </ul>
       </div>
       <div>
-        <h4>Síguenos</h4>
+        <h3 class="h4">Síguenos</h3>
         {{ m.redes(iglesia) }}
       </div>
       <div class="pie__legal">

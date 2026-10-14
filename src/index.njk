@@ -115,7 +115,7 @@ permalink: /
         {% for a in agendaProxima.slice(0, 3) %}
         <li>
           <div class="agenda__fecha"><b>{{ a.fecha | dia }}</b><span>{{ a.fecha | mes }}</span></div>
-          <div><span class="agenda__hora">{{ a.fecha | diaSemana }} {{ a.hora }}</span><h4>{{ a.nombre }}</h4></div>
+          <div><span class="agenda__hora">{{ a.fecha | diaSemana }} {{ a.hora }}</span><h3 class="h4">{{ a.nombre }}</h3></div>
         </li>
         {% endfor %}
       </ol>
