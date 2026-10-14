@@ -142,12 +142,12 @@
   ],
   "pendientes": [
     "Ministerio juvenil: día y hora",
-    "Descripciones oficiales de los ministerios (documento de Patricia)",
     "Gmail nuevo para contacto y formulario (cuando Carlos lo cree)",
     "Calendario Google «IBIL» público (Carlos, cuando quiera)",
     "Noticias: Carlos pasa las webs de noticieros cristianos; crear rutina quincenal",
     "Reflexión diaria: sesión fija en la nube tras la fase 5",
-    "N.º del Registro de Entidades Religiosas de la IEBT (para el aviso legal)"
+    "Gmail nuevo para contacto y formulario (Carlos lo dira; recordarselo)",
+    "Correo de la ficha de Google Maps (para enlazar la web nueva)"
   ],
   "calendarioGoogle": {
     "id": "2b81d06caaf7045c1570a08c9cafacb676308ebf6067971c039713cb6d94a87e@group.calendar.google.com",
@@ -165,38 +165,32 @@
     {
       "nombre": "Evangelización y Misiones",
       "cuando": "",
-      "detalle": "Anunciar el evangelio en Logroño y apoyar la misión más allá de la ciudad.",
-      "pendiente": "descripción oficial"
+      "detalle": "Existimos para ser luz y proclamar que Jesús ha resucitado y ofrece salvación y vida eterna a quien pone su fe en Él, en Logroño y más allá."
     },
     {
       "nombre": "Alabanza",
       "cuando": "Domingos en el culto",
-      "detalle": "Dirigir los cantos del culto.",
-      "pendiente": "descripción oficial"
+      "detalle": "Adorar a Dios, rendirle culto y alabarle es uno de nuestros grandes privilegios. Este equipo dirige los cantos de cada domingo."
     },
     {
       "nombre": "Servicio",
       "cuando": "",
-      "detalle": "Atender las necesidades prácticas de la iglesia y de quien llega.",
-      "pendiente": "descripción oficial"
+      "detalle": "Por medio del amor de Dios y la comunión fraternal servimos a la iglesia y a la comunidad (Mateo 25:31-46; Marcos 10:45; Efesios 4:12)."
     },
     {
       "nombre": "Escuela Dominical para niños",
       "cuando": "Domingos a las 12:00, durante la predicación",
-      "detalle": "Clase para niños de hasta 12 años.",
-      "pendiente": "descripción oficial"
+      "detalle": "Clase para niños de hasta 12 años durante la predicación: historias de la Biblia, canciones y actividades a su medida, con monitores de la iglesia."
     },
     {
       "nombre": "Años Dorados",
       "cuando": "Primer sábado de cada mes, 18:00",
-      "detalle": "Encuentro para mayores de 50 años.",
-      "pendiente": "descripción oficial"
+      "detalle": "Encuentro mensual para mayores de 50 años: merienda, conversación y la Biblia. Y durante el año, paseos y salidas."
     },
     {
       "nombre": "Ministerio juvenil",
       "cuando": "[PENDIENTE: día y hora]",
-      "detalle": "Reuniones para jóvenes.",
-      "pendiente": "descripción oficial",
+      "detalle": "Reuniones para jóvenes: amistad, estudio de la Biblia y servicio.",
       "nota": "Arrancó en octubre de 2026 (Carlos, 14/10/2026)"
     }
   ],
@@ -218,7 +212,6 @@
     "nombre": "Iglesia Evangélica Bautista de Tudela",
     "nif": "R7139385D",
     "domicilio": "Calle Mediavilla, 21, bajo, 31500 Tudela (Navarra)",
-    "registro": "[PENDIENTE: n.º en el Registro de Entidades Religiosas]",
     "nota": "Solo para aviso legal y privacidad (Carlos, 14/10/2026). En el resto de la web, IBIL es una iglesia más."
   }
 }

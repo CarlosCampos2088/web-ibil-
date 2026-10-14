@@ -50,7 +50,7 @@ permalink: /vida-de-iglesia/
 <section class="seccion">
   <div class="contenedor">
     <h2>Cómo servimos</h2>
-    <p class="secundario" style="margin-top: var(--s-2)">Los ministerios de la iglesia. Las descripciones oficiales están en preparación.</p>
+    <p class="secundario" style="margin-top: var(--s-2)">Los equipos que hacen posible la vida de la iglesia. Si quieres servir en alguno, díselo a cualquiera de nosotros.</p>
     <div class="grupos" style="margin-top: var(--s-5)">
       {% for mi in iglesia.ministerios %}{% if not mi.oculto %}
       <article class="grupo">{% if mi.cuando %}<p class="cuando">{{ mi.cuando }}</p>{% endif %}<h3>{{ mi.nombre }}</h3><p>{{ mi.detalle }}{% if mi.pendiente %} <span class="pendiente">[PENDIENTE: {{ mi.pendiente }}]</span>{% endif %}</p></article>
