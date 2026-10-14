@@ -20,16 +20,16 @@ permalink: /contacto/
     </div>
     <div>
       <h2>Escríbenos</h2>
-      <p class="borrador" style="margin-top: var(--s-4)">El formulario se activará en la fase 4 (hace falta decidir el servicio de envío). Mientras tanto, WhatsApp y correo.</p>
-      <form class="formulario" action="#" method="post">
+      <p class="borrador" style="margin-top: var(--s-4)">El formulario se activa al publicar la web. Mientras tanto, WhatsApp y correo.</p>
+      <form class="formulario" id="formulario" action="/api/contacto" method="post">
         <div class="campo"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required></div>
         <div class="campo"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email" required></div>
         <div class="campo"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" required></textarea></div>
         <div class="campo trampa" aria-hidden="true"><label for="web">No rellenes este campo</label><input id="web" name="web" type="text" tabindex="-1" autocomplete="off"></div>
         <div class="campo campo--check"><input id="rgpd" name="rgpd" type="checkbox" required><label for="rgpd">He leído y acepto la <a href="/privacidad/">política de privacidad</a>.</label></div>
-        <div><button class="boton boton--primario" type="submit" disabled>Enviar mensaje</button></div>
+        <div><button class="boton boton--primario" type="submit">Enviar mensaje</button></div>
       </form>
-      <p class="privacidad-basica" style="margin-top: var(--s-4)">Responsable: {{ iglesia.entidad.nombre }} (NIF {{ iglesia.entidad.nif }}), a través de la Iglesia Bautista Internacional de Logroño. Finalidad: responder a tu mensaje. Base jurídica: tu consentimiento. Tus datos no se guardan en ninguna base de datos ni se ceden a terceros; el mensaje llega al correo de la iglesia. Puedes ejercer tus derechos de acceso, rectificación y supresión escribiendo al mismo correo. Más información en la <a href="/privacidad/">política de privacidad</a>.</p>
+      <p class="privacidad-basica" style="margin-top: var(--s-4)">Responsable: {{ iglesia.entidad.nombre }} (NIF {{ iglesia.entidad.nif }}), a través de la Iglesia Bautista Internacional de Logroño. Finalidad: responder a tu mensaje. Base jurídica: tu consentimiento. Tus datos no se guardan en ninguna base de datos ni se ceden a terceros; el mensaje llega al correo de la iglesia. Guardamos la fecha de tu aceptación junto al mensaje, como prueba de tu consentimiento. Puedes ejercer tus derechos de acceso, rectificación y supresión escribiendo al mismo correo. Más información en la <a href="/privacidad/">política de privacidad</a>.</p>
     </div>
   </div>
 </section>

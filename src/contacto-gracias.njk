@@ -1,0 +1,17 @@
+---
+layout: pagina.njk
+titulo: "Mensaje enviado"
+intro: "Gracias por escribirnos. Te responderemos lo antes posible, normalmente en uno o dos días."
+permalink: /contacto/gracias/
+noindex: true
+---
+{% import "macros.njk" as m %}
+<section class="seccion">
+  <div class="contenedor">
+    <p class="grande texto">Si es urgente, escríbenos también por WhatsApp.</p>
+    <div class="botones" style="margin-top: var(--s-5)">
+      <a class="boton boton--secundario boton--icono" href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">{{ m.iconoWhatsapp() }}<span>WhatsApp {{ iglesia.contacto.whatsapp }}</span></a>
+      <a class="boton boton--secundario" href="/">Volver al inicio</a>
+    </div>
+  </div>
+</section>
