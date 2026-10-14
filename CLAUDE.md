@@ -24,6 +24,7 @@ Prioridad si algo se contradice: 1) lo que diga Carlos en la sesión; 2) este ar
 - **En un minuto**: los shorts publicados (misma cola).
 - **Agenda**: parábolas del discipulado, vigilias, Años Dorados y Cena del Señor de `agenda_iglesia.json` (+ actos especiales escritos a mano en `datos/agenda.json`). Nunca muestra actos pasados.
 - **Reflexión diaria**: los archivos de `contenido/reflexion-diaria/` (Carlos pasa los mensajes de los predicadores una vez a la semana; Claude los corrige y crea los archivos).
+- **Noticias**: rutina «IBIL · noticias para la web (quincenal)», días 1 y 15 a las 18:00: revisa UEBE, FEREDE y Protestante Digital y deja hasta 3 noticias en `contenido/noticias/` con `borrador: true` (no salen). Carlos aprueba; para publicar se quita `borrador`.
 - **Año del pie.**
 
 **Mecanismo** (se monta en la fase 5, cuando exista GitHub y Cloudflare): la tarea del PC que publica en YouTube/Meta ejecuta después `py scripts/exportar_feed.py`, hace `git commit` y `git push`; Cloudflare Pages reconstruye la web en un minuto. Si el PC está apagado, la web muestra lo último; nunca queda vacía. Mientras no exista ese enlace, el exportador se ejecuta a mano.

@@ -7,6 +7,7 @@ ambito: "IBIL"          # IBIL · AIBNE · UEBE · Europa · Mundo
 resumen: "Una frase que resuma la noticia (sale en el listado y en la portada)."
 foto: ""                # opcional: nombre de una foto del catálogo datos/fotos.json, por ejemplo "congregacion-culto"
 enlace: ""              # opcional: enlace a la noticia original (UEBE, AIBNE…)
+borrador: true          # mientras esté en true, NO sale en la web; bórralo para publicar
 ---
 
 Texto de la noticia. Párrafos separados por una línea en blanco.
