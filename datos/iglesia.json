@@ -19,8 +19,8 @@
     "whatsappUrl": "https://wa.me/34624098680",
     "whatsappVisita": "https://wa.me/34624098680?text=Hola%2C%20me%20gustar%C3%ADa%20ir%20este%20domingo%20a%20la%20iglesia.%20%C2%BFMe%20pueden%20decir%20c%C3%B3mo%20llegar%3F",
     "telefono": "624 09 86 80",
-    "correo": "redesiebal@gmail.com",
-    "correoNota": "Decisión de Carlos 10/10/2026: se publica el Gmail hasta que exista contacto@iglesiabautistalogrono.com"
+    "correo": "iglesiabautistailog@gmail.com",
+    "correoNota": "Gmail de la iglesia (Carlos, 14/10/2026): se publica y recibe el formulario y contacto@. redesiebal@gmail.com queda solo como contacto de la herramienta IEBIL Publicador."
   },
   "redes": {
     "youtube": "https://www.youtube.com/@IglesiaBautistaLogroño",
@@ -141,12 +141,9 @@
     }
   ],
   "pendientes": [
-    "Ministerio juvenil: día y hora",
-    "Gmail nuevo para contacto y formulario (cuando Carlos lo cree)",
     "Calendario Google «IBIL» público (Carlos, cuando quiera)",
     "Noticias: Carlos pasa las webs de noticieros cristianos; crear rutina quincenal",
     "Reflexión diaria: sesión fija en la nube tras la fase 5",
-    "Gmail nuevo para contacto y formulario (Carlos lo dira; recordarselo)",
     "Correo de la ficha de Google Maps (para enlazar la web nueva)"
   ],
   "calendarioGoogle": {
@@ -189,9 +186,8 @@
     },
     {
       "nombre": "Ministerio juvenil",
-      "cuando": "[PENDIENTE: día y hora]",
-      "detalle": "Reuniones para jóvenes: amistad, estudio de la Biblia y servicio.",
-      "nota": "Arrancó en octubre de 2026 (Carlos, 14/10/2026)"
+      "cuando": "Una vez al mes",
+      "detalle": "Reuniones para jóvenes: amistad, estudio de la Biblia y servicio."
     }
   ],
   "llegar": {

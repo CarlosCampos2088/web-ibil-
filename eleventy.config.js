@@ -42,10 +42,11 @@ export default function (eleventyConfig) {
   const md = markdownIt({ html: true, typographer: true, quotes: "«»‘’" });
   async function leerCarpeta(carpeta) {
     let archivos = [];
-    try { archivos = (await readdir(carpeta)).filter((f) => f.endsWith(".md")); } catch { return []; }
+    try { archivos = (await readdir(carpeta)).filter((f) => f.endsWith(".md") && !f.startsWith("_")); } catch { return []; }
     const items = [];
     for (const f of archivos) {
       const { data, content } = matter(await readFile(`${carpeta}/${f}`, "utf8"));
+      if (data.borrador) continue; // los borradores (p. ej. noticias propuestas por la rutina) no se publican
       items.push({ ...data, slug: f.replace(/\.md$/, ""), cuerpo: md.render(content) });
     }
     return items.sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
