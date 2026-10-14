@@ -141,13 +141,13 @@
     }
   ],
   "pendientes": [
-    "Entidad titular, NIF y n.º del Registro de Entidades Religiosas de la IEBT (Carlos lo pide a Tudela; no está publicado)",
     "Ministerio juvenil: día y hora",
     "Descripciones oficiales de los ministerios (documento de Patricia)",
     "Gmail nuevo para contacto y formulario (cuando Carlos lo cree)",
     "Calendario Google «IBIL» público (Carlos, cuando quiera)",
     "Noticias: Carlos pasa las webs de noticieros cristianos; crear rutina quincenal",
-    "Reflexión diaria: sesión fija en la nube tras la fase 5"
+    "Reflexión diaria: sesión fija en la nube tras la fase 5",
+    "N.º del Registro de Entidades Religiosas de la IEBT (para el aviso legal)"
   ],
   "calendarioGoogle": {
     "id": "2b81d06caaf7045c1570a08c9cafacb676308ebf6067971c039713cb6d94a87e@group.calendar.google.com",
@@ -213,5 +213,12 @@
     "México",
     "Bolivia",
     "Ecuador"
-  ]
+  ],
+  "entidad": {
+    "nombre": "Iglesia Evangélica Bautista de Tudela",
+    "nif": "R7139385D",
+    "domicilio": "Calle Mediavilla, 21, bajo, 31500 Tudela (Navarra)",
+    "registro": "[PENDIENTE: n.º en el Registro de Entidades Religiosas]",
+    "nota": "Solo para aviso legal y privacidad (Carlos, 14/10/2026). En el resto de la web, IBIL es una iglesia más."
+  }
 }

@@ -9,11 +9,11 @@ permalink: /aviso-legal/
 <h2 style="margin-top:0">Titular de la web</h2>
 <p>En cumplimiento del artículo 10 de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI), se informa de que el titular de esta web es:</p>
 <ul>
-<li>Denominación: <span class="pendiente">[PENDIENTE: entidad titular (¿Iglesia Evangélica Bautista de Tudela?)]</span>, que actúa a través de su congregación Iglesia Bautista Internacional de Logroño (IBIL).</li>
-<li>NIF: <span class="pendiente">[PENDIENTE]</span></li>
-<li>Domicilio: <span class="pendiente">[PENDIENTE: domicilio social]</span>. Lugar de culto: {{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}.</li>
-<li>Inscripción en el Registro de Entidades Religiosas del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes: <span class="pendiente">[PENDIENTE: número]</span></li>
-<li>Correo electrónico: <span class="pendiente">{{ iglesia.contacto.correo }}</span></li>
+<li>Denominación: {{ iglesia.entidad.nombre }}, que actúa a través de su congregación Iglesia Bautista Internacional de Logroño (IBIL).</li>
+<li>NIF: {{ iglesia.entidad.nif }}</li>
+<li>Domicilio social: {{ iglesia.entidad.domicilio }}. Lugar de culto: {{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }}.</li>
+<li>Inscripción en el Registro de Entidades Religiosas del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes: <span class="pendiente">{{ iglesia.entidad.registro }}</span></li>
+<li>Correo electrónico: {{ iglesia.contacto.correo }}</li>
 </ul>
 <h2>Uso de la web</h2>
 <p>Esta web tiene carácter informativo y no comercial. Puedes navegar por ella libremente. Los textos y las fotografías son propiedad de la iglesia o se usan con permiso de sus autores; puedes compartir los enlaces y citar los textos indicando la fuente. Las fotografías de personas no pueden reutilizarse.</p>

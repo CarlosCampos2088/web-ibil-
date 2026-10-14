@@ -29,7 +29,7 @@ permalink: /contacto/
         <div class="campo campo--check"><input id="rgpd" name="rgpd" type="checkbox" required><label for="rgpd">He leído y acepto la <a href="/privacidad/">política de privacidad</a>.</label></div>
         <div><button class="boton boton--primario" type="submit" disabled>Enviar mensaje</button></div>
       </form>
-      <p class="privacidad-basica" style="margin-top: var(--s-4)">Responsable: {{ iglesia.nombre }} <span class="pendiente">[PENDIENTE: entidad titular]</span>. Finalidad: responder a tu mensaje. Base jurídica: tu consentimiento. Tus datos no se guardan en ninguna base de datos ni se ceden a terceros; el mensaje llega al correo de la iglesia. Puedes ejercer tus derechos de acceso, rectificación y supresión escribiendo al mismo correo. Más información en la <a href="/privacidad/">política de privacidad</a>.</p>
+      <p class="privacidad-basica" style="margin-top: var(--s-4)">Responsable: {{ iglesia.entidad.nombre }} (NIF {{ iglesia.entidad.nif }}), a través de la Iglesia Bautista Internacional de Logroño. Finalidad: responder a tu mensaje. Base jurídica: tu consentimiento. Tus datos no se guardan en ninguna base de datos ni se ceden a terceros; el mensaje llega al correo de la iglesia. Puedes ejercer tus derechos de acceso, rectificación y supresión escribiendo al mismo correo. Más información en la <a href="/privacidad/">política de privacidad</a>.</p>
     </div>
   </div>
 </section>
