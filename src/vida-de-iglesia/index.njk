@@ -29,7 +29,7 @@ permalink: /vida-de-iglesia/
       <p class="secundario">{{ iglesia.horarios.semana[2].cuando }}, de {{ iglesia.horarios.semana[2].hora }}</p>
       <h2 style="margin-top: var(--s-2)">Años Dorados</h2>
       <p class="grande">Un encuentro para mayores de 50 años: merienda, conversación, la Biblia y mucha risa. Y durante el año, paseos, encuentros y salidas.</p>
-      <p>Si tienes más de 50 y te apetece conocer gente en Logroño, este es tu sitio. No hace falta ser de la iglesia. <span class="pendiente">[PENDIENTE: confirmar descripción y quién lo coordina]</span></p>
+      <p>Si tienes más de 50 y te apetece conocer gente en Logroño, este es tu sitio. No hace falta ser de la iglesia.</p>
       <div class="botones" style="margin-top: var(--s-5)"><a class="boton boton--primario" href="{{ iglesia.contacto.whatsappUrl }}" rel="noopener">Pregúntanos por WhatsApp</a></div>
     </div>
   </div>
@@ -53,7 +53,7 @@ permalink: /vida-de-iglesia/
     <p class="secundario" style="margin-top: var(--s-2)">Los equipos que hacen posible la vida de la iglesia. Si quieres servir en alguno, díselo a cualquiera de nosotros.</p>
     <div class="grupos" style="margin-top: var(--s-5)">
       {% for mi in iglesia.ministerios %}{% if not mi.oculto %}
-      <article class="grupo">{% if mi.cuando %}<p class="cuando">{{ mi.cuando }}</p>{% endif %}<h3>{{ mi.nombre }}</h3><p>{{ mi.detalle }}{% if mi.pendiente %} <span class="pendiente">[PENDIENTE: {{ mi.pendiente }}]</span>{% endif %}</p></article>
+      <article class="grupo">{% if mi.cuando %}<p class="cuando">{{ mi.cuando }}</p>{% endif %}<h3>{{ mi.nombre }}</h3><p>{{ mi.detalle }}{% if mi.pendiente %}{% endif %}</p></article>
       {% endif %}{% endfor %}
     </div>
   </div>

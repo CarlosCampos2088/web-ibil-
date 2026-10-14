@@ -31,7 +31,7 @@ permalink: /predicaciones/
 <section class="seccion seccion--blanco">
   <div class="contenedor">
     <h2>Todas las predicaciones</h2>
-    <p class="secundario" style="margin-bottom: var(--s-4)">Libros de la Biblia: {% for l in predicaciones | unicos("libro") %}{{ l }}{% if not loop.last %} · {% endif %}{% endfor %}. Predicadores: {% for p in predicaciones | unicos("predicador") %}{{ p }}{% if not loop.last %} · {% endif %}{% endfor %}. <span class="pendiente">[Los filtros se activan cuando haya más predicaciones]</span></p>
+    <p class="secundario" style="margin-bottom: var(--s-4)">Libros de la Biblia: {% for l in predicaciones | unicos("libro") %}{{ l }}{% if not loop.last %} · {% endif %}{% endfor %}. Predicadores: {% for p in predicaciones | unicos("predicador") %}{{ p }}{% if not loop.last %} · {% endif %}{% endfor %}.</p>
     <div class="lista-predicaciones">
       {% for p in predicaciones %}
       <article class="tarjeta" data-libro="{{ p.libro }}" data-predicador="{{ p.predicador }}">
