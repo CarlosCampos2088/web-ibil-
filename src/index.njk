@@ -9,7 +9,7 @@ permalink: /
 
 {# 1. Quiénes somos, dónde y cuándo: en una pantalla #}
 <section class="hero hero--portada">
-  {% foto "culto-de-pie", { clase: "hero__foto", sizes: "100vw", prioridad: true, alt: "" } %}
+  {% foto "collage-portada", { clase: "hero__foto", sizes: "100vw", prioridad: true, alt: "" } %}
   <div class="contenedor">
     <h1>Una iglesia en Logroño para conocer a <em>Jesús</em></h1>
     <p>Somos una iglesia evangélica bautista con personas de muchos países que hoy tienen su casa en Logroño. Ven tal como eres: alguien te recibirá en la puerta.</p>
@@ -58,9 +58,9 @@ permalink: /
 <section class="seccion seccion--blanco">
   <div class="contenedor">
     <h2>Gente de muchos países, con casa en Logroño</h2>
-    <p class="grande texto" style="margin-top: var(--s-3)">Una iglesia pequeña donde se aprende el nombre de cada persona, con familias llegadas de distintos países y de aquí. Si llegaste hace poco a la ciudad, aquí hay quien pasó por lo mismo.</p>
+    <p class="grande texto" style="margin-top: var(--s-3)">Una iglesia pequeña donde se aprende el nombre de cada persona: familias de aquí y llegadas de {% for pa in iglesia.paises %}{% if not loop.first %}{% if loop.last %} y {% else %}, {% endif %}{% endif %}{{ pa }}{% endfor %}. Si llegaste hace poco a la ciudad, aquí hay quien pasó por lo mismo.</p>
     <div class="mosaico" style="margin-top: var(--s-5)">
-      <figure>{% foto "congregacion-culto", { sizes: "(min-width: 48rem) 50vw, 50vw" } %}</figure>
+      <figure>{% foto "culto-de-pie", { sizes: "(min-width: 48rem) 50vw, 50vw" } %}</figure>
       <figure>{% foto "saludo", { sizes: "25vw" } %}</figure>
       <figure>{% foto "jovenes-biblia", { sizes: "25vw" } %}</figure>
       <figure>{% foto "familia-lee", { sizes: "25vw" } %}</figure>

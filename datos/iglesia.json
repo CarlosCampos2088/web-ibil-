@@ -70,7 +70,7 @@
       },
       {
         "cuando": "Primer sábado de cada mes",
-        "hora": "17:30 - 20:00",
+        "hora": "18:00",
         "nombre": "Años Dorados",
         "detalle": "Encuentro para mayores de 50 años. Además, paseos, encuentros y actividades durante el año."
       }
@@ -141,12 +141,13 @@
     }
   ],
   "pendientes": [
-    "Entidad titular, NIF y registro de entidades religiosas (solo para aviso legal y privacidad)",
-    "Calendario de Google «IBIL»: hacerlo público (Carlos) y conectarlo (Claude)",
-    "De qué países es la congregación",
-    "Descripciones oficiales de los ministerios (documento de Patricia Fernández)",
-    "Ministerio juvenil: confirmar que ha arrancado para mostrarlo",
-    "Proyecto social concreto, si se quiere mencionar"
+    "Entidad titular, NIF y n.º del Registro de Entidades Religiosas de la IEBT (Carlos lo pide a Tudela; no está publicado)",
+    "Ministerio juvenil: día y hora",
+    "Descripciones oficiales de los ministerios (documento de Patricia)",
+    "Gmail nuevo para contacto y formulario (cuando Carlos lo cree)",
+    "Calendario Google «IBIL» público (Carlos, cuando quiera)",
+    "Noticias: Carlos pasa las webs de noticieros cristianos; crear rutina quincenal",
+    "Reflexión diaria: sesión fija en la nube tras la fase 5"
   ],
   "calendarioGoogle": {
     "id": "2b81d06caaf7045c1570a08c9cafacb676308ebf6067971c039713cb6d94a87e@group.calendar.google.com",
@@ -187,22 +188,30 @@
     },
     {
       "nombre": "Años Dorados",
-      "cuando": "Primer sábado de cada mes, 17:30 - 20:00",
+      "cuando": "Primer sábado de cada mes, 18:00",
       "detalle": "Encuentro para mayores de 50 años.",
       "pendiente": "descripción oficial"
     },
     {
       "nombre": "Ministerio juvenil",
-      "cuando": "",
+      "cuando": "[PENDIENTE: día y hora]",
       "detalle": "Reuniones para jóvenes.",
       "pendiente": "descripción oficial",
-      "oculto": true,
-      "nota": "Parado; se reactiva en octubre de 2026. Mostrar cuando Carlos confirme (quitar \"oculto\")."
+      "nota": "Arrancó en octubre de 2026 (Carlos, 14/10/2026)"
     }
   ],
   "llegar": {
     "aparcamiento": "Hay zona blanca (aparcamiento gratuito) en las calles de alrededor, aunque escasa, como en todo Logroño. Los domingos por la mañana suele ser más fácil.",
     "autobus": "Línea 3 del autobús urbano (El Campillo – Villamediana), parada «Ronda de los Cuarteles», en la calle Carmen Medrano, a un paso del local.",
     "autobusNota": "Fuente: guía de accesibilidad de Logroño y Ayuntamiento (línea 3). Conviene confirmar en transporteurbano.logrono.es antes de publicar."
-  }
+  },
+  "paises": [
+    "España",
+    "Colombia",
+    "Venezuela",
+    "Brasil",
+    "México",
+    "Bolivia",
+    "Ecuador"
+  ]
 }

@@ -13,7 +13,7 @@ permalink: /nosotros/
       <p class="grande">Somos la Iglesia Bautista Internacional de Logroño (IBIL), una iglesia pequeña que está empezando, y eso nos permite conocernos por el nombre y caminar como una familia.</p>
       <p>Estamos bajo el ministerio del pastor Felipe Albacete, con la colaboración de los diáconos Carlos Campos y Evelyn Torres. Nuestra seña de identidad es volver a la Biblia: todo dentro de la Biblia y nada fuera de ella. Desde ahí queremos servir también a nuestra ciudad.</p>
       <p>Somos parte de la tradición bautista en España: creemos en la autoridad de la Biblia, en la fe personal en Jesucristo y en el bautismo de los creyentes por inmersión. Pertenecemos a la Unión Evangélica Bautista de España (UEBE) y apoyamos el Pacto Bautista.</p>
-      <p>Y somos internacionales: en IBIL se reúnen personas de distintos países que hoy tienen su casa en Logroño.</p>
+      <p>Y somos internacionales: en IBIL se reúnen personas de {% for pa in iglesia.paises %}{% if not loop.first %}{% if loop.last %} y {% else %}, {% endif %}{% endif %}{{ pa }}{% endfor %}, que hoy tienen su casa en Logroño.</p>
       <h2>Nuestra historia</h2>
       <p>{{ iglesia.historia }}</p>
     </div>

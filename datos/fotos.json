@@ -302,6 +302,11 @@
         "contraste": 1.08,
         "saturacion": 0.92
       }
+    },
+    "collage-portada": {
+      "archivo": "collage-portada.jpg",
+      "alt": "Cuatro momentos de un domingo en IBIL: la congregación de pie, una Biblia abierta, un joven orando y hermanas cantando",
+      "pos": "50% 50%"
     }
   }
 }

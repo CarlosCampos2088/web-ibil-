@@ -11,7 +11,7 @@ Prioridad si algo se contradice: 1) lo que diga Carlos en la sesión; 2) este ar
 - **Tipografías:** Cormorant Garamond (títulos, versículos; 500/600, cursiva 500) y Public Sans (texto, menú, botones; 400/600). Autoalojadas en WOFF2, nunca desde Google Fonts.
 - **Datos oficiales** (más nuevos que el brief; vienen del plan de redes del 13/09/2026): un solo archivo, `datos/iglesia.json`. Nunca escribir horarios, dirección o teléfonos a mano en plantillas.
   - Domingo: 10:00 oración · 10:15 Escuela Bíblica · 11:30 culto · 12:00 clases para niños.
-  - Miércoles 19:00-20:30 discipulado y oración · 3.er viernes 20:00-22:00 vigilia · 1.er sábado 17:30-20:00 Años Dorados (actualización de Carlos 12/10/2026).
+  - Miércoles 19:00-20:30 discipulado y oración · 3.er viernes 20:00-22:00 vigilia · 1.er sábado 18:00 Años Dorados (Carlos, 14/10/2026: «en realidad es a las 6»). Países de la congregación: España, Colombia, Venezuela, Brasil, México, Bolivia, Ecuador (`paises` en iglesia.json).
   - WhatsApp y teléfono de la iglesia: **624 09 86 80** (sí se publica). El del pastor no se publica.
   - C/ Ronda de los Cuarteles 32 bajo, 26005 Logroño.
 - **Doctrina:** solo de las fuentes de la iglesia: `docs/Guia Doctrinas Basicas - vigente 2025.pdf`, el folleto y la web actual (brief, Anexos A y B). Nada de doctrina propia. Todo texto doctrinal es BORRADOR hasta que lo revise el pastor.

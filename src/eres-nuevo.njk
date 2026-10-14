@@ -44,7 +44,7 @@ permalink: /eres-nuevo/
       <details><summary>¿Y mis hijos?</summary><div class="faq__cuerpo"><p>Los niños de hasta 12 años tienen su propia clase a las 12:00, durante la predicación, con monitores de la iglesia. El primer día puedes acompañarlos. <span class="pendiente">[PENDIENTE: confirmar funcionamiento]</span></p></div></details>
       <details><summary>¿Tengo que dar dinero?</summary><div class="faq__cuerpo"><p>No. La iglesia se sostiene con las ofrendas voluntarias de sus miembros. Tú solo ven.</p></div></details>
       <details><summary>¿Qué es la Cena del Señor?</summary><div class="faq__cuerpo"><p>Una vez al mes recordamos la muerte de Jesús tomando pan y zumo de uva, como Él pidió. Participan los creyentes bautizados; si no es tu caso, puedes quedarte tranquilamente en tu sitio.</p></div></details>
-      <details><summary>¿En qué idioma es?</summary><div class="faq__cuerpo"><p>En español. Somos una iglesia internacional: hay personas de muchos países. <span class="pendiente">[PENDIENTE: ¿hay traducción o ayuda en otros idiomas?]</span></p></div></details>
+      <details><summary>¿En qué idioma es?</summary><div class="faq__cuerpo"><p>En español. Somos una iglesia internacional: hay hermanos de {% for pa in iglesia.paises %}{% if not loop.first %}{% if loop.last %} y {% else %}, {% endif %}{% endif %}{{ pa }}{% endfor %}. <span class="pendiente">[PENDIENTE: ¿hay traducción o ayuda en otros idiomas?]</span></p></div></details>
       <details><summary>¿Dónde aparco? ¿Qué autobús me deja cerca?</summary><div class="faq__cuerpo"><p>{{ iglesia.llegar.aparcamiento }}</p><p>{{ iglesia.llegar.autobus }}</p></div></details>
     </div>
   </div>

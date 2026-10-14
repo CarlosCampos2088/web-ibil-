@@ -126,8 +126,8 @@ Fuente: web actual (2026). [PENDIENTE: confirmar con Carlos que siguen vigentes.
 | Semanal (folleto 2024) | Grupos Crecer | Grupos de 3 a 15 personas, presenciales y en línea, en la iglesia y en casas, para orar, estudiar la Biblia y ponerla en práctica [PENDIENTE: ¿siguen activos?] |
 
 ### 3.3. Ministerios vigentes (actualización 12/10/2026; sustituye la lista de la web actual)
-- Evangelización y Misiones · Alabanza · Servicio · Escuela Dominical para niños (hasta 12 años, durante la predicación) · Años Dorados (mayores de 50; primer sábado de cada mes, 17:30-20:00).
-- Ministerio juvenil: parado, se reactivará en octubre de 2026. No se muestra hasta que Carlos confirme; su tarjeta queda preparada y oculta.
+- Evangelización y Misiones · Alabanza · Servicio · Escuela Dominical para niños (hasta 12 años, durante la predicación) · Años Dorados (mayores de 50; primer sábado de cada mes, 18:00; corregido por Carlos el 14/10/2026).
+- Ministerio juvenil: arrancó en octubre de 2026 (confirmado el 14/10/2026); se muestra, con día y hora pendientes.
 - Descripciones oficiales: llegarán en un documento de Patricia Fernández. Mientras tanto, una frase breve y neutra por ministerio, marcada [PENDIENTE: descripción oficial], sin inventar actividades.
 - La oración del domingo, el estudio del miércoles y la vigilia mensual son actividades del horario, no ministerios.
 
