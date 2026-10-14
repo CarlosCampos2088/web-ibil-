@@ -7,7 +7,7 @@
 .cabecera-pagina__intro { margin-top: var(--s-4); font-size: var(--t-l); line-height: 1.5; max-width: var(--ancho-texto); color: var(--carbon); }
 .cabecera-pagina--foto { position: relative; isolation: isolate; background: var(--azul); color: var(--blanco); border: 0; }
 .cabecera-pagina--foto .cabecera-pagina__foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
-.cabecera-pagina--foto::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(22,58,82,0.5), rgba(22,58,82,0.78)); z-index: -1; }
+.cabecera-pagina--foto::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, var(--velo-1), var(--velo-2)); z-index: -1; }
 .cabecera-pagina--foto .contenedor { padding-block: var(--s-8) var(--s-7); min-height: 46vh; display: flex; flex-direction: column; justify-content: flex-end; }
 .cabecera-pagina--foto h1, .cabecera-pagina--foto .cabecera-pagina__intro { color: var(--blanco); }
 @media (min-width: 48rem) { .cabecera-pagina .contenedor { padding-block: var(--s-8) var(--s-7); } }
@@ -36,7 +36,7 @@
 
 /* Predicaciones */
 .predicacion-destacada { display: grid; gap: var(--s-5); }
-@media (min-width: 64rem) { .predicacion-destacada { grid-template-columns: 3fr 2fr; gap: var(--s-7); align-items: start; } }
+@media (min-width: 64rem) { .predicacion-destacada { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: var(--s-7); align-items: start; } }
 .meta { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); font-size: var(--t-s); color: var(--pizarra); }
 .meta .pasaje { color: var(--granate); font-weight: 600; }
 .lista-predicaciones { display: grid; gap: var(--s-4); }
@@ -62,7 +62,7 @@
 .agenda { display: grid; gap: 0; border-top: 1px solid var(--hueso); }
 .agenda > li { display: grid; grid-template-columns: 4.5rem 1fr; gap: var(--s-4); padding: var(--s-4) 0; border-bottom: 1px solid var(--hueso); }
 .agenda__fecha { font-family: var(--serif); color: var(--azul); line-height: 1; }
-.agenda__fecha b { display: block; font-size: var(--t-3xl); font-weight: 500; }
+.agenda__fecha b { display: block; font-size: var(--t-3xl); font-weight: 500; font-variant-numeric: lining-nums tabular-nums; }
 .agenda__fecha span { font-family: var(--sans); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--pizarra); }
 .agenda__hora { color: var(--granate); font-weight: 600; font-size: var(--t-s); }
 .agenda__detalle { color: var(--pizarra); font-size: var(--t-s); margin-top: var(--s-1); }
@@ -82,7 +82,7 @@
 /* Pasos (Conoce a Jesús): es una secuencia real, por eso va numerada */
 .pasos { display: grid; gap: var(--s-6); counter-reset: paso; }
 .paso { display: grid; grid-template-columns: 3.5rem 1fr; gap: var(--s-4); }
-.paso::before { counter-increment: paso; content: counter(paso); font-family: var(--serif); font-size: var(--t-3xl); line-height: 1; color: var(--granate); }
+.paso::before { counter-increment: paso; content: counter(paso); font-family: var(--serif); font-size: var(--t-3xl); line-height: 1; color: var(--granate); font-variant-numeric: lining-nums; }
 .paso h3 { margin-bottom: var(--s-2); }
 .paso .texto p + p { margin-top: 0.75em; }
 .paso .refs { font-size: var(--t-s); color: var(--pizarra); margin-top: var(--s-2); }
@@ -90,6 +90,7 @@
 /* Grupos y ministerios */
 .grupos { display: grid; gap: var(--s-4); }
 @media (min-width: 40rem) { .grupos { grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); } }
+@media (min-width: 64rem) { .grupos--5 { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
 .grupo { background: var(--blanco); border: 1px solid var(--hueso); padding: var(--s-5); }
 .grupo .cuando { color: var(--granate); font-weight: 600; font-size: var(--t-s); margin-bottom: var(--s-2); }
 .grupo h3 { margin-bottom: var(--s-2); }
@@ -97,7 +98,7 @@
 
 /* Bloque destacado con foto grande (Años Dorados, Niños) */
 .destacado { display: grid; gap: var(--s-5); }
-@media (min-width: 48rem) { .destacado { grid-template-columns: 1fr 1fr; align-items: center; gap: var(--s-8); } }
+@media (min-width: 48rem) { .destacado { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: var(--s-8); } }
 .destacado .figura img { aspect-ratio: 4 / 5; }
 
 /* Galería */
@@ -138,9 +139,9 @@
 .prosa li + li { margin-top: 0.4em; }
 .prosa table { border-collapse: collapse; width: 100%; font-size: var(--t-s); margin-top: var(--s-4); }
 .prosa th, .prosa td { text-align: left; padding: var(--s-2) var(--s-3); border-bottom: 1px solid var(--hueso); vertical-align: top; }
-.pendiente, .foto-pendiente { background: #FFF4C2; color: #5a4a00; padding: 0.1em 0.4em; font-size: var(--t-s); border: 1px dashed #c9a800; }
+.pendiente, .foto-pendiente { background: var(--pendiente-fondo); color: var(--pendiente-texto); padding: 0.1em 0.4em; font-size: var(--t-s); border: 1px dashed var(--pendiente-borde); }
 .foto-pendiente { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2; text-align: center; padding: var(--s-4); }
-.borrador { background: var(--arena); border-left: 3px solid var(--granate); padding: var(--s-3) var(--s-4); font-size: var(--t-s); color: var(--pizarra); margin-bottom: var(--s-5); }
+.borrador { background: var(--arena); border: 1px solid var(--hueso); padding: var(--s-3) var(--s-4); font-size: var(--t-s); color: var(--pizarra); margin-bottom: var(--s-5); }
 
 /* Pie: nota RV60 */
 .pie__rv60 { flex-basis: 100%; color: var(--azul-claro); opacity: 0.8; }
@@ -179,7 +180,7 @@
 .tira__a { grid-column: span 2; } .tira__a img { aspect-ratio: 2 / 1; }
 .tira__b img, .tira__c img, .tira__d img { aspect-ratio: 1; }
 @media (min-width: 48rem) {
-  .tira { grid-template-columns: 4fr 3fr 3fr; grid-template-rows: 18rem 14rem; }
+  .tira { grid-template-columns: minmax(0, 4fr) minmax(0, 3fr) minmax(0, 3fr); grid-template-rows: 18rem 14rem; }
   .tira__a { grid-column: 1; grid-row: 1 / 3; } .tira__a img { aspect-ratio: auto; }
   .tira__b { grid-column: 2; grid-row: 1; } .tira__c { grid-column: 3; grid-row: 1; } .tira__d { grid-column: 2 / 4; grid-row: 2; }
   .tira__b img, .tira__c img, .tira__d img { aspect-ratio: auto; }

@@ -3,7 +3,6 @@ layout: pagina.njk
 titulo: "Quiénes somos"
 intro: "Una iglesia evangélica bautista en Logroño. Pequeña, internacional y con la Biblia en el centro."
 descripcion: "Quiénes somos: la Iglesia Bautista Internacional de Logroño (IBIL), iglesia evangélica bautista, miembro de la UEBE."
-fotoCabecera: "culto-de-pie-2"
 ctaFoto: "oracion-mayores"
 permalink: /nosotros/
 ---
@@ -48,7 +47,7 @@ permalink: /nosotros/
   <div class="contenedor">
     <h2>A qué pertenecemos</h2>
     <p class="texto" style="margin-top: var(--s-3)">Ninguna iglesia bautista va sola. IBIL nació de la {{ iglesia.iglesiaMadre.nombre }}, nuestra iglesia madre, y forma parte de una familia que va de Logroño al mundo entero.</p>
-    <div class="grupos" style="margin-top: var(--s-5)">
+    <div class="grupos grupos--5" style="margin-top: var(--s-5)">
       {% for a in iglesia.afiliaciones %}
       <article class="grupo">
         <p class="cuando">{{ a.ambito }}</p>

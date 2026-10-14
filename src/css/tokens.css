@@ -47,4 +47,11 @@
   --gutter: clamp(1rem, 4vw, 2.5rem);
   --alto-boton: 3.25rem;  /* 52 px */
   --barra-movil: 3.5rem;  /* 56 px */
+
+  /* Derivados */
+  --foco: var(--granate);                 /* anillo de foco; sobre azul se cambia a arena */
+  --velo-1: rgb(22 58 82 / 0.55);         /* velo sobre fotos de cabecera */
+  --velo-2: rgb(22 58 82 / 0.75);
+  --linea-sobre-azul: rgb(255 255 255 / 0.15);
+  --pendiente-fondo: #FFF4C2; --pendiente-texto: #5A4A00; --pendiente-borde: #C9A800;
 }

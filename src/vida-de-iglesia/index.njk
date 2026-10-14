@@ -10,13 +10,13 @@ permalink: /vida-de-iglesia/
 <section class="seccion">
   <div class="contenedor">
     <h2>Cada semana</h2>
-    <div class="grupos" style="margin-top: var(--s-5)">
-      {% for a in iglesia.horarios.domingo %}
-      <article class="grupo"><p class="cuando">Domingo {{ a.hora }}</p><h3>{{ a.nombre }}</h3><p>{{ a.detalle or "" }}</p></article>
-      {% endfor %}
-      {% for a in iglesia.horarios.semana %}
-      <article class="grupo"><p class="cuando">{{ a.cuando }}, {{ a.hora }}</p><h3>{{ a.nombre }}</h3><p>{{ a.detalle }}</p></article>
-      {% endfor %}
+    <div class="dos" style="margin-top: var(--s-5); align-items: start">
+      <ol class="horario" role="list">
+        {% for a in iglesia.horarios.domingo %}<li><time>{{ a.hora }}</time><div><h3 class="h4">Domingo: {{ a.nombre }}</h3><p>{{ a.detalle }}</p></div></li>{% endfor %}
+      </ol>
+      <ol class="horario" role="list">
+        {% for a in iglesia.horarios.semana %}<li><time>{{ a.hora | truncate(5, true, "") }}</time><div><h3 class="h4">{{ a.cuando }}: {{ a.nombre }}</h3><p>{{ a.detalle }}</p></div></li>{% endfor %}
+      </ol>
     </div>
     <p class="secundario" style="margin-top: var(--s-4)">Al menos una vez al trimestre comemos juntos después del culto. Durante el año: jóvenes, Hombres de Valor, Mujeres de Fe, matrimonios, caminatas de oración, salidas evangelísticas y talleres. <a href="/agenda/">Agenda</a>.</p>
   </div>
