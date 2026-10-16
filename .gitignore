@@ -8,3 +8,8 @@ fotos/_optimizadas/
 .DS_Store
 Thumbs.db
 _tmp/
+
+# Copias generadas por la app para Codex (no se versionan)
+.agents/
+.codex/
+AGENTS.md

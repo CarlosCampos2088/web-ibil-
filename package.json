@@ -11,7 +11,8 @@
     "start": "eleventy --serve",
     "build": "node scripts/imagenes.js && eleventy",
     "check": "html-validate _site/**/*.html",
-    "imagenes": "node scripts/imagenes.js"
+    "imagenes": "node scripts/imagenes.js",
+    "build:cf": "eleventy"
   },
   "keywords": [],
   "author": "",
