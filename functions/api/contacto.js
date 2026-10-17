@@ -50,7 +50,7 @@ export async function onRequestPost({ request, env }) {
 
   const envio = await fetch("https://api.resend.com/emails", {
     method: "POST",
-    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
+    headers: { Authorization: `Bearer ${(env.RESEND_API_KEY || "").trim()}`, "Content-Type": "application/json" },
     body: JSON.stringify({
       from: `Web IBIL <${(env.CONTACTO_REMITENTE || env.CONTACTO_REMITENT || "web@iglesiabautistalogrono.com").trim()}>`,
       to: [(env.CONTACTO_DESTINO || "iglesiabautistailog@gmail.com").trim()],
@@ -61,8 +61,9 @@ export async function onRequestPost({ request, env }) {
   });
 
   if (!envio.ok) {
-    console.log("Resend respondió", envio.status, (await envio.text()).slice(0, 300));
-    return volver(`/contacto/?error=envio&c=${envio.status}#formulario`);
+    const detalle = (await envio.text()).slice(0, 200);
+    console.log("Resend respondió", envio.status, detalle);
+    return volver(`/contacto/?error=envio&c=${envio.status}&m=${encodeURIComponent(detalle)}#formulario`);
   }
   return volver("/contacto/gracias/");
 }
