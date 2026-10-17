@@ -63,7 +63,7 @@ export async function onRequestPost({ request, env }) {
   if (!envio.ok) {
     const detalle = (await envio.text()).slice(0, 200);
     console.log("Resend respondió", envio.status, detalle);
-    return volver(`/contacto/?error=envio&c=${envio.status}&m=${encodeURIComponent(detalle)}#formulario`);
+    return volver("/contacto/?error=envio#formulario");
   }
   return volver("/contacto/gracias/");
 }
