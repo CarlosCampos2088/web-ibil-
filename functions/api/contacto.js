@@ -52,8 +52,8 @@ export async function onRequestPost({ request, env }) {
     method: "POST",
     headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
     body: JSON.stringify({
-      from: env.CONTACTO_REMITENTE,
-      to: [env.CONTACTO_DESTINO],
+      from: `Web IBIL <${(env.CONTACTO_REMITENTE || env.CONTACTO_REMITENT || "web@iglesiabautistalogrono.com").trim()}>`,
+      to: [(env.CONTACTO_DESTINO || "iglesiabautistailog@gmail.com").trim()],
       reply_to: correo,
       subject: `Web IBIL: mensaje de ${nombre}`,
       text: texto,
