@@ -1,30 +1,24 @@
-# Pendientes de la web IBIL (17/10/2026)
+# Pendientes de la web IBIL (18/10/2026)
 
 Estado: **web publicada** en https://web-ibil.pages.dev (Cloudflare Pages, se actualiza sola con cada cambio subido a GitHub `CarlosCampos2088/web-ibil-`, rama `main`). Ese enlace se puede enviar a cualquiera.
 
+## Hecho el 17-18/10/2026
+- Web en https://www.iglesiabautistalogrono.com y sin www (Cloudflare Pages, certificado activo). Nameservers de GoDaddy cambiados a Cloudflare (kim / piotr).
+- Formulario de contacto funcionando: Resend con dominio verificado (DKIM, rsend, send en Cloudflare, sin proxy); variables RESEND_API_KEY (secreto), CONTACTO_DESTINO y CONTACTO_REMITENTE en Producción.
+- Sin «diezmos» en ningún texto.
+
 ## Lo que hace Carlos (en el PC, con Claude al lado)
 
-1. **Correo del formulario (Resend).**
-   - Crear cuenta en https://resend.com con el Gmail de la iglesia («Continue with Google»).
-   - Domains → Add domain → `iglesiabautistalogrono.com` → región Europa. Captura de los registros DNS para Claude (se ponen en Cloudflare en el paso 2).
-   - API Keys → Create API key (permiso «Sending access») → copiar la clave.
-   - En Cloudflare: Workers y Pages → web-ibil → Configuración → Variables de entorno (Producción) → añadir `RESEND_API_KEY` (la clave, marcada como secreta), `CONTACTO_DESTINO` = `iglesiabautistailog@gmail.com`, `CONTACTO_REMITENTE` = `web@iglesiabautistalogrono.com`. Volver a desplegar.
-   - Claude quita el aviso «El formulario se activa al publicar» de la página de contacto y prueba un envío.
+1. **Dominio con ñ** (`iglesiabautistalogroño.com`): añadirlo en Cloudflare y redirigir al principal. Opcional: Email Routing `contacto@` hacia el Gmail.
 
-2. **Dominio.** En Cloudflare: Dominios → Agregar dominio → `iglesiabautistalogrono.com` (plan gratuito). Cloudflare da dos nameservers; se cambian en GoDaddy (Dominios → DNS → Nameservers → personalizados). Tarda de minutos a horas. Después:
-   - Cloudflare Pages → web-ibil → Dominios personalizados → añadir `www.iglesiabautistalogrono.com` y `iglesiabautistalogrono.com`.
-   - Registros DNS de Resend (del paso 1) en Cloudflare → DNS.
-   - Dominio con ñ (`iglesiabautistalogroño.com`): añadirlo también y redirigir al principal (regla de redirección).
-   - Email Routing: `contacto@iglesiabautistalogrono.com` → Gmail de la iglesia (opcional, gratis).
-
-3. **Google.**
+2. **Google.**
    - Search Console: añadir la propiedad del dominio (verificación por DNS en Cloudflare) y enviar `https://www.iglesiabautistalogrono.com/sitemap.xml`.
    - Google Cloud (app IEBIL Publicador): actualizar el enlace de la política de privacidad a `https://www.iglesiabautistalogrono.com/privacidad/`.
    - Ficha de Google Maps de la iglesia: poner la web nueva.
 
-4. **Tarea programada del PC**: que después de publicar en YouTube/Meta ejecute `scripts\publicar_web.cmd` (exporta sermones y shorts, hace commit y push). Claude la monta cuando Carlos esté en el PC.
+3. **Tarea programada del PC**: que después de publicar en YouTube/Meta ejecute `scripts\publicar_web.cmd` (exporta sermones y shorts, hace commit y push). Claude la monta cuando Carlos esté en el PC.
 
-5. **Calendario Google «IBIL»** público (lo crea Carlos) → Claude lo enlaza en la agenda.
+4. **Calendario Google «IBIL»** público (lo crea Carlos) → Claude lo enlaza en la agenda.
 
 ## Lo que decide Carlos (solo decir sí o no)
 
