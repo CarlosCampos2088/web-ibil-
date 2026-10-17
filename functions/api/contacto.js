@@ -60,7 +60,10 @@ export async function onRequestPost({ request, env }) {
     }),
   });
 
-  if (!envio.ok) return volver("/contacto/?error=envio#formulario");
+  if (!envio.ok) {
+    console.log("Resend respondió", envio.status, (await envio.text()).slice(0, 300));
+    return volver(`/contacto/?error=envio&c=${envio.status}#formulario`);
+  }
   return volver("/contacto/gracias/");
 }
 
