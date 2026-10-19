@@ -19,7 +19,7 @@
 .menu-movil li a.menu-movil__sub { font-weight: 400; font-size: var(--t-m); padding-left: var(--s-4); }
 .menu-movil li a[aria-current="page"] { color: var(--azul-ibil); }
 .menu-movil .boton { margin-top: var(--s-5); width: 100%; }
-@media (min-width: 64rem) { .menu-movil { display: none !important; } }
+@media (min-width: 80rem) { .menu-movil { display: none !important; } }
 
 /* Vídeo de YouTube cargado a petición */
 .video { position: relative; aspect-ratio: 16 / 9; background: var(--azul); overflow: hidden; }

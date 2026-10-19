@@ -36,12 +36,13 @@
         { url: "/predicaciones/", texto: "Predicaciones" },
         { url: "/noticias/", texto: "Noticias" },
         { url: "/nosotros/", texto: "Nosotros" },
+        { url: "/nosotros/que-creemos/", texto: "Qué creemos" },
         { url: "/vida-de-iglesia/", texto: "Vida de iglesia" },
         { url: "/contacto/", texto: "Contacto" }
       ] %}
       <nav class="menu" aria-label="Principal">
         {%- for m in menu %}
-        <a href="{{ m.url }}"{% if page.url == m.url or (m.url != '/' and page.url.startsWith(m.url)) %} aria-current="page"{% endif %}>{{ m.texto }}</a>
+        <a href="{{ m.url }}"{% if page.url == m.url or (m.url != '/' and page.url.startsWith(m.url) and not (m.url == '/nosotros/' and page.url.startsWith('/nosotros/que-creemos/'))) %} aria-current="page"{% endif %}>{{ m.texto }}</a>
         {%- endfor %}
         <a class="boton boton--primario" href="/eres-nuevo/">Visítanos este domingo</a>
       </nav>
@@ -50,7 +51,7 @@
     <nav id="menu-movil" class="menu-movil" aria-label="Principal (móvil)" hidden>
       <ul role="list">
         {%- for m in menu %}
-        <li><a href="{{ m.url }}"{% if page.url.startsWith(m.url) %} aria-current="page"{% endif %}>{{ m.texto }}</a></li>
+        <li><a href="{{ m.url }}"{% if page.url == m.url or (page.url.startsWith(m.url) and not (m.url == '/nosotros/' and page.url.startsWith('/nosotros/que-creemos/'))) %} aria-current="page"{% endif %}>{{ m.texto }}</a></li>
         {%- endfor %}
         <li><a href="/predicaciones/en-un-minuto/" class="menu-movil__sub">En un minuto (reels)</a></li>
         <li><a href="/reflexion-diaria/" class="menu-movil__sub">Reflexión diaria</a></li>

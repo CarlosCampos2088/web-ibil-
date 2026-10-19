@@ -112,8 +112,7 @@ h4, .h4 { font-family: var(--sans); font-weight: 600; font-size: var(--t-m); lin
 .cabecera__logo img { height: 2.75rem; width: auto; }
 .menu { display: none; }
 .cabecera .boton { min-height: 2.75rem; padding-inline: var(--s-4); font-size: var(--t-s); white-space: nowrap; flex: none; }
-@media (min-width: 64rem) and (max-width: 76rem) { .menu { gap: var(--s-4); } .menu a { font-size: var(--t-xs); } .cabecera__logo img { height: 2.75rem; } }
-@media (min-width: 64rem) {
+@media (min-width: 80rem) {
   .cabecera .contenedor { min-height: 5.5rem; }
   .cabecera__logo img { height: 3.25rem; }
   .menu { display: flex; gap: var(--s-5); align-items: center; }
@@ -122,8 +121,9 @@ h4, .h4 { font-family: var(--sans); font-weight: 600; font-size: var(--t-m); lin
   .menu a.boton { color: var(--blanco); padding: 0 var(--s-4); border: 1.5px solid var(--azul); }
   .menu a.boton:hover { background: var(--azul-ibil); border-color: var(--azul-ibil); }
 }
+@media (min-width: 80rem) and (max-width: 88rem) { .menu { gap: var(--s-4); } .menu a { font-size: var(--t-xs); } .cabecera__logo img { height: 2.75rem; } }
 .menu-boton { display: inline-flex; align-items: center; gap: var(--s-2); background: none; border: 1.5px solid var(--azul); color: var(--azul); font: 600 var(--t-s) var(--sans); min-height: 2.75rem; padding: 0 var(--s-4); cursor: pointer; }
-@media (min-width: 64rem) { .menu-boton { display: none; } }
+@media (min-width: 80rem) { .menu-boton { display: none; } }
 
 /* Hero con foto real y velo azul */
 .hero { position: relative; background: var(--azul); color: var(--blanco); isolation: isolate; }
