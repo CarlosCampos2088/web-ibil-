@@ -2,6 +2,14 @@
 
 Decidido con Carlos el 19/10/2026.
 
+## Dos chats, una sola instrucción
+Hay dos chats con la misma función: **«IBIL · Reflexión diaria (casa)»** en el ordenador y **«IBIL · Reflexión diaria (nube)»** en claude.ai/code, para el móvil. Los dos trabajan sobre el mismo repositorio de GitHub (`CarlosCampos2088/web-ibil-`, rama `main`), así que da igual cuál se use.
+
+Para que no se pisen:
+- **Antes de empezar**, siempre `git pull` para traer lo que haya subido el otro.
+- **Al terminar**, `git commit` y `git push` en el momento; nada se queda sin subir.
+- Si ya existe el archivo de un día, se avisa a Carlos y no se sobrescribe.
+
 ## Qué hace Carlos
 Una vez a la semana pega en el chat **«IBIL · Reflexión diaria»** los mensajes de los predicadores, así:
 
