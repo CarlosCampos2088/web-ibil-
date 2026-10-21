@@ -79,3 +79,15 @@ Marca cada casilla al terminarla. Las de **[Claude]** las hago yo; las de **[Car
 - 2-8 semanas: empezar a salir en «iglesia evangélica Logroño» y similares.
 - El mapa mejora en cuanto la ficha está completa y llegan las primeras reseñas.
 - «Iglesia evangélica bautista» sin ciudad no es objetivo: compite toda España.
+
+---
+
+## Añadido el 21/10/2026: lo nuevo de la investigación de captación
+Informe completo en `Marketing IBIL/Informes/Plan de captación IBIL Logroño.md`. Solo se recogen aquí las cosas que no estaban arriba.
+
+- [ ] **[Claude]** **Dominio con y sin «www»:** las dos direcciones responden sin redirigir (comprobado el 21/10). La canonical ya apunta a www, pero conviene una redirección 301 de la dirección sin www a la de www, mediante un middleware de Pages Functions o una regla de redirección de Cloudflare.
+- [ ] **[Claude → Carlos envía]** **Observatorio del Pluralismo Religioso:** IBIL no figura en su directorio de lugares de culto (8.438 lugares), y la otra «Iglesia Bautista de Logroño» (iblogro.com, C/ Diego de Velázquez 3) sí. El alta se pide por correo a observatorio@pluralismoyconvivencia.es.
+- [ ] **[Claude → Carlos envía]** **Linktree «Iglesias Evangélicas Logroño»** (linktr.ee/iglesiasevangelicaslogrono): es el primer resultado en Google para «iglesia evangélica Logroño» y recoge 6 iglesias, ninguna bautista. Hay que pedir que incluyan a IBIL; seguramente lo lleva el Consejo Evangélico de La Rioja.
+- [ ] **[Carlos]** **Apple Maps** (Apple Business, gratis) y **OpenStreetMap**: en OpenStreetMap ni siquiera existe el portal 32. Claude deja los datos preparados.
+- [ ] **Posición en el mapa medida el 21/10:** 1.ª en «iglesia bautista Logroño», 8.ª en «iglesia evangélica Logroño» y fuera del top 10 en «iglesia cristiana Logroño». Las que van delante (Somos Luz, con 49 reseñas; Río Isla, con 17) usan la categoría «Iglesia evangélica». La ficha de IBIL tiene 7 reseñas visibles. Esto confirma el punto 3: categoría principal «Iglesia evangélica» y 2-3 reseñas al mes.
+- [ ] **Nombre siempre con «Internacional»** e IBIL, para no confundirse con iblogro.com.
