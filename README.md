@@ -75,6 +75,7 @@ La web son archivos normales. Para llevarla a cualquier otro sitio (GoDaddy, Net
 1. Genera la web: `npm run build`.
 2. Sube **todo** el contenido de la carpeta `_site/` al alojamiento nuevo.
 3. Si el alojamiento nuevo no entiende los archivos `_redirects` y `_headers` (son el formato de Cloudflare y Netlify), copia sus reglas al formato del alojamiento (Apache: `.htaccess`; Nginx: bloque `server`). Las reglas están en `public/` y son pocas.
+4. La dirección sin «www» redirige a la de «www» con `functions/_middleware.js` (Cloudflare). En otro alojamiento hay que poner una regla 301 de host: en Apache, `RewriteCond %{HTTP_HOST} ^iglesiabautistalogrono\.com$ [NC]` seguida de `RewriteRule ^ https://www.iglesiabautistalogrono.com%{REQUEST_URI} [L,R=301]`.
 4. Apunta el dominio al alojamiento nuevo (en GoDaddy, Administrar → DNS).
 
 El original siempre está en GitHub; el alojamiento solo tiene una copia.
