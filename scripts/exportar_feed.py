@@ -172,7 +172,17 @@ def main():
 
     feed = dict(generado=datetime.now().isoformat(timespec="minutes"), sermones=sermones[:60], shorts=shorts[:60],
                 agenda=eventos, diario=diario[:90])
-    (RAIZ / "datos" / "feed.json").write_text(json.dumps(feed, ensure_ascii=False, indent=1), encoding="utf-8")
+    ruta = RAIZ / "datos" / "feed.json"
+    # Si solo cambiaría la hora de «generado», se deja el archivo como está (así no se publica sin motivo).
+    try:
+        viejo = json.loads(ruta.read_text(encoding="utf-8"))
+        viejo.pop("generado", None)
+        nuevo = {k: v for k, v in feed.items() if k != "generado"}
+        igual = json.loads(json.dumps(nuevo, ensure_ascii=False)) == viejo
+    except (FileNotFoundError, ValueError):
+        igual = False
+    if not igual:
+        ruta.write_text(json.dumps(feed, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"feed.json: {len(sermones)} sermones, {len(shorts)} shorts, {len(eventos)} actos, {len(diario)} piezas diarias")
 
 
