@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Cartel de puerta IBIL</title>
+<style>
+  @font-face { font-family: "Cormorant Garamond"; font-weight: 500; src: url("../marca/04 Tipografia/webfonts/cormorant-garamond-500.woff2") format("woff2"); }
+  @font-face { font-family: "Cormorant Garamond"; font-weight: 500; font-style: italic; src: url("../marca/04 Tipografia/webfonts/cormorant-garamond-500-italic.woff2") format("woff2"); }
+  @font-face { font-family: "Cormorant Garamond"; font-weight: 600; src: url("../marca/04 Tipografia/webfonts/cormorant-garamond-600.woff2") format("woff2"); }
+  @font-face { font-family: "Public Sans"; font-weight: 400; src: url("../marca/04 Tipografia/webfonts/public-sans-400.woff2") format("woff2"); }
+  @font-face { font-family: "Public Sans"; font-weight: 600; src: url("../marca/04 Tipografia/webfonts/public-sans-600.woff2") format("woff2"); }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: "Public Sans", sans-serif; color: #163A52; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .a4 { width: 210mm; height: 297mm; background: #F7F2E9; display: grid; grid-template-rows: auto 1fr auto; overflow: hidden; }
+  header { background: #163A52; padding: 16mm 18mm 12mm; text-align: center; }
+  header img { height: 50mm; width: auto; }
+  main { padding: 12mm 18mm 0; align-self: center; }
+  h1 { font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 40pt; line-height: 1; text-align: center; }
+  .sub { font-family: "Cormorant Garamond", serif; font-style: italic; font-weight: 500; font-size: 19pt; text-align: center; margin-top: 3mm; }
+  .linea { width: 24mm; height: 1mm; background: #7A2E3B; margin: 7mm auto; }
+  ol { list-style: none; padding: 0; display: grid; gap: 3.2mm; max-width: 150mm; margin: 0 auto; }
+  li { display: grid; grid-template-columns: 30mm 1fr; align-items: baseline; border-bottom: 0.3mm solid #d9cfbf; padding-bottom: 2.6mm; }
+  li time { font-feature-settings: "lnum"; font-weight: 600; font-size: 15pt; }
+  li span { font-size: 13pt; }
+  li span b { font-weight: 600; }
+  footer { display: grid; grid-template-columns: 1fr 46mm; gap: 8mm; align-items: center; padding: 8mm 18mm 14mm; }
+  footer p { font-size: 12pt; line-height: 1.45; }
+  footer .grande { font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 20pt; line-height: 1.1; margin-bottom: 2mm; }
+  footer .qr img { width: 46mm; height: 46mm; display: block; }
+  footer .qr span { display: block; text-align: center; font-size: 9.5pt; margin-top: 2mm; }
+  @media screen { body { background: #888; } .a4 { margin: 10mm auto; box-shadow: 0 0 4mm rgba(0,0,0,.3); } }
+</style>
+</head>
+<body>
+  <div class="a4">
+    <header><img src="IBIL_logo_A-vertical_blanco.svg" alt="Iglesia Bautista Internacional de Logroño"></header>
+    <main>
+      <h1>Te esperamos</h1>
+      <p class="sub">Puedes entrar sin avisar y sin conocer a nadie</p>
+      <div class="linea"></div>
+      <ol>
+        <li><time>Dom 10:00</time><span>Oración</span></li>
+        <li><time>Dom 10:15</time><span>Estudio bíblico en grupo</span></li>
+        <li><time>Dom 11:30</time><span><b>Culto de adoración</b></span></li>
+        <li><time>Dom 12:00</time><span>Clase para niños</span></li>
+        <li><time>Mié 19:00</time><span>Discipulado y oración</span></li>
+      </ol>
+    </main>
+    <footer>
+      <div>
+        <p class="grande">¿Tienes alguna pregunta?</p>
+        <p>Escríbenos por WhatsApp al <b>624 09 86 80</b><br>o visita <b>iglesiabautistalogrono.com</b></p>
+      </div>
+      <div class="qr"><img src="qr-eres-nuevo.svg" alt=""><span>Qué pasa si vienes</span></div>
+    </footer>
+  </div>
+</body>
+</html>

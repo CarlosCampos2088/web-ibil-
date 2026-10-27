@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Tarjetas de invitación IBIL</title>
+<style>
+  @font-face { font-family: "Cormorant Garamond"; font-weight: 500; src: url("../marca/04 Tipografia/webfonts/cormorant-garamond-500.woff2") format("woff2"); }
+  @font-face { font-family: "Cormorant Garamond"; font-weight: 500; font-style: italic; src: url("../marca/04 Tipografia/webfonts/cormorant-garamond-500-italic.woff2") format("woff2"); }
+  @font-face { font-family: "Cormorant Garamond"; font-weight: 600; src: url("../marca/04 Tipografia/webfonts/cormorant-garamond-600.woff2") format("woff2"); }
+  @font-face { font-family: "Public Sans"; font-weight: 400; src: url("../marca/04 Tipografia/webfonts/public-sans-400.woff2") format("woff2"); }
+  @font-face { font-family: "Public Sans"; font-weight: 600; src: url("../marca/04 Tipografia/webfonts/public-sans-600.woff2") format("woff2"); }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: "Public Sans", sans-serif; color: #163A52; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  /* 2 x 5 tarjetas de 85 x 55 mm, centradas en A4 (210 x 297) */
+  .hoja { width: 210mm; height: 297mm; padding: 11mm 20mm; display: grid; grid-template-columns: repeat(2, 85mm); grid-auto-rows: 55mm; justify-content: center; align-content: center; page-break-after: always; }
+  .t { width: 85mm; height: 55mm; outline: 0.1mm dashed #c9bfae; position: relative; overflow: hidden; }
+  /* Cara delantera */
+  .frente { background: #163A52; color: #F7F2E9; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3mm; text-align: center; padding: 5mm; }
+  .frente img { height: 22mm; width: auto; }
+  .frente p { font-family: "Cormorant Garamond", serif; font-style: italic; font-weight: 500; font-size: 13pt; line-height: 1.1; }
+  .frente .linea { width: 12mm; height: 0.4mm; background: #7A2E3B; }
+  /* Cara trasera */
+  .dorso { background: #F7F2E9; display: grid; grid-template-columns: 1fr 24mm; gap: 4mm; padding: 5mm 5mm 4.5mm 6mm; align-items: center; }
+  .dorso h2 { font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 13.5pt; line-height: 1.05; }
+  .dorso .hora { font-feature-settings: "lnum"; font-weight: 600; font-size: 8pt; margin-top: 2mm; }
+  .dorso .dato { font-size: 6.8pt; line-height: 1.35; margin-top: 1.6mm; }
+  .dorso .dato b { font-weight: 600; }
+  .dorso .qr { text-align: center; }
+  .dorso .qr img { width: 24mm; height: 24mm; display: block; }
+  .dorso .qr span { display: block; font-size: 5.6pt; margin-top: 1mm; line-height: 1.2; }
+  .dorso .web { position: absolute; left: 6mm; bottom: 3.5mm; font-size: 6pt; color: #1F5F80; }
+  .marca-acento { position: absolute; left: 0; top: 0; bottom: 0; width: 1.6mm; background: #7A2E3B; }
+  @media screen { body { background: #888; } .hoja { background: #fff; margin: 10mm auto; box-shadow: 0 0 4mm rgba(0,0,0,.3); } }
+</style>
+</head>
+<body>
+  <!-- Página 1: caras delanteras -->
+  <section class="hoja" id="frentes"></section>
+  <!-- Página 2: caras traseras (mismas posiciones; imprimir a doble cara, volteo por el borde largo) -->
+  <section class="hoja" id="dorsos"></section>
+  <template id="t-frente">
+    <div class="t frente">
+      <img src="IBIL_logo_A-vertical_blanco.svg" alt="Iglesia Bautista Internacional de Logroño">
+      <div class="linea"></div>
+      <p>Te esperamos este domingo</p>
+    </div>
+  </template>
+  <template id="t-dorso">
+    <div class="t dorso">
+      <div class="marca-acento"></div>
+      <div>
+        <h2>Ven a conocernos</h2>
+        <p class="hora">Domingos · 11:30</p>
+        <p class="dato">Culto con clase para niños.<br>C/ Ronda de los Cuarteles 32, bajo<br>26005 Logroño</p>
+        <p class="dato"><b>WhatsApp 624 09 86 80</b></p>
+      </div>
+      <div class="qr"><img src="qr-eres-nuevo.svg" alt=""><span>Mira qué pasa<br>si vienes</span></div>
+      <p class="web">iglesiabautistalogrono.com</p>
+    </div>
+  </template>
+  <script>
+    for (const [id, tpl] of [["frentes", "t-frente"], ["dorsos", "t-dorso"]]) {
+      const hoja = document.getElementById(id), t = document.getElementById(tpl);
+      for (let i = 0; i < 10; i++) hoja.appendChild(t.content.cloneNode(true));
+    }
+  </script>
+</body>
+</html>
