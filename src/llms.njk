@@ -1,0 +1,48 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ iglesia.nombre }} ({{ iglesia.sigla }})
+
+> Iglesia evangélica bautista en {{ iglesia.direccion.ciudad }} ({{ iglesia.direccion.provincia }}, España). Iglesia pequeña y cercana, con personas de {{ iglesia.paises | join(", ") }}. Bajo el ministerio del pastor {{ iglesia.liderazgo.pastor }}. «Todo dentro de la Biblia y nada fuera de ella».
+
+Resumen para asistentes y buscadores con inteligencia artificial. Datos oficiales; la fuente es esta web.
+
+## Dónde y cuándo
+- Dirección: {{ iglesia.direccion.calle }}, {{ iglesia.direccion.cp }} {{ iglesia.direccion.ciudad }} ({{ iglesia.direccion.provincia }}).
+{%- for a in iglesia.horarios.domingo %}
+- Domingo {{ a.hora }}: {{ a.nombre }}. {{ a.detalle }}
+{%- endfor %}
+{%- for a in iglesia.horarios.semana %}
+- {{ a.cuando }}, {{ a.hora }}: {{ a.nombre }}. {{ a.detalle }}
+{%- endfor %}
+- Entrada libre. No hace falta avisar ni conocer a nadie.
+
+## Contacto
+- WhatsApp y teléfono: {{ iglesia.contacto.whatsapp }}
+- Correo: {{ iglesia.contacto.correo }}
+- Formulario: https://www.iglesiabautistalogrono.com/contacto/
+
+## Páginas principales
+- [¿Eres nuevo?](https://www.iglesiabautistalogrono.com/eres-nuevo/): qué pasa si vienes un domingo.
+- [Qué creemos](https://www.iglesiabautistalogrono.com/nosotros/que-creemos/): doctrina, en corto y completa.
+- [Conoce a Jesús](https://www.iglesiabautistalogrono.com/conoce-a-jesus/)
+- [Predicaciones](https://www.iglesiabautistalogrono.com/predicaciones/): resumen y vídeo de cada sermón.
+- [Agenda](https://www.iglesiabautistalogrono.com/agenda/)
+- [Liderazgo](https://www.iglesiabautistalogrono.com/nosotros/liderazgo/)
+- [Contacto](https://www.iglesiabautistalogrono.com/contacto/)
+
+## Pertenencia
+{%- for a in iglesia.afiliaciones %}
+- {{ a.nombre }} ({{ a.sigla }}){% if a.url %}: {{ a.url }}{% endif %}
+{%- endfor %}
+
+## Últimas predicaciones
+{%- for p in predicaciones.slice(0, 5) %}
+- [{{ p.titulo }}](https://www.iglesiabautistalogrono.com/predicaciones/{{ p.slug }}/){% if p.pasaje %} ({{ p.pasaje }}){% endif %}, {{ p.predicador }}, {{ p.fecha | fechaLarga }}.
+{%- endfor %}
+
+## Redes
+- YouTube: {{ iglesia.redes.youtube }}
+- Instagram: {{ iglesia.redes.instagram }}
+- Facebook: {{ iglesia.redes.facebook }}

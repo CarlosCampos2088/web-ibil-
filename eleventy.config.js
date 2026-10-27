@@ -37,6 +37,30 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("diaSemana", (d) => DIAS[new Date(d + "T12:00:00").getDay()]);
   eleventyConfig.addFilter("unicos", (arr, clave) => [...new Set(arr.map((x) => x[clave]).filter(Boolean))].sort());
   eleventyConfig.addFilter("urlencode", (s) => encodeURIComponent(s));
+  // Datos de «evento» para Google (schema.org/Event) a partir de la agenda. Hora de Madrid.
+  eleventyConfig.addFilter("eventosLd", (actos, iglesia) => {
+    const offset = (f) => {
+      const n = new Intl.DateTimeFormat("en", { timeZone: "Europe/Madrid", timeZoneName: "shortOffset" })
+        .formatToParts(new Date(f + "T12:00:00Z")).find((x) => x.type === "timeZoneName").value; // «GMT+1» / «GMT+2»
+      return `+0${n.replace("GMT+", "")}:00`;
+    };
+    const lugar = {
+      "@type": "Place", name: iglesia.nombre,
+      address: { "@type": "PostalAddress", streetAddress: iglesia.direccion.calle, postalCode: iglesia.direccion.cp,
+        addressLocality: iglesia.direccion.ciudad, addressRegion: iglesia.direccion.provincia, addressCountry: "ES" },
+    };
+    const eventos = (actos || []).slice(0, 20).map((a) => ({
+      "@context": "https://schema.org", "@type": "Event", name: a.nombre,
+      startDate: a.hora ? `${a.fecha}T${a.hora}:00${offset(a.fecha)}` : a.fecha,
+      ...(a.fin ? { endDate: `${a.fecha}T${a.fin}:00${offset(a.fecha)}` } : {}),
+      ...(a.detalle ? { description: a.detalle } : {}),
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      isAccessibleForFree: true, location: lugar,
+      organizer: { "@type": "Organization", name: iglesia.nombre, url: "https://www.iglesiabautistalogrono.com/" },
+    }));
+    return JSON.stringify(eventos).replace(/</g, "\u003c");
+  });
 
   // Contenido en Markdown fuera de src/: contenido/predicaciones y contenido/reflexiones
   const md = markdownIt({ html: true, typographer: true, quotes: "«»‘’" });

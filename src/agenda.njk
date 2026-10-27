@@ -32,4 +32,5 @@ permalink: /agenda/
     </div>
   </div>
 </section>
+{% if agendaProxima.length %}<script type="application/ld+json">{{ agendaProxima | eventosLd(iglesia) | safe }}</script>{% endif %}
 {% include "cta.njk" %}
