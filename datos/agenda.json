@@ -2,12 +2,6 @@
   "_nota": "Actos especiales que no están en la agenda semanal automática (feed.json). Se escriben a mano. Los pasados se ocultan solos.",
   "actos": [
     {
-      "fecha": "2026-11-13",
-      "hora": "19:30",
-      "nombre": "Hombres de Valor y Mujeres de Fe",
-      "detalle": "Encuentro de los ministerios de hombres y de mujeres de la iglesia. Abierto a quien quiera venir."
-    },
-    {
       "fecha": "2026-12-20",
       "hora": "11:30",
       "nombre": "Cantata y culto de Navidad",
