@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27T16:31",
+ "generado": "2026-10-27T16:33",
  "sermones": [
   {
    "video_id": "G_68NtdiiB0",
@@ -504,125 +504,9 @@
     }
    ],
    "slug": "2026-08-16-aun-no-es-el-fin"
-  },
-  {
-   "video_id": "BklTvlDhrVM",
-   "fecha": "2026-07-26",
-   "publicado": "2026-10-28",
-   "predicador": "Felipe Albacete",
-   "titulo": "Propósito - misión en acción",
-   "pasaje": "",
-   "resumen": "Si sonara una alerta temprana y tuvieras diez minutos para volver a casa y meter en una maleta lo importante, ¿qué meterías? Lo que elijas dice más de ti de lo que crees: habla de tu sistema de valores. Y ahí está el problema, porque nunca vas a poder ir más allá de tu sistema de creencias.",
-   "capitulos": [
-    {
-     "t": "00:00",
-     "n": "El sistema de prioridades"
-    },
-    {
-     "t": "02:37",
-     "n": "Diez minutos de alerta temprana: ¿qué meterías en la maleta?"
-    },
-    {
-     "t": "05:38",
-     "n": "Propósito: misión en acción"
-    },
-    {
-     "t": "07:11",
-     "n": "Nunca irás más allá de tu sistema de creencias"
-    },
-    {
-     "t": "08:28",
-     "n": "Marcos, el evangelio dinámico"
-    },
-    {
-     "t": "12:00",
-     "n": "La prioridad de Jesús: «vamos a predicar a otro lado»"
-    },
-    {
-     "t": "17:00",
-     "n": "Hechos 7: Saulo, el asesino en serie"
-    },
-    {
-     "t": "26:51",
-     "n": "«Dios no te trajo aquí para que seas un obeso espiritual»"
-    },
-    {
-     "t": "28:57",
-     "n": "Las cinco palabras que cambian a Pablo"
-    },
-    {
-     "t": "30:01",
-     "n": "La molienda de Dios"
-    },
-    {
-     "t": "33:10",
-     "n": "Buscar el reino de Dios, y ya"
-    },
-    {
-     "t": "36:00",
-     "n": "Hechos 16: las otras cinco palabras"
-    },
-    {
-     "t": "42:36",
-     "n": "Los tres evangelios que no son el de Pablo"
-    },
-    {
-     "t": "45:53",
-     "n": "2 Timoteo 2: sufre penalidades como buen soldado"
-    },
-    {
-     "t": "50:17",
-     "n": "El billete de un solo sentido"
-    },
-    {
-     "t": "53:07",
-     "n": "«¿Cuál equipaje llevarías?»"
-    }
-   ],
-   "slug": "2026-07-26-proposito-mision-en-accion"
   }
  ],
  "shorts": [
-  {
-   "video_id": "ic70CST6Ap0",
-   "fecha": "2025-05-25",
-   "publicado": "2026-10-30",
-   "predicador": "Johny Ochoa",
-   "sermon": "Pilares de la familia cristiana",
-   "titulo": "Que tus hijos se enamoren de Dios"
-  },
-  {
-   "video_id": "_lvYRfgozhg",
-   "fecha": "2025-06-01",
-   "publicado": "2026-10-29",
-   "predicador": "Carlos Campos",
-   "sermon": "Llamados a la verdad",
-   "titulo": "Sobre alas de águila"
-  },
-  {
-   "video_id": "yAOT-9MzjsU",
-   "fecha": "2026-10-18",
-   "publicado": "2026-10-29",
-   "predicador": "Carlos Campos",
-   "sermon": "Una familia que levanta",
-   "titulo": "A tu conciencia y a Dios no los engañas"
-  },
-  {
-   "video_id": "uo3N7sgR_mc",
-   "fecha": "2025-07-06",
-   "publicado": "2026-10-28",
-   "predicador": "Carlos Campos",
-   "sermon": "El evangelio de la salvación",
-   "titulo": "Matamos a sus esposos"
-  },
-  {
-   "video_id": "wZ40oyGcPIw",
-   "fecha": "2026-10-18",
-   "publicado": "2026-10-28",
-   "predicador": "Carlos Campos",
-   "sermon": "Una familia que levanta",
-   "titulo": "Él cargó la cruz"
-  },
   {
    "video_id": "WXWZQOCjsGs",
    "fecha": "2025-07-27",
@@ -1062,6 +946,14 @@
    "predicador": "Marcus Benicio",
    "sermon": "El espejo",
    "titulo": "La palabra es un espejo"
+  },
+  {
+   "video_id": "ARk1ZqwLVDg",
+   "fecha": "2026-08-16",
+   "publicado": "2026-09-30",
+   "predicador": "Felipe Albacete",
+   "sermon": "Aún no es el fin",
+   "titulo": "Mirad que no os turbéis"
   }
  ],
  "agenda": [

@@ -88,6 +88,9 @@ def main():
         if not info or vetado(info.get("predicador")) or vetado(x.get("carpeta")):
             continue
         fecha_pub = (x.get("fecha") or "")[:10]
+        # Programado en YouTube pero aún privado: no sale hasta su día.
+        if fecha_pub and fecha_pub > HOY.isoformat():
+            continue
         if x.get("tipo") == "sermon":
             pub = leer_publicacion(x.get("carpeta", ""))
             s = dict(
