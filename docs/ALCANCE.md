@@ -2,15 +2,29 @@
 
 Leyenda: **[Claude]** lo hago yo solo · **[Carlos]** necesita tu cuenta o tu sí · **[Pastor]** su visto bueno.
 
+## 0. Hecho el 27/10 mientras dormías
+- **Una sola dirección para Google:** la dirección sin www ya redirige a la de www.
+- **Predicaciones al día:** la web tiene ahora 6 sermones. El del 26/07 saldrá solo cuando sea público en YouTube, mañana 28/10.
+- **La web se actualiza sola cada hora** con la tarea del PC «IEBIL actualizar web»:
+  - corre a los :50 de cada hora y sin ventanas;
+  - solo publica cuando hay algo nuevo;
+  - deja registro en `_tmp/publicar_web.log`.
+- **Exportador corregido:** ya no publica vídeos programados que aún son privados.
+- **Agenda con formato de evento** para Google, y **resumen para buscadores con IA** en `/llms.txt`.
+- **YouTube:** las descripciones de los vídeos nuevos llevan la web y el enlace a «¿Eres nuevo?». Hay copia del publicador original. Los vídeos ya subidos no se han tocado.
+- **Impresos** en Drive, en `Marketing IBIL/Impresos web`:
+  - tarjetas de invitación con QR, 10 por hoja A4 a doble cara;
+  - cartel A4 para la puerta y el escaparate.
+
 ## 1. Pendientes (por orden)
 
 ### Ya preparado, solo falta tu «sí»
-1. **[Carlos]** **Una sola dirección para Google.** Ahora la web abre igual con www y sin www, y Google puede verlas como dos webs repetidas. Está hecha la redirección de la versión sin www a la de www (rama `redireccion-www`). Di «fusiona la redirección» y la publico.
+1. ~~**Una sola dirección para Google.**~~ Hecho el 27/10. Ahora la web abre igual con www y sin www, y Google puede verlas como dos webs repetidas. Está hecha la redirección de la versión sin www a la de www (rama `redireccion-www`). Di «fusiona la redirección» y la publico.
 2. **[Pastor]** **Preguntas frecuentes en «Qué creemos»** (rama `preguntas-que-creemos`): ¿es una secta?, testigos de Jehová, la Virgen María, la Iglesia católica, qué significa «bautista», cómo es el culto, Navidad. Son justo las preguntas que la gente escribe en Google. Cuando el pastor las apruebe, se publican con el formato que Google usa para mostrar respuestas.
 3. **[Carlos]** **Las 3 noticias en borrador del 15/10.** Di cuáles publicar y cuáles borrar.
 
 ### La web no se está actualizando sola
-4. **[Claude]** **Faltan 5 predicaciones.** YouTube tiene 7 sermones publicados y la web solo 2. El exportador no se está ejecutando porque la tarea del PC sigue sin montar. Lo ejecuto a mano para ponerlas al día. Después **[Carlos + Claude]** montamos la tarea en el PC, unos 10 minutos contigo delante.
+4. ~~**Faltan 5 predicaciones.**~~ Hecho el 27/10, y la tarea del PC ya está montada. YouTube tiene 7 sermones publicados y la web solo 2. El exportador no se está ejecutando porque la tarea del PC sigue sin montar. Lo ejecuto a mano para ponerlas al día. Después **[Carlos + Claude]** montamos la tarea en el PC, unos 10 minutos contigo delante.
 5. **[Carlos]** **Reflexión diaria:** todavía no hay ninguna publicada. Faltan por abrir los dos chats (casa y nube) con la instrucción que está en Drive.
 
 ### Google, de la lista del 19/10
@@ -20,7 +34,7 @@ Leyenda: **[Claude]** lo hago yo solo · **[Carlos]** necesita tu cuenta o tu s�
 9. **[Carlos + Claude]** **Dominio con ñ:** añadirlo en Cloudflare y redirigirlo al principal.
 10. **[Carlos]** **Google Cloud (IEBIL Publicador):** el enlace de privacidad a `/privacidad/`.
 11. **[Carlos]** La web en la biografía de **Instagram, Facebook y YouTube**.
-12. **[Claude]** La web al final de **cada descripción de YouTube**, en la plantilla del sistema de publicación.
+12. ~~La web en cada descripción de YouTube~~ Hecho para los vídeos nuevos., en la plantilla del sistema de publicación.
 13. **[Carlos]** **Calendario «IBIL»** público para la agenda.
 
 ## 2. Ideas para mejor posicionamiento en Google (de más a menos impacto)
@@ -57,3 +71,26 @@ Leyenda: **[Claude]** lo hago yo solo · **[Carlos]** necesita tu cuenta o tu s�
   - las preguntas frecuentes en páginas propias;
   - las asociaciones;
   - Ad Grants, si es elegible.
+
+## 5. Lo que he encontrado investigando (27/10)
+- **Directorio de iglesias evangélicas de Logroño** en https://linktr.ee/iglesiasevangelicaslogrono:
+  - salen 6 iglesias y IBIL no está;
+  - no dice quién lo lleva. Pregunta en las otras iglesias o busca la cuenta en Instagram para pedir que nos añadan.
+- **Logroño Comunitario**, el directorio municipal de recursos del barrio: https://www.logronocomunitario.com
+  - incluye al menos una parroquia;
+  - se pide el alta en comunitario@logrono.es.
+- **Gobierno de La Rioja**, listado de entidades de inmigración: https://www.larioja.org/servicios-sociales/es/entidades-centros-servicios/minorias-etnicas/entidades-minorias-etnicas-inmigracion
+- **Asociaciones latinoamericanas** donde dejar tarjetas y presentarse. Confirma los datos antes de ir, porque algunas fichas son antiguas:
+  - Asociación Colombiana de La Rioja (COLOR): http://asocolor.org/ · 618 274 593 · Av. Gonzalo de Berceo 40.
+  - Alma Venezuela, asociación sociocultural de venezolanos en La Rioja: https://almavenezuela.org/
+  - AVELAR (venezolanos en La Rioja), Rioja Acoge y AMIN (Asociación Mundo Inmigrante, C/ Torremuña 3).
+- **Directorio oficial de lugares de culto** del Observatorio del Pluralismo Religioso: https://www.observatorioreligion.es/directorio-lugares-culto/
+  - comprueba que IBIL aparece en Logroño con la dirección correcta;
+  - si no aparece, se pide a través del Registro de Entidades Religiosas o del propio Observatorio.
+- **Google Ad Grants**, anuncios gratis en Google:
+  - Google admite **«organización religiosa»** entre las entidades válidas en España, así que IBIL, como parte de la IEBT inscrita en el Registro de Entidades Religiosas, probablemente puede pedirlo;
+  - la verificación la hace Goodstack;
+  - fuente: https://support.google.com/nonprofits/answer/3215869?hl=es
+  - **La pega:** Ad Grants obliga a medir conversiones con una etiqueta de Google en la web. Eso supone poner cookies y un banner de consentimiento, y hoy la web no tiene ninguno a propósito. **Decisión tuya.** Mi recomendación es dejarlo para cuando estén hechas la ficha de Maps y las reseñas, y valorarlo entonces.
+- **Google Workspace para entidades sin ánimo de lucro:** pasa por la misma verificación. Si se pide Ad Grants, se pide a la vez.
+- **Ficha de Maps, la hora de cierre del domingo:** en la web dice que el culto «dura unas dos horas». Para la ficha sirve domingo de 10:00 a 13:30.
