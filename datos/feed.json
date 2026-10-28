@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28T00:50",
+ "generado": "2026-10-29T00:50",
  "sermones": [
   {
    "video_id": "G_68NtdiiB0",
@@ -584,6 +584,22 @@
  ],
  "shorts": [
   {
+   "video_id": "_lvYRfgozhg",
+   "fecha": "2025-06-01",
+   "publicado": "2026-10-29",
+   "predicador": "Carlos Campos",
+   "sermon": "Llamados a la verdad",
+   "titulo": "Sobre alas de águila"
+  },
+  {
+   "video_id": "yAOT-9MzjsU",
+   "fecha": "2026-10-18",
+   "publicado": "2026-10-29",
+   "predicador": "Carlos Campos",
+   "sermon": "Una familia que levanta",
+   "titulo": "A tu conciencia y a Dios no los engañas"
+  },
+  {
    "video_id": "uo3N7sgR_mc",
    "fecha": "2025-07-06",
    "publicado": "2026-10-28",
@@ -1049,12 +1065,6 @@
   }
  ],
  "agenda": [
-  {
-   "fecha": "2026-10-28",
-   "hora": "19:00",
-   "nombre": "Discipulado: El fariseo y el publicano",
-   "detalle": "Lucas 18:9-14"
-  },
   {
    "fecha": "2026-11-04",
    "hora": "19:00",
