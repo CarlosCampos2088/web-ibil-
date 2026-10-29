@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-29T00:50",
+ "generado": "2026-10-30T00:50",
  "sermones": [
   {
    "video_id": "G_68NtdiiB0",
@@ -584,6 +584,22 @@
  ],
  "shorts": [
   {
+   "video_id": "ic70CST6Ap0",
+   "fecha": "2025-05-25",
+   "publicado": "2026-10-30",
+   "predicador": "Johny Ochoa",
+   "sermon": "Pilares de la familia cristiana",
+   "titulo": "Que tus hijos se enamoren de Dios"
+  },
+  {
+   "video_id": "HJxBZnJHnjc",
+   "fecha": "2026-10-18",
+   "publicado": "2026-10-30",
+   "predicador": "Carlos Campos",
+   "sermon": "Una familia que levanta",
+   "titulo": "El cuerpo se cuida solo"
+  },
+  {
    "video_id": "_lvYRfgozhg",
    "fecha": "2025-06-01",
    "publicado": "2026-10-29",
@@ -1046,22 +1062,6 @@
    "predicador": "Carlos Lamus",
    "sermon": "La fe en medio del silencio",
    "titulo": "Si no es el Dios de mi sanación"
-  },
-  {
-   "video_id": "F4GFozYGFyk",
-   "fecha": "2026-09-13",
-   "publicado": "2026-09-30",
-   "predicador": "Marcus Benicio",
-   "sermon": "El espejo",
-   "titulo": "La palabra es un espejo"
-  },
-  {
-   "video_id": "ARk1ZqwLVDg",
-   "fecha": "2026-08-16",
-   "publicado": "2026-09-30",
-   "predicador": "Felipe Albacete",
-   "sermon": "Aún no es el fin",
-   "titulo": "Mirad que no os turbéis"
   }
  ],
  "agenda": [
