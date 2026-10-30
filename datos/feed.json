@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-30T22:50",
+ "generado": "2026-10-31T00:50",
  "sermones": [
   {
    "video_id": "G_68NtdiiB0",
@@ -584,6 +584,22 @@
  ],
  "shorts": [
   {
+   "video_id": "kp3TTBPOE3w",
+   "fecha": "2025-05-18",
+   "publicado": "2026-10-31",
+   "predicador": "Felipe Albacete",
+   "sermon": "Columna y baluarte de la verdad",
+   "titulo": "El enemigo se mete en casa"
+  },
+  {
+   "video_id": "pgIs-ZbFXYI",
+   "fecha": "2026-10-18",
+   "publicado": "2026-10-31",
+   "predicador": "Carlos Campos",
+   "sermon": "Una familia que levanta",
+   "titulo": "No estás solo"
+  },
+  {
    "video_id": "ic70CST6Ap0",
    "fecha": "2025-05-25",
    "publicado": "2026-10-30",
@@ -1046,22 +1062,6 @@
    "predicador": "Marcus Benicio",
    "sermon": "Qué diferencia a la iglesia",
    "titulo": "En la iglesia sin conocer a Jesús"
-  },
-  {
-   "video_id": "WohEfNK8-C0",
-   "fecha": "2026-07-26",
-   "publicado": "2026-10-01",
-   "predicador": "Felipe Albacete",
-   "sermon": "Propósito - misión en acción",
-   "titulo": "Se llevó su ataúd a las misiones"
-  },
-  {
-   "video_id": "kvVVAe48SVE",
-   "fecha": "2026-05-31",
-   "publicado": "2026-10-01",
-   "predicador": "Carlos Lamus",
-   "sermon": "La fe en medio del silencio",
-   "titulo": "Si no es el Dios de mi sanación"
   }
  ],
  "agenda": [
