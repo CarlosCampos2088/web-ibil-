@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-31T17:50",
+ "generado": "2026-11-01T00:50",
  "sermones": [
   {
    "video_id": "G_68NtdiiB0",
@@ -584,6 +584,22 @@
  ],
  "shorts": [
   {
+   "video_id": "NLiwNLts_xU",
+   "fecha": "2025-05-11",
+   "publicado": "2026-11-01",
+   "predicador": "Carlos Campos",
+   "sermon": "Servid a Jehová con integridad y verdad",
+   "titulo": "Dios no pide hombres perfectos"
+  },
+  {
+   "video_id": "AIVd0YkfULo",
+   "fecha": "2024-10-06",
+   "publicado": "2026-11-01",
+   "predicador": "Felipe Albacete",
+   "sermon": "Dios en medio de la crisis",
+   "titulo": "La crisis, el despertador de Dios"
+  },
+  {
    "video_id": "kp3TTBPOE3w",
    "fecha": "2025-05-18",
    "publicado": "2026-10-31",
@@ -1046,22 +1062,6 @@
    "predicador": "Carlos Lamus",
    "sermon": "El único camino a la obediencia",
    "titulo": "Le ofrecieron un ascenso por falsear facturas"
-  },
-  {
-   "video_id": "A-YffalDr8Q",
-   "fecha": "2026-05-24",
-   "publicado": "2026-10-02",
-   "predicador": "Felipe Albacete",
-   "sermon": "El origen de la mayordomía",
-   "titulo": "Oras cuando pasa la ofrenda"
-  },
-  {
-   "video_id": "LNFfA2Eyg_I",
-   "fecha": "2026-05-17",
-   "publicado": "2026-10-02",
-   "predicador": "Marcus Benicio",
-   "sermon": "Qué diferencia a la iglesia",
-   "titulo": "En la iglesia sin conocer a Jesús"
   }
  ],
  "agenda": [
