@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-31T00:50",
+ "generado": "2026-10-31T15:50",
  "sermones": [
   {
    "video_id": "G_68NtdiiB0",
@@ -1141,15 +1141,15 @@
  "diario": [
   {
    "fecha": "2026-10-30",
-   "texto": "Historia de IBIL, iglesia evangélica en Logroño: culto-A",
-   "id": "semana-20261026-culto-A",
-   "imagen": "/img/diario/semana-20261026-culto-a.webp"
-  },
-  {
-   "fecha": "2026-10-30",
    "texto": "Historia de IBIL: actividad especial para niños «Yo soy luz», domingo 1 de noviembre a las 11:30",
    "id": "yo-soy-luz-historia-2026-10-30",
    "imagen": "/img/diario/yo-soy-luz-historia-2026-10-30.webp"
+  },
+  {
+   "fecha": "2026-10-30",
+   "texto": "Historia de IBIL, iglesia evangélica en Logroño: culto-A",
+   "id": "semana-20261026-culto-A",
+   "imagen": "/img/diario/semana-20261026-culto-a.webp"
   },
   {
    "fecha": "2026-10-27",
