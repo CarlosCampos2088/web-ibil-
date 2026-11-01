@@ -1,6 +1,106 @@
 {
- "generado": "2026-11-01T22:50",
+ "generado": "2026-11-02T00:50",
  "sermones": [
+  {
+   "video_id": "hDFCU93S0Io",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-02",
+   "predicador": "Marcus Benicio",
+   "titulo": "Sacerdocio universal",
+   "pasaje": "Efesios 4:11-16",
+   "resumen": "Dios no da pastores, maestros y evangelistas para que la iglesia los mire trabajar, sino para preparar a cada creyente para el ministerio. En Efesios 4:11-16 el Ps. Marcus Benicio explica para qué existe la iglesia: no para recibir una bendición, porque ya somos bendecidos en Cristo, sino para crecer juntos hasta la madurez y cumplir la misión que nos da la cabeza, que es Cristo. Con la gota de sangre que lleva el ADN de todo el cuerpo, el hígado que quería ser ojo y trescientos niños en una plaza de Cuba preguntando quién es Jesús.",
+   "capitulos": [
+    {
+     "t": "00:00",
+     "n": "Él mismo constituyó (Efesios 4:11)"
+    },
+    {
+     "t": "01:03",
+     "n": "Apóstoles: ¿títulos o servicio?"
+    },
+    {
+     "t": "02:59",
+     "n": "Profetas, evangelistas, pastores y maestros"
+    },
+    {
+     "t": "05:15",
+     "n": "Perfeccionar a los santos"
+    },
+    {
+     "t": "07:48",
+     "n": "Cuatro para cincuenta"
+    },
+    {
+     "t": "08:33",
+     "n": "¿Para qué existe la iglesia?"
+    },
+    {
+     "t": "09:23",
+     "n": "No vengo a recibir una bendición"
+    },
+    {
+     "t": "10:28",
+     "n": "Discípulos maduros, no solo informados"
+    },
+    {
+     "t": "14:17",
+     "n": "Yo era ciego y ahora veo"
+    },
+    {
+     "t": "15:34",
+     "n": "Años de iglesia no es madurez"
+    },
+    {
+     "t": "17:06",
+     "n": "Un cuerpo (Efesios 4:15-16)"
+    },
+    {
+     "t": "18:47",
+     "n": "El hígado que quería ser ojo"
+    },
+    {
+     "t": "21:06",
+     "n": "Trescientos niños en Cuba"
+    },
+    {
+     "t": "26:07",
+     "n": "No venimos a recibir, venimos a dar"
+    },
+    {
+     "t": "27:06",
+     "n": "Hechos 2: una iglesia que se cuida"
+    },
+    {
+     "t": "27:48",
+     "n": "Cuando nace un hijo"
+    },
+    {
+     "t": "31:25",
+     "n": "Dios nos está madurando"
+    },
+    {
+     "t": "34:02",
+     "n": "La misión de Cristo"
+    },
+    {
+     "t": "34:26",
+     "n": "Lo que manda la cabeza"
+    },
+    {
+     "t": "36:19",
+     "n": "Jesús dio su vida"
+    },
+    {
+     "t": "37:24",
+     "n": "Es pan: la Cena del Señor"
+    },
+    {
+     "t": "38:14",
+     "n": "¿Qué estás haciendo tú?"
+    }
+   ],
+   "slug": "2026-10-25-sacerdocio-universal"
+  },
   {
    "video_id": "G_68NtdiiB0",
    "fecha": "2026-10-18",
@@ -584,6 +684,22 @@
  ],
  "shorts": [
   {
+   "video_id": "_0uPQYiQBcs",
+   "fecha": "2024-09-29",
+   "publicado": "2026-11-02",
+   "predicador": "Felipe Albacete",
+   "sermon": "Una herencia espiritual",
+   "titulo": "Una herencia espiritual"
+  },
+  {
+   "video_id": "M1FYTqJ7Ah0",
+   "fecha": "2024-09-22",
+   "publicado": "2026-11-02",
+   "predicador": "Felipe Albacete",
+   "sermon": "Crecer hacia la madurez",
+   "titulo": "La vida cristiana no es fácil"
+  },
+  {
    "video_id": "NLiwNLts_xU",
    "fecha": "2025-05-11",
    "publicado": "2026-11-01",
@@ -1046,22 +1162,6 @@
    "predicador": "Marcus Benicio",
    "sermon": "Esta es la vida eterna",
    "titulo": "El domingo hosanna, el viernes crucifícalo"
-  },
-  {
-   "video_id": "UIhTqXLM3uk",
-   "fecha": "2026-04-26",
-   "publicado": "2026-10-03",
-   "predicador": "Felipe Albacete",
-   "sermon": "Más que vencedores",
-   "titulo": "La corona no era para el pastor"
-  },
-  {
-   "video_id": "YFvHwiyYyuQ",
-   "fecha": "2026-04-19",
-   "publicado": "2026-10-03",
-   "predicador": "Carlos Lamus",
-   "sermon": "El único camino a la obediencia",
-   "titulo": "Le ofrecieron un ascenso por falsear facturas"
   }
  ],
  "agenda": [
