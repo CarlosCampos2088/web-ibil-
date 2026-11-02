@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:50",
+ "generado": "2026-11-03T00:50",
  "sermones": [
   {
    "video_id": "hDFCU93S0Io",
@@ -684,6 +684,22 @@
  ],
  "shorts": [
   {
+   "video_id": "eW48ABK5n7o",
+   "fecha": "2024-09-08",
+   "publicado": "2026-11-03",
+   "predicador": "Felipe Albacete",
+   "sermon": "Tres claves del camino",
+   "titulo": "El camino manda"
+  },
+  {
+   "video_id": "cOP7sjCVjHk",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-03",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "Cuatro para cincuenta"
+  },
+  {
    "video_id": "_0uPQYiQBcs",
    "fecha": "2024-09-29",
    "publicado": "2026-11-02",
@@ -1146,22 +1162,6 @@
    "predicador": "Felipe Albacete",
    "sermon": "Cuando un hermano se extravía",
    "titulo": "Jonás no huyó en un día"
-  },
-  {
-   "video_id": "8n93sz4H34w",
-   "fecha": "2026-04-05",
-   "publicado": "2026-10-04",
-   "predicador": "Marcus Benicio",
-   "sermon": "Hay Cristo para todas las cosas",
-   "titulo": "El que creó toda el agua… iba al pozo con un balde"
-  },
-  {
-   "video_id": "CRUvNbwLNYo",
-   "fecha": "2026-03-29",
-   "publicado": "2026-10-04",
-   "predicador": "Marcus Benicio",
-   "sermon": "Esta es la vida eterna",
-   "titulo": "El domingo hosanna, el viernes crucifícalo"
   }
  ],
  "agenda": [
