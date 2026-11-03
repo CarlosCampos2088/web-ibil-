@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-03T00:50",
+ "generado": "2026-11-03T22:50",
  "sermones": [
   {
    "video_id": "hDFCU93S0Io",
@@ -1239,6 +1239,12 @@
   }
  ],
  "diario": [
+  {
+   "fecha": "2026-11-03",
+   "texto": "Historia de IBIL, iglesia evangélica en Logroño: agenda",
+   "id": "semana-20261102-agenda",
+   "imagen": "/img/diario/semana-20261102-agenda.webp"
+  },
   {
    "fecha": "2026-11-02",
    "texto": "Noviembre en IBIL. Unidad: un solo cuerpo",
