@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-03T23:50",
+ "generado": "2026-11-04T00:50",
  "sermones": [
   {
    "video_id": "hDFCU93S0Io",
@@ -680,9 +680,101 @@
     }
    ],
    "slug": "2026-07-26-proposito-mision-en-accion"
+  },
+  {
+   "video_id": "5gGV5mLAJpE",
+   "fecha": "2026-05-31",
+   "publicado": "2026-11-04",
+   "predicador": "Carlos Lamus",
+   "titulo": "La fe en medio del silencio",
+   "pasaje": "Salmo 88",
+   "resumen": "El Salmo 88 es el único salmo de la Biblia que no termina en victoria. Emán ezraíta —nieto de Samuel, director del coro del templo, un hombre sabio y con un hogar bendecido— empieza clamando a Dios y termina en tinieblas, sin respuesta.",
+   "capitulos": [
+    {
+     "t": "00:00",
+     "n": "Lectura del Salmo 88"
+    },
+    {
+     "t": "01:08",
+     "n": "Leer la Biblia y oír la voz de Dios"
+    },
+    {
+     "t": "03:50",
+     "n": "El tema: la fe en medio del silencio"
+    },
+    {
+     "t": "05:13",
+     "n": "Quién era Emán: su linaje y sus hijos"
+    },
+    {
+     "t": "13:12",
+     "n": "Director del coro del santuario"
+    },
+    {
+     "t": "15:50",
+     "n": "Clamar de día y de noche (vv. 1-2)"
+    },
+    {
+     "t": "18:25",
+     "n": "Un sufrimiento crónico desde la juventud"
+    },
+    {
+     "t": "21:01",
+     "n": "La mujer del flujo de sangre"
+    },
+    {
+     "t": "24:43",
+     "n": "La soledad: rodeado de gente y solo"
+    },
+    {
+     "t": "26:27",
+     "n": "La historia de Job"
+    },
+    {
+     "t": "33:58",
+     "n": "Cristo en el Salmo 88"
+    },
+    {
+     "t": "34:32",
+     "n": "La agonía de Getsemaní"
+    },
+    {
+     "t": "41:21",
+     "n": "«¿Por qué me has desamparado?»"
+    },
+    {
+     "t": "43:10",
+     "n": "Las olas que vienen una tras otra"
+    },
+    {
+     "t": "51:16",
+     "n": "El Dios de mi salvación"
+    },
+    {
+     "t": "52:34",
+     "n": "Testimonio: una noche sin claridad"
+    }
+   ],
+   "slug": "2026-05-31-la-fe-en-medio-del-silencio"
   }
  ],
  "shorts": [
+  {
+   "video_id": "T3ScYSrtj54",
+   "fecha": "2024-08-18",
+   "publicado": "2026-11-04",
+   "predicador": "Felipe Albacete",
+   "sermon": "Los grandes perdedores",
+   "titulo": "A Dios nada le sorprende"
+  },
+  {
+   "video_id": "9R0jg9a9qiQ",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-04",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "Es pan, es símbolo"
+  },
   {
    "video_id": "eW48ABK5n7o",
    "fecha": "2024-09-08",
@@ -1146,22 +1238,6 @@
    "predicador": "Carlos Lamus",
    "sermon": "La palabra se hizo carne",
    "titulo": "Buscaba a Dios a mi manera"
-  },
-  {
-   "video_id": "Amcc_yjNEIQ",
-   "fecha": "2026-09-13",
-   "publicado": "2026-10-05",
-   "predicador": "Marcus Benicio",
-   "sermon": "El espejo",
-   "titulo": "No tienes que hacer nada para que Dios te ame"
-  },
-  {
-   "video_id": "Tky6c-gz9Eo",
-   "fecha": "2026-09-20",
-   "publicado": "2026-10-05",
-   "predicador": "Felipe Albacete",
-   "sermon": "Cuando un hermano se extravía",
-   "titulo": "Jonás no huyó en un día"
   }
  ],
  "agenda": [
