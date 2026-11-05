@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T00:50",
+ "generado": "2026-11-06T00:54",
  "sermones": [
   {
    "video_id": "hDFCU93S0Io",
@@ -760,6 +760,22 @@
  ],
  "shorts": [
   {
+   "video_id": "Jp7LL4QN7sc",
+   "fecha": "2026-09-06",
+   "publicado": "2026-11-06",
+   "predicador": "Felipe Albacete",
+   "sermon": "Las apariencias engañan",
+   "titulo": "No puedes conducir en China con tu carné"
+  },
+  {
+   "video_id": "3pbry2YR33w",
+   "fecha": "2026-11-01",
+   "publicado": "2026-11-06",
+   "predicador": "Carlos Campos",
+   "sermon": "Él derribó el muro",
+   "titulo": "Estás en paz con Dios"
+  },
+  {
    "video_id": "8Fgwn6I3UEk",
    "fecha": "2026-09-13",
    "publicado": "2026-11-05",
@@ -1222,22 +1238,6 @@
    "predicador": "Carlos Lamus",
    "sermon": "La palabra se hizo carne",
    "titulo": "Lázaro, levántate"
-  },
-  {
-   "video_id": "Q1QpRiXMHKY",
-   "fecha": "2026-08-30",
-   "publicado": "2026-10-07",
-   "predicador": "Carlos Lamus",
-   "sermon": "El encargo de David a Salomón",
-   "titulo": "Quieres prosperar"
-  },
-  {
-   "video_id": "__3--EASj5s",
-   "fecha": "2026-09-20",
-   "publicado": "2026-10-07",
-   "predicador": "Felipe Albacete",
-   "sermon": "Cuando un hermano se extravía",
-   "titulo": "Tu problema es mi problema"
   }
  ],
  "agenda": [
