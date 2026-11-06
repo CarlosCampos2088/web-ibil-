@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-06T22:50",
+ "generado": "2026-11-07T00:50",
  "sermones": [
   {
    "video_id": "hDFCU93S0Io",
@@ -760,6 +760,22 @@
  ],
  "shorts": [
   {
+   "video_id": "kmJfo_6S8mA",
+   "fecha": "2026-08-30",
+   "publicado": "2026-11-07",
+   "predicador": "Carlos Lamus",
+   "sermon": "El encargo de David a Salomón",
+   "titulo": "Sé específico con Dios"
+  },
+  {
+   "video_id": "FP4Fwdz5zhI",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-07",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "El hígado que quería ser ojo"
+  },
+  {
    "video_id": "Jp7LL4QN7sc",
    "fecha": "2026-09-06",
    "publicado": "2026-11-06",
@@ -1222,22 +1238,6 @@
    "predicador": "Felipe Albacete",
    "sermon": "Cuando un hermano se extravía",
    "titulo": "Como las cartas de mi novia"
-  },
-  {
-   "video_id": "G0tqIw71yME",
-   "fecha": "2026-05-24",
-   "publicado": "2026-10-08",
-   "predicador": "Felipe Albacete",
-   "sermon": "El origen de la mayordomía",
-   "titulo": "No somos robots preprogramados"
-  },
-  {
-   "video_id": "zQrpOJJdX5c",
-   "fecha": "2026-09-27",
-   "publicado": "2026-10-08",
-   "predicador": "Carlos Lamus",
-   "sermon": "La palabra se hizo carne",
-   "titulo": "Lázaro, levántate"
   }
  ],
  "agenda": [
