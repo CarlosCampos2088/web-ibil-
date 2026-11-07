@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-07T00:50",
+ "generado": "2026-11-07T17:50",
  "sermones": [
   {
    "video_id": "hDFCU93S0Io",
@@ -1309,6 +1309,12 @@
   }
  ],
  "diario": [
+  {
+   "fecha": "2026-11-07",
+   "texto": "Historia de IBIL, iglesia evangélica en Logroño: culto-B",
+   "id": "semana-20261102-culto-B",
+   "imagen": "/img/diario/semana-20261102-culto-b.webp"
+  },
   {
    "fecha": "2026-11-06",
    "texto": "Sábado 7 de noviembre · 18:00 h. Años Dorados. Encuentro para mayores de 50: conversar, orar y estar juntos.",
