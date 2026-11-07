@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-07T17:50",
+ "generado": "2026-11-08T00:50",
  "sermones": [
   {
    "video_id": "hDFCU93S0Io",
@@ -760,6 +760,22 @@
  ],
  "shorts": [
   {
+   "video_id": "qRNVe6Zslus",
+   "fecha": "2026-08-16",
+   "publicado": "2026-11-08",
+   "predicador": "Felipe Albacete",
+   "sermon": "Aún no es el fin",
+   "titulo": "Para qué voy a salir a evangelizar"
+  },
+  {
+   "video_id": "eVoTdanreyY",
+   "fecha": "2026-11-01",
+   "publicado": "2026-11-08",
+   "predicador": "Carlos Campos",
+   "sermon": "Él derribó el muro",
+   "titulo": "Sabes que eres familia de Dios"
+  },
+  {
    "video_id": "kmJfo_6S8mA",
    "fecha": "2026-08-30",
    "publicado": "2026-11-07",
@@ -1222,30 +1238,9 @@
    "predicador": "Carlos Lamus",
    "sermon": "La palabra se hizo carne",
    "titulo": "Dios mira en mí a Cristo"
-  },
-  {
-   "video_id": "I2FDWHfmfV4",
-   "fecha": "2026-03-15",
-   "publicado": "2026-10-09",
-   "predicador": "Felipe Albacete",
-   "sermon": "Caminando en obediencia",
-   "titulo": "Solo el 5% dio la respuesta correcta"
-  },
-  {
-   "video_id": "f9Q8wY88VzY",
-   "fecha": "2026-09-20",
-   "publicado": "2026-10-09",
-   "predicador": "Felipe Albacete",
-   "sermon": "Cuando un hermano se extravía",
-   "titulo": "Como las cartas de mi novia"
   }
  ],
  "agenda": [
-  {
-   "fecha": "2026-11-07",
-   "hora": "18:00",
-   "nombre": "Años Dorados"
-  },
   {
    "fecha": "2026-11-11",
    "hora": "19:00",
