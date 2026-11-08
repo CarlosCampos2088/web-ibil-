@@ -1,6 +1,114 @@
 {
- "generado": "2026-11-08T22:50",
+ "generado": "2026-11-09T00:50",
  "sermones": [
+  {
+   "video_id": "sbhOs2dZxs4",
+   "fecha": "2026-11-01",
+   "publicado": "2026-11-09",
+   "predicador": "Carlos Campos",
+   "titulo": "Él derribó el muro",
+   "pasaje": "Efesios 2:11-22",
+   "resumen": "A Pablo lo apresaron en Jerusalén acusado de meter a un griego, Trófimo, en el templo: un muro separaba a los judíos de los demás pueblos. En Efesios 2:11-22 el Hno. Carlos Campos explica que Cristo derribó ese muro con su sangre. Antes estábamos lejos, sin Cristo, sin esperanza y sin Dios; por la fe en Cristo somos hechos cercanos, familia de Dios y piedras vivas de su templo. Y si derribar el muro le costó la vida a Cristo, nosotros no tenemos derecho a volver a levantarlo.",
+   "capitulos": [
+    {
+     "t": "00:00",
+     "n": "Pablo, preso en Jerusalén (Hechos 21:26-29)"
+    },
+    {
+     "t": "01:56",
+     "n": "Hechos: los últimos días de Pablo"
+    },
+    {
+     "t": "05:34",
+     "n": "Trófimo y la acusación falsa"
+    },
+    {
+     "t": "06:32",
+     "n": "El muro del templo"
+    },
+    {
+     "t": "07:46",
+     "n": "Acordémonos de dónde estábamos (Efesios 2:11-12)"
+    },
+    {
+     "t": "08:48",
+     "n": "«Prohibido pasar»: la inscripción del templo"
+    },
+    {
+     "t": "10:24",
+     "n": "Hechos cercanos por la sangre de Cristo (Efesios 2:13)"
+    },
+    {
+     "t": "11:16",
+     "n": "Una sola cosa: la fe en Cristo"
+    },
+    {
+     "t": "13:02",
+     "n": "La paz mediante la sangre de su cruz (Colosenses 1:20)"
+    },
+    {
+     "t": "13:31",
+     "n": "¿Estás en paz con Dios?"
+    },
+    {
+     "t": "14:21",
+     "n": "Él es nuestra paz (Efesios 2:14)"
+    },
+    {
+     "t": "16:28",
+     "n": "Un solo y nuevo hombre (Efesios 2:15)"
+    },
+    {
+     "t": "18:06",
+     "n": "Matando las enemistades"
+    },
+    {
+     "t": "18:42",
+     "n": "La iglesia primitiva: todo en común"
+    },
+    {
+     "t": "20:04",
+     "n": "Acceso al Padre (Efesios 2:16-18)"
+    },
+    {
+     "t": "21:12",
+     "n": "No levantemos los muros que Cristo rompió"
+    },
+    {
+     "t": "23:20",
+     "n": "Familia de Dios (Efesios 2:19)"
+    },
+    {
+     "t": "23:57",
+     "n": "¿Eres consciente de que eres familia de Dios?"
+    },
+    {
+     "t": "26:11",
+     "n": "También para el extranjero (Levítico 22:18)"
+    },
+    {
+     "t": "27:08",
+     "n": "Derribar el muro le costó la vida a Cristo"
+    },
+    {
+     "t": "28:37",
+     "n": "De excluidos a piedras vivas (Efesios 2:20-22)"
+    },
+    {
+     "t": "30:04",
+     "n": "Valoremos el sacrificio"
+    },
+    {
+     "t": "31:08",
+     "n": "Jesús es el camino"
+    },
+    {
+     "t": "32:11",
+     "n": "Oración final"
+    }
+   ],
+   "slug": "2026-11-01-el-derribo-el-muro"
+  },
   {
    "video_id": "hDFCU93S0Io",
    "fecha": "2026-10-25",
@@ -760,6 +868,22 @@
  ],
  "shorts": [
   {
+   "video_id": "g-tWp_89r5o",
+   "fecha": "2026-07-26",
+   "publicado": "2026-11-09",
+   "predicador": "Felipe Albacete",
+   "sermon": "Propósito - misión en acción",
+   "titulo": "Buscad primeramente el reino de Dios… y ya"
+  },
+  {
+   "video_id": "PA0c67DFm6A",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-09",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "No vengo a recibir una bendición"
+  },
+  {
    "video_id": "qRNVe6Zslus",
    "fecha": "2026-08-16",
    "publicado": "2026-11-08",
@@ -1222,22 +1346,6 @@
    "predicador": "Felipe Albacete",
    "sermon": "Cuando un hermano se extravía",
    "titulo": "Dónde está eso en la Biblia"
-  },
-  {
-   "video_id": "gul6VDLOgCk",
-   "fecha": "2026-03-01",
-   "publicado": "2026-10-10",
-   "predicador": "Carlos Campos",
-   "sermon": "Si me amáis",
-   "titulo": "El evangelio no es una lista de normas"
-  },
-  {
-   "video_id": "bBLxclem0eY",
-   "fecha": "2026-09-27",
-   "publicado": "2026-10-10",
-   "predicador": "Carlos Lamus",
-   "sermon": "La palabra se hizo carne",
-   "titulo": "Dios mira en mí a Cristo"
   }
  ],
  "agenda": [
