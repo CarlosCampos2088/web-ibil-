@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-09T00:50",
+ "generado": "2026-11-10T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -868,6 +868,22 @@
  ],
  "shorts": [
   {
+   "video_id": "_a8Y5NPi-CI",
+   "fecha": "2026-05-31",
+   "publicado": "2026-11-10",
+   "predicador": "Carlos Lamus",
+   "sermon": "La fe en medio del silencio",
+   "titulo": "No le digas a Dios por qué, dile para qué"
+  },
+  {
+   "video_id": "hh1aMicKndU",
+   "fecha": "2026-11-01",
+   "publicado": "2026-11-10",
+   "predicador": "Carlos Campos",
+   "sermon": "Él derribó el muro",
+   "titulo": "Lo único que te acerca a Dios"
+  },
+  {
    "video_id": "g-tWp_89r5o",
    "fecha": "2026-07-26",
    "publicado": "2026-11-09",
@@ -1330,22 +1346,6 @@
    "predicador": "Carlos Lamus",
    "sermon": "La palabra se hizo carne",
    "titulo": "La Biblia es un espejo"
-  },
-  {
-   "video_id": "JHZK2Q7T0jI",
-   "fecha": "2026-02-01",
-   "publicado": "2026-10-11",
-   "predicador": "Carlos Campos",
-   "sermon": "Dios es amor",
-   "titulo": "Menos frases motivacionales, más actos de amor"
-  },
-  {
-   "video_id": "nO0kvHHQEmA",
-   "fecha": "2026-09-20",
-   "publicado": "2026-10-11",
-   "predicador": "Felipe Albacete",
-   "sermon": "Cuando un hermano se extravía",
-   "titulo": "Dónde está eso en la Biblia"
   }
  ],
  "agenda": [
