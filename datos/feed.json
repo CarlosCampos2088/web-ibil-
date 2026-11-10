@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T22:50",
+ "generado": "2026-11-10T23:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -1417,6 +1417,12 @@
    "texto": "Historia de IBIL, iglesia evangélica en Logroño: agenda",
    "id": "semana-20261109-agenda",
    "imagen": "/img/diario/semana-20261109-agenda.webp"
+  },
+  {
+   "fecha": "2026-11-10",
+   "texto": "Historia de IBIL, iglesia evangélica en Logroño: discipulado",
+   "id": "semana-20261109-discipulado",
+   "imagen": "/img/diario/semana-20261109-discipulado.webp"
   },
   {
    "fecha": "2026-11-08",
