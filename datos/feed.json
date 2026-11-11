@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-11T12:01",
+ "generado": "2026-11-12T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -879,6 +879,22 @@
  ],
  "shorts": [
   {
+   "video_id": "cGCt8O3UbuQ",
+   "fecha": "2026-05-17",
+   "publicado": "2026-11-12",
+   "predicador": "Marcus Benicio",
+   "sermon": "Qué diferencia a la iglesia",
+   "titulo": "Enseña a tus hijos a encontrar a Jesús"
+  },
+  {
+   "video_id": "l_3NiSXsuIw",
+   "fecha": "2026-11-01",
+   "publicado": "2026-11-12",
+   "predicador": "Carlos Campos",
+   "sermon": "Él derribó el muro",
+   "titulo": "De excluidos a piedras vivas"
+  },
+  {
    "video_id": "wutMUNiHYtA",
    "fecha": "2026-05-24",
    "publicado": "2026-11-11",
@@ -1341,31 +1357,9 @@
    "predicador": "Carlos Campos",
    "sermon": "La sombra y la sustancia",
    "titulo": "Vives en un ciclo de culpa y alivio"
-  },
-  {
-   "video_id": "GHDXtAoST-g",
-   "fecha": "2026-01-04",
-   "publicado": "2026-10-13",
-   "predicador": "Carlos Campos",
-   "sermon": "Seis compromisos para 2026",
-   "titulo": "Que la paz de Dios sea el árbitro"
-  },
-  {
-   "video_id": "NHTQ5x3Qm_s",
-   "fecha": "2026-09-27",
-   "publicado": "2026-10-13",
-   "predicador": "Carlos Lamus",
-   "sermon": "La palabra se hizo carne",
-   "titulo": "Jesucristo nunca cambia"
   }
  ],
  "agenda": [
-  {
-   "fecha": "2026-11-11",
-   "hora": "19:00",
-   "nombre": "Discipulado: Los talentos",
-   "detalle": "Mateo 25:14-30"
-  },
   {
    "fecha": "2026-11-18",
    "hora": "19:00",
