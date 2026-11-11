@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T23:50",
+ "generado": "2026-11-11T12:01",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -864,9 +864,36 @@
     }
    ],
    "slug": "2026-05-31-la-fe-en-medio-del-silencio"
+  },
+  {
+   "video_id": "1xUQ0xH_9gI",
+   "fecha": "2026-05-24",
+   "publicado": "2026-11-11",
+   "predicador": "Felipe Albacete",
+   "titulo": "El origen de la mayordomía",
+   "pasaje": "",
+   "resumen": "",
+   "capitulos": [],
+   "slug": "2026-05-24-el-origen-de-la-mayordomia"
   }
  ],
  "shorts": [
+  {
+   "video_id": "wutMUNiHYtA",
+   "fecha": "2026-05-24",
+   "publicado": "2026-11-11",
+   "predicador": "Felipe Albacete",
+   "sermon": "El origen de la mayordomía",
+   "titulo": "Lo mejor o lo que sobra"
+  },
+  {
+   "video_id": "ozb84cpQdkQ",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-11",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "Quién es Jesús"
+  },
   {
    "video_id": "_a8Y5NPi-CI",
    "fecha": "2026-05-31",
@@ -1330,22 +1357,6 @@
    "predicador": "Carlos Lamus",
    "sermon": "La palabra se hizo carne",
    "titulo": "Jesucristo nunca cambia"
-  },
-  {
-   "video_id": "rq6l7lsSLFI",
-   "fecha": "2026-01-25",
-   "publicado": "2026-10-12",
-   "predicador": "Felipe Albacete",
-   "sermon": "Un concepto nuevo de amor",
-   "titulo": "La palabra que creemos conocer"
-  },
-  {
-   "video_id": "BboFaNDl8s0",
-   "fecha": "2026-09-27",
-   "publicado": "2026-10-12",
-   "predicador": "Carlos Lamus",
-   "sermon": "La palabra se hizo carne",
-   "titulo": "La Biblia es un espejo"
   }
  ],
  "agenda": [
