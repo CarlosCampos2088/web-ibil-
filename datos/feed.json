@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T22:50",
+ "generado": "2026-11-16T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -879,6 +879,22 @@
  ],
  "shorts": [
   {
+   "video_id": "dlXawHu9iuo",
+   "fecha": "2026-03-29",
+   "publicado": "2026-11-16",
+   "predicador": "Marcus Benicio",
+   "sermon": "Esta es la vida eterna",
+   "titulo": "Sabía su nombre, pero no lo conocía"
+  },
+  {
+   "video_id": "AMbkTuPE4Qw",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-16",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "La iglesia no es una pensión"
+  },
+  {
    "video_id": "xAMliPLS0Go",
    "fecha": "2026-04-05",
    "publicado": "2026-11-15",
@@ -1341,22 +1357,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Cuando llegue la tormenta",
    "titulo": "A los dos les cae la misma tormenta"
-  },
-  {
-   "video_id": "AnTZnQkHw08",
-   "fecha": "2025-11-23",
-   "publicado": "2026-10-17",
-   "predicador": "Felipe Albacete",
-   "sermon": "En el nombre de Jesús",
-   "titulo": "Jesús es el que corta el bacalao"
-  },
-  {
-   "video_id": "Fud-B3IdAeo",
-   "fecha": "2026-10-11",
-   "publicado": "2026-10-17",
-   "predicador": "Carlos Campos",
-   "sermon": "Cuando llegue la tormenta",
-   "titulo": "Discípulo o seguidor"
   }
  ],
  "agenda": [
