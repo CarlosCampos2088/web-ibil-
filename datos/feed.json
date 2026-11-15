@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T21:50",
+ "generado": "2026-11-15T22:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -879,6 +879,22 @@
  ],
  "shorts": [
   {
+   "video_id": "xAMliPLS0Go",
+   "fecha": "2026-04-05",
+   "publicado": "2026-11-15",
+   "predicador": "Marcus Benicio",
+   "sermon": "Hay Cristo para todas las cosas",
+   "titulo": "Por qué Pablo eligió la palabra triunfo"
+  },
+  {
+   "video_id": "nomwDEcWKN0",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-15",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "No venimos a recibir, venimos a dar"
+  },
+  {
    "video_id": "-bOsGo9Nz9A",
    "fecha": "2026-04-19",
    "publicado": "2026-11-14",
@@ -1341,22 +1357,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Cuando llegue la tormenta",
    "titulo": "Discípulo o seguidor"
-  },
-  {
-   "video_id": "bl4bq87Z6z8",
-   "fecha": "2025-11-30",
-   "publicado": "2026-10-16",
-   "predicador": "Carlos Lamus",
-   "sermon": "Jesús, nuestro tabernáculo",
-   "titulo": "Su sangre nos limpia de todo"
-  },
-  {
-   "video_id": "yY5OuGTgbxM",
-   "fecha": "2026-10-11",
-   "publicado": "2026-10-16",
-   "predicador": "Carlos Campos",
-   "sermon": "Cuando llegue la tormenta",
-   "titulo": "Todos construimos. Sobre qué"
   }
  ],
  "agenda": [
@@ -1417,6 +1417,12 @@
   }
  ],
  "diario": [
+  {
+   "fecha": "2026-11-15",
+   "texto": "Noviembre · Un solo cuerpo. Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto. Colosenses 3:14",
+   "id": "20261115-1715-IBIL_IG_9x16_PAL_nov-06_Colosenses3-14_v01",
+   "imagen": "/img/diario/20261115-1715-ibil-ig-9x16-pal-nov-06-colosenses3-14-v01.webp"
+  },
   {
    "fecha": "2026-11-10",
    "texto": "Historia de IBIL, iglesia evangélica en Logroño: agenda",
