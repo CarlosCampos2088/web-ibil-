@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-12T00:50",
+ "generado": "2026-11-15T21:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -879,6 +879,38 @@
  ],
  "shorts": [
   {
+   "video_id": "-bOsGo9Nz9A",
+   "fecha": "2026-04-19",
+   "publicado": "2026-11-14",
+   "predicador": "Carlos Lamus",
+   "sermon": "El único camino a la obediencia",
+   "titulo": "Cuántos somos obedientes a Dios"
+  },
+  {
+   "video_id": "pQbqnI9RrNQ",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-14",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "Lo que manda la cabeza"
+  },
+  {
+   "video_id": "sVTda5t_-Eg",
+   "fecha": "2026-04-26",
+   "publicado": "2026-11-13",
+   "predicador": "Felipe Albacete",
+   "sermon": "Más que vencedores",
+   "titulo": "Quién corre una carrera con la idea de perder"
+  },
+  {
+   "video_id": "Dsn1rYrWbbo",
+   "fecha": "2026-10-25",
+   "publicado": "2026-11-13",
+   "predicador": "Marcus Benicio",
+   "sermon": "Sacerdocio universal",
+   "titulo": "Yo era ciego y ahora veo"
+  },
+  {
    "video_id": "cGCt8O3UbuQ",
    "fecha": "2026-05-17",
    "publicado": "2026-11-12",
@@ -1325,38 +1357,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Cuando llegue la tormenta",
    "titulo": "Todos construimos. Sobre qué"
-  },
-  {
-   "video_id": "eWMd--1Pl9g",
-   "fecha": "2025-12-07",
-   "publicado": "2026-10-15",
-   "predicador": "Felipe Albacete",
-   "sermon": "Una misión de rescate",
-   "titulo": "El escultor ve la figura dentro del mármol"
-  },
-  {
-   "video_id": "DXP4SxpyWX8",
-   "fecha": "2026-10-11",
-   "publicado": "2026-10-15",
-   "predicador": "Carlos Campos",
-   "sermon": "Cuando llegue la tormenta",
-   "titulo": "La tormenta muestra lo que ya había"
-  },
-  {
-   "video_id": "s7MxfqxD4Y8",
-   "fecha": "2025-12-21",
-   "publicado": "2026-10-14",
-   "predicador": "Carlos Campos",
-   "sermon": "Toda la Escritura habla de Cristo",
-   "titulo": "Cristo es tu jubileo"
-  },
-  {
-   "video_id": "jHCg6OKF38M",
-   "fecha": "2025-12-14",
-   "publicado": "2026-10-14",
-   "predicador": "Carlos Campos",
-   "sermon": "La sombra y la sustancia",
-   "titulo": "Vives en un ciclo de culpa y alivio"
   }
  ],
  "agenda": [
