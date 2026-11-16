@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T00:50",
+ "generado": "2026-11-16T22:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -1363,13 +1363,8 @@
   {
    "fecha": "2026-11-18",
    "hora": "19:00",
-   "nombre": "Discipulado: La torre y el rey",
-   "detalle": "Lucas 14:28-29"
-  },
-  {
-   "fecha": "2026-11-20",
-   "hora": "20:00",
-   "nombre": "Vigilia por la unidad"
+   "nombre": "Discipulado: Los talentos",
+   "detalle": "Mateo 25:14-30"
   },
   {
    "fecha": "2026-11-22",
@@ -1381,6 +1376,11 @@
    "hora": "19:00",
    "nombre": "Discipulado: El siervo inútil",
    "detalle": "Lucas 17:7-10"
+  },
+  {
+   "fecha": "2026-11-27",
+   "hora": "19:00",
+   "nombre": "Vigilia unida con Calahorra y Tudela"
   },
   {
    "fecha": "2026-12-02",
@@ -1417,6 +1417,12 @@
   }
  ],
  "diario": [
+  {
+   "fecha": "2026-11-16",
+   "texto": "16 de noviembre · Día Internacional para la Tolerancia. Si es posible, en cuanto dependa de vosotros, estad en paz con todos los hombres. Romanos 12:18",
+   "id": "20261116-1715-IBIL_IG_9x16_PAL_2026-11-16_Dia-de-la-Tolerancia_v01",
+   "imagen": "/img/diario/20261116-1715-ibil-ig-9x16-pal-2026-11-16-dia-de-la-toleranc.webp"
+  },
   {
    "fecha": "2026-11-15",
    "texto": "Noviembre · Un solo cuerpo. Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto. Colosenses 3:14",
