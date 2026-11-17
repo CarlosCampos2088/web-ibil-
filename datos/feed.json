@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T22:50",
+ "generado": "2026-11-17T17:02",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -879,6 +879,22 @@
  ],
  "shorts": [
   {
+   "video_id": "Ql_-_mFJLzE",
+   "fecha": "2026-03-15",
+   "publicado": "2026-11-17",
+   "predicador": "Felipe Albacete",
+   "sermon": "Caminando en obediencia",
+   "titulo": "Una sola palabra y lo dejó todo"
+  },
+  {
+   "video_id": "RLIP8dXwzi0",
+   "fecha": "2026-03-01",
+   "publicado": "2026-11-17",
+   "predicador": "Carlos Campos",
+   "sermon": "Si me amáis",
+   "titulo": "La conciencia bien alimentada"
+  },
+  {
    "video_id": "dlXawHu9iuo",
    "fecha": "2026-03-29",
    "publicado": "2026-11-16",
@@ -1341,22 +1357,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Cuando llegue la tormenta",
    "titulo": "Baja al sótano"
-  },
-  {
-   "video_id": "6WvCCSt1iy4",
-   "fecha": "2025-11-09",
-   "publicado": "2026-10-18",
-   "predicador": "Carlos Campos",
-   "sermon": "Convicción, confesión y comunión",
-   "titulo": "Una hermandad de pecadores perdonados"
-  },
-  {
-   "video_id": "9601Qvh8HFU",
-   "fecha": "2026-10-11",
-   "publicado": "2026-10-18",
-   "predicador": "Carlos Campos",
-   "sermon": "Cuando llegue la tormenta",
-   "titulo": "A los dos les cae la misma tormenta"
   }
  ],
  "agenda": [
