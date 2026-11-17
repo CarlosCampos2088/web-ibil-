@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T23:50",
+ "generado": "2026-11-18T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -875,9 +875,97 @@
    "resumen": "",
    "capitulos": [],
    "slug": "2026-05-24-el-origen-de-la-mayordomia"
+  },
+  {
+   "video_id": "LzMe7liM3AE",
+   "fecha": "2026-04-26",
+   "publicado": "2026-11-18",
+   "predicador": "Felipe Albacete",
+   "titulo": "Más que vencedores",
+   "pasaje": "",
+   "resumen": "«Somos más que vencedores.» Uno lee eso, mira su vida y algo no encaja: más bien nos sentimos más que perdedores. ¿Dónde está el desajuste?",
+   "capitulos": [
+    {
+     "t": "00:00",
+     "n": "Lo que se está enseñando en las iglesias en los últimos tiempos"
+    },
+    {
+     "t": "05:00",
+     "n": "La iglesia bautista y la centralidad de la Escritura"
+    },
+    {
+     "t": "07:00",
+     "n": "Romanos 8:37: hipernikao, más que vencedores"
+    },
+    {
+     "t": "12:00",
+     "n": "Quién era Pablo: el hombre que lo tenía todo en contra"
+    },
+    {
+     "t": "17:00",
+     "n": "1 Corintios 9:24-27: la carrera y el premio"
+    },
+    {
+     "t": "21:00",
+     "n": "Corinto: una iglesia pagana entre dos aguas"
+    },
+    {
+     "t": "29:34",
+     "n": "«¿Quién se mete en una carrera con la idea de perder?»"
+    },
+    {
+     "t": "33:55",
+     "n": "Primer componente: «¡ay de mí si no anuncio el evangelio!»"
+    },
+    {
+     "t": "36:17",
+     "n": "La corona del ángel"
+    },
+    {
+     "t": "38:37",
+     "n": "Segundo componente: la abnegación de Pablo"
+    },
+    {
+     "t": "44:44",
+     "n": "«Yo pensaba que la mentalidad vencedora era prosperidad»"
+    },
+    {
+     "t": "45:37",
+     "n": "Tercer componente: la universidad espiritual de Dios"
+    },
+    {
+     "t": "54:18",
+     "n": "No venir a la iglesia: ser la iglesia"
+    },
+    {
+     "t": "57:40",
+     "n": "Filipenses 3: olvidar lo que queda atrás"
+    },
+    {
+     "t": "59:37",
+     "n": "Unidad en la diferencia"
+    }
+   ],
+   "slug": "2026-04-26-mas-que-vencedores"
   }
  ],
  "shorts": [
+  {
+   "video_id": "V2Mg7cVifHo",
+   "fecha": "2026-02-01",
+   "publicado": "2026-11-18",
+   "predicador": "Carlos Campos",
+   "sermon": "Dios es amor",
+   "titulo": "La cruz, la mayor prueba de amor"
+  },
+  {
+   "video_id": "vqrwf83Gc8k",
+   "fecha": "2026-01-25",
+   "publicado": "2026-11-18",
+   "predicador": "Felipe Albacete",
+   "sermon": "Un concepto nuevo de amor",
+   "titulo": "Filia no vale, eros no sirve"
+  },
   {
    "video_id": "Ql_-_mFJLzE",
    "fecha": "2026-03-15",
@@ -1341,22 +1429,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Cuando llegue la tormenta",
    "titulo": "El evangelio completo"
-  },
-  {
-   "video_id": "TJxyWkRoiTM",
-   "fecha": "2025-10-26",
-   "publicado": "2026-10-19",
-   "predicador": "Felipe A.",
-   "sermon": "En la casa del Padre hay paz",
-   "titulo": "La paz que el mundo no puede dar"
-  },
-  {
-   "video_id": "wXy7Dg2J8JQ",
-   "fecha": "2026-10-11",
-   "publicado": "2026-10-19",
-   "predicador": "Carlos Campos",
-   "sermon": "Cuando llegue la tormenta",
-   "titulo": "Baja al sótano"
   }
  ],
  "agenda": [
