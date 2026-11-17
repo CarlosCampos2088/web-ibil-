@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T17:02",
+ "generado": "2026-11-17T22:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -1417,6 +1417,12 @@
   }
  ],
  "diario": [
+  {
+   "fecha": "2026-11-17",
+   "texto": "Historia de IBIL, iglesia evangélica en Logroño: agenda",
+   "id": "semana-20261116-agenda",
+   "imagen": "/img/diario/semana-20261116-agenda.webp"
+  },
   {
    "fecha": "2026-11-16",
    "texto": "16 de noviembre · Día Internacional para la Tolerancia. Si es posible, en cuanto dependa de vosotros, estad en paz con todos los hombres. Romanos 12:18",
