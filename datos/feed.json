@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T22:50",
+ "generado": "2026-11-19T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -951,6 +951,22 @@
  ],
  "shorts": [
   {
+   "video_id": "53qH7nvjiJQ",
+   "fecha": "2026-01-04",
+   "publicado": "2026-11-19",
+   "predicador": "Carlos Campos",
+   "sermon": "Seis compromisos para 2026",
+   "titulo": "Perdonar como Cristo nos perdonó"
+  },
+  {
+   "video_id": "aGIEf5urxys",
+   "fecha": "2025-12-21",
+   "publicado": "2026-11-19",
+   "predicador": "Carlos Campos",
+   "sermon": "Toda la Escritura habla de Cristo",
+   "titulo": "Cristo, tu ciudad de refugio"
+  },
+  {
    "video_id": "V2Mg7cVifHo",
    "fecha": "2026-02-01",
    "publicado": "2026-11-18",
@@ -1413,31 +1429,9 @@
    "predicador": "Dr. Julio Díaz",
    "sermon": "Defensa de la esperanza",
    "titulo": "La muerte no es el final"
-  },
-  {
-   "video_id": "hPYvYtIr7VM",
-   "fecha": "2025-10-19",
-   "publicado": "2026-10-20",
-   "predicador": "Carlos Campos",
-   "sermon": "Jesucristo, el arquitecto perfecto",
-   "titulo": "La cruz derribó dos muros"
-  },
-  {
-   "video_id": "k6_OYSqoEPs",
-   "fecha": "2026-10-11",
-   "publicado": "2026-10-20",
-   "predicador": "Carlos Campos",
-   "sermon": "Cuando llegue la tormenta",
-   "titulo": "El evangelio completo"
   }
  ],
  "agenda": [
-  {
-   "fecha": "2026-11-18",
-   "hora": "19:00",
-   "nombre": "Discipulado: Los talentos",
-   "detalle": "Mateo 25:14-30"
-  },
   {
    "fecha": "2026-11-22",
    "hora": "11:30",
