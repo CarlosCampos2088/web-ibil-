@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T00:50",
+ "generado": "2026-11-20T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -951,6 +951,22 @@
  ],
  "shorts": [
   {
+   "video_id": "NjZqKAjvqcc",
+   "fecha": "2025-12-14",
+   "publicado": "2026-11-20",
+   "predicador": "Carlos Campos",
+   "sermon": "La sombra y la sustancia",
+   "titulo": "El velo era su carne"
+  },
+  {
+   "video_id": "Qm_hBc-SmTg",
+   "fecha": "2025-12-07",
+   "publicado": "2026-11-20",
+   "predicador": "Felipe Albacete",
+   "sermon": "Una misión de rescate",
+   "titulo": "Lo difícil da sentido a tu fe"
+  },
+  {
    "video_id": "53qH7nvjiJQ",
    "fecha": "2026-01-04",
    "publicado": "2026-11-19",
@@ -1413,22 +1429,6 @@
    "predicador": "Carlos Campos",
    "sermon": "La Biblia, el fundamento para la sociedad",
    "titulo": "Su palabra no volverá vacía"
-  },
-  {
-   "video_id": "-AxmK1pUbjw",
-   "fecha": "2025-10-12",
-   "publicado": "2026-10-21",
-   "predicador": "Carlos Campos",
-   "sermon": "Firmes en la libertad que sirve en amor",
-   "titulo": "Cristo más algo no es nada"
-  },
-  {
-   "video_id": "fcwaTwLuc3U",
-   "fecha": "2025-10-05",
-   "publicado": "2026-10-21",
-   "predicador": "Dr. Julio Díaz",
-   "sermon": "Defensa de la esperanza",
-   "titulo": "La muerte no es el final"
   }
  ],
  "agenda": [
