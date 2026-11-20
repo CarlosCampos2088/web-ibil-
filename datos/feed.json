@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T22:50",
+ "generado": "2026-11-21T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -951,6 +951,22 @@
  ],
  "shorts": [
   {
+   "video_id": "n1YQ3oY8qpk",
+   "fecha": "2025-11-30",
+   "publicado": "2026-11-21",
+   "predicador": "Carlos Lamus",
+   "sermon": "Jesús, nuestro tabernáculo",
+   "titulo": "Por qué no veo respuesta a mi oración"
+  },
+  {
+   "video_id": "uOqsgvg_5Og",
+   "fecha": "2025-11-23",
+   "publicado": "2026-11-21",
+   "predicador": "Felipe Albacete",
+   "sermon": "En el nombre de Jesús",
+   "titulo": "La frase que puede cancelar tu oración"
+  },
+  {
    "video_id": "NjZqKAjvqcc",
    "fecha": "2025-12-14",
    "publicado": "2026-11-20",
@@ -1413,22 +1429,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Una familia que levanta",
    "titulo": "Lo que enseñan las viñas de La Rioja"
-  },
-  {
-   "video_id": "OCAR6Hx5oHM",
-   "fecha": "2025-09-28",
-   "publicado": "2026-10-22",
-   "predicador": "Felipe A.",
-   "sermon": "Sea Dios veraz",
-   "titulo": "El diablo tiene una pistola sin balines"
-  },
-  {
-   "video_id": "uWzvDtr4cEY",
-   "fecha": "2025-09-21",
-   "publicado": "2026-10-22",
-   "predicador": "Carlos Campos",
-   "sermon": "La Biblia, el fundamento para la sociedad",
-   "titulo": "Su palabra no volverá vacía"
   }
  ],
  "agenda": [
