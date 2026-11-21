@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T17:50",
+ "generado": "2026-11-22T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -951,6 +951,22 @@
  ],
  "shorts": [
   {
+   "video_id": "Yi2DFYxy8hM",
+   "fecha": "2025-11-09",
+   "publicado": "2026-11-22",
+   "predicador": "Carlos Campos",
+   "sermon": "Convicción, confesión y comunión",
+   "titulo": "El espejo de la Biblia"
+  },
+  {
+   "video_id": "-xlN1Tnw6s4",
+   "fecha": "2025-10-26",
+   "publicado": "2026-11-22",
+   "predicador": "Felipe A.",
+   "sermon": "En la casa del Padre hay paz",
+   "titulo": "Una fortaleza no se remodela, se derriba"
+  },
+  {
    "video_id": "n1YQ3oY8qpk",
    "fecha": "2025-11-30",
    "publicado": "2026-11-21",
@@ -1413,22 +1429,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Una familia que levanta",
    "titulo": "No somos un club de gente perfecta"
-  },
-  {
-   "video_id": "XuJ4amJdC0M",
-   "fecha": "2025-09-14",
-   "publicado": "2026-10-23",
-   "predicador": "Carlos Campos",
-   "sermon": "Persiste en lo que has aprendido",
-   "titulo": "Quieres conocer a Dios"
-  },
-  {
-   "video_id": "qDTxtVNcW5A",
-   "fecha": "2026-10-18",
-   "publicado": "2026-10-23",
-   "predicador": "Carlos Campos",
-   "sermon": "Una familia que levanta",
-   "titulo": "Lo que enseñan las viñas de La Rioja"
   }
  ],
  "agenda": [
