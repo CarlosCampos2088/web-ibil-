@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T22:50",
+ "generado": "2026-11-23T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -951,6 +951,22 @@
  ],
  "shorts": [
   {
+   "video_id": "tWBsKxP0Lcg",
+   "fecha": "2025-10-19",
+   "publicado": "2026-11-23",
+   "predicador": "Carlos Campos",
+   "sermon": "Jesucristo, el arquitecto perfecto",
+   "titulo": "La unidad no se fuerza"
+  },
+  {
+   "video_id": "fzGExcsNWU0",
+   "fecha": "2025-10-12",
+   "publicado": "2026-11-23",
+   "predicador": "Carlos Campos",
+   "sermon": "Firmes en la libertad que sirve en amor",
+   "titulo": "Un yugo lo llevan dos"
+  },
+  {
    "video_id": "Yi2DFYxy8hM",
    "fecha": "2025-11-09",
    "publicado": "2026-11-22",
@@ -1413,30 +1429,9 @@
    "predicador": "Carlos Campos",
    "sermon": "Una familia que levanta",
    "titulo": "Se equivoca el que trabaja"
-  },
-  {
-   "video_id": "YwcrpkFCg1U",
-   "fecha": "2025-08-17",
-   "publicado": "2026-10-24",
-   "predicador": "Felipe Albacete",
-   "sermon": "Esfuérzate en la gracia",
-   "titulo": "Cueste lo que cueste"
-  },
-  {
-   "video_id": "bOTJwWin50A",
-   "fecha": "2026-10-18",
-   "publicado": "2026-10-24",
-   "predicador": "Carlos Campos",
-   "sermon": "Una familia que levanta",
-   "titulo": "No somos un club de gente perfecta"
   }
  ],
  "agenda": [
-  {
-   "fecha": "2026-11-22",
-   "hora": "11:30",
-   "nombre": "Culto con Cena del Señor"
-  },
   {
    "fecha": "2026-11-25",
    "hora": "19:00",
