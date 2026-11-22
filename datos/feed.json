@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T00:50",
+ "generado": "2026-11-22T22:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -1446,7 +1446,7 @@
   {
    "fecha": "2026-11-27",
    "hora": "19:00",
-   "nombre": "Vigilia unida con Calahorra y Tudela"
+   "nombre": "Vigilia unida · <r>Calahorra</r><br>C/ Cavas 44, Calahorra"
   },
   {
    "fecha": "2026-12-02",
@@ -1483,6 +1483,12 @@
   }
  ],
  "diario": [
+  {
+   "fecha": "2026-11-22",
+   "texto": "Noviembre · Un solo cuerpo. ¡Mirad cuán bueno y cuán delicioso es habitar los hermanos juntos en armonía!. Salmo 133:1",
+   "id": "20261122-1715-IBIL_IG_9x16_PAL_nov-07_Salmo133-1_v01",
+   "imagen": "/img/diario/20261122-1715-ibil-ig-9x16-pal-nov-07-salmo133-1-v01.webp"
+  },
   {
    "fecha": "2026-11-21",
    "texto": "Historia de IBIL, iglesia evangélica en Logroño: culto-B",
