@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T00:50",
+ "generado": "2026-11-24T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -951,6 +951,22 @@
  ],
  "shorts": [
   {
+   "video_id": "TL4aZZ2GsOo",
+   "fecha": "2025-10-05",
+   "publicado": "2026-11-24",
+   "predicador": "Dr. Julio Díaz",
+   "sermon": "Defensa de la esperanza",
+   "titulo": "No hace falta un discurso teológico"
+  },
+  {
+   "video_id": "7hLV0WBRHTk",
+   "fecha": "2025-09-28",
+   "publicado": "2026-11-24",
+   "predicador": "Felipe A.",
+   "sermon": "Sea Dios veraz",
+   "titulo": "La verdad es una medida"
+  },
+  {
    "video_id": "tWBsKxP0Lcg",
    "fecha": "2025-10-19",
    "publicado": "2026-11-23",
@@ -1413,22 +1429,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Una familia que levanta",
    "titulo": "Carga compartida o carga propia"
-  },
-  {
-   "video_id": "l73jEEA1jQQ",
-   "fecha": "2025-08-10",
-   "publicado": "2026-10-25",
-   "predicador": "Carlos Campos",
-   "sermon": "Salvos por fe",
-   "titulo": "Quejarse a Dios o de Dios"
-  },
-  {
-   "video_id": "BNpDalMMGGI",
-   "fecha": "2026-10-18",
-   "publicado": "2026-10-25",
-   "predicador": "Carlos Campos",
-   "sermon": "Una familia que levanta",
-   "titulo": "Se equivoca el que trabaja"
   }
  ],
  "agenda": [
