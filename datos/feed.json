@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T23:50",
+ "generado": "2026-11-25T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -947,9 +947,109 @@
     }
    ],
    "slug": "2026-04-26-mas-que-vencedores"
+  },
+  {
+   "video_id": "FQO_FP5uIK0",
+   "fecha": "2026-04-19",
+   "publicado": "2026-11-25",
+   "predicador": "Carlos Lamus",
+   "titulo": "El único camino a la obediencia",
+   "pasaje": "Hechos 4:11-12",
+   "resumen": "Todos levantaríamos las dos manos si nos preguntaran quién ama a Dios. Pero si la pregunta fuera quién es obediente a Dios, ahí ya nos costaría levantar la mano.",
+   "capitulos": [
+    {
+     "t": "00:00",
+     "n": "La obediencia no es fácil"
+    },
+    {
+     "t": "00:50",
+     "n": "La moto que me robaron"
+    },
+    {
+     "t": "03:50",
+     "n": "La desobediencia desde el Edén"
+    },
+    {
+     "t": "06:24",
+     "n": "¿Cuántos amamos a Dios? ¿Cuántos somos obedientes?"
+    },
+    {
+     "t": "07:30",
+     "n": "Hechos 4:11-12: en ningún otro hay salvación"
+    },
+    {
+     "t": "13:19",
+     "n": "La derrota de Satanás en la resurrección"
+    },
+    {
+     "t": "16:54",
+     "n": "Las bombas de racimo"
+    },
+    {
+     "t": "18:19",
+     "n": "Los dardos y las fisuras del corazón"
+    },
+    {
+     "t": "19:19",
+     "n": "Ovejas en medio de lobos"
+    },
+    {
+     "t": "23:49",
+     "n": "Lo que vi en una silla de ruedas"
+    },
+    {
+     "t": "30:07",
+     "n": "La prueba del gerente"
+    },
+    {
+     "t": "33:29",
+     "n": "Satanás no te presenta lo malo: te presenta lo mejor"
+    },
+    {
+     "t": "35:49",
+     "n": "Romanos 13 y la obligación con Dios"
+    },
+    {
+     "t": "43:17",
+     "n": "Lucas 14:26: el amor de Dios por encima de todo"
+    },
+    {
+     "t": "46:33",
+     "n": "«Iglesia, ¿me amas?»"
+    },
+    {
+     "t": "47:57",
+     "n": "Abraham y la leña"
+    },
+    {
+     "t": "50:01",
+     "n": "«Señor, este mensaje me queda grande a mí»"
+    },
+    {
+     "t": "50:46",
+     "n": "El amor que llevó a Cristo a obedecer"
+    }
+   ],
+   "slug": "2026-04-19-el-unico-camino-a-la-obediencia"
   }
  ],
  "shorts": [
+  {
+   "video_id": "cysoh-q0bKI",
+   "fecha": "2025-09-21",
+   "publicado": "2026-11-25",
+   "predicador": "Carlos Campos",
+   "sermon": "La Biblia, el fundamento para la sociedad",
+   "titulo": "Hechos a imagen de Dios"
+  },
+  {
+   "video_id": "dGsC4tpzwKM",
+   "fecha": "2025-09-14",
+   "publicado": "2026-11-25",
+   "predicador": "Carlos Campos",
+   "sermon": "Persiste en lo que has aprendido",
+   "titulo": "La Biblia debajo del brazo"
+  },
   {
    "video_id": "TL4aZZ2GsOo",
    "fecha": "2025-10-05",
@@ -1413,22 +1513,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Una familia que levanta",
    "titulo": "Restaurar no es esconder"
-  },
-  {
-   "video_id": "8hdEvuNJXA8",
-   "fecha": "2025-08-03",
-   "publicado": "2026-10-26",
-   "predicador": "Felipe Albacete",
-   "sermon": "Edificados sobre el fundamento",
-   "titulo": "Novios de la iglesia"
-  },
-  {
-   "video_id": "CM-PpGYXVuE",
-   "fecha": "2026-10-18",
-   "publicado": "2026-10-26",
-   "predicador": "Carlos Campos",
-   "sermon": "Una familia que levanta",
-   "titulo": "Carga compartida o carga propia"
   }
  ],
  "agenda": [
