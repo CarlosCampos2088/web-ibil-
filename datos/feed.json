@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T17:50",
+ "generado": "2026-11-27T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -1035,6 +1035,22 @@
  ],
  "shorts": [
   {
+   "video_id": "IvQjwlgqJ5Y",
+   "fecha": "2025-08-03",
+   "publicado": "2026-11-27",
+   "predicador": "Felipe Albacete",
+   "sermon": "Edificados sobre el fundamento",
+   "titulo": "La iglesia no es una cafetería"
+  },
+  {
+   "video_id": "Zo-4bNRfzcY",
+   "fecha": "2025-07-27",
+   "publicado": "2026-11-27",
+   "predicador": "Francisco",
+   "sermon": "El evangelio",
+   "titulo": "Una cisterna en el desierto"
+  },
+  {
    "video_id": "8j_yvleQ_7U",
    "fecha": "2025-08-17",
    "publicado": "2026-11-26",
@@ -1497,22 +1513,6 @@
    "predicador": "Carlos Campos",
    "sermon": "Una familia que levanta",
    "titulo": "A tu conciencia y a Dios no los engañas"
-  },
-  {
-   "video_id": "uo3N7sgR_mc",
-   "fecha": "2025-07-06",
-   "publicado": "2026-10-28",
-   "predicador": "Carlos Campos",
-   "sermon": "El evangelio de la salvación",
-   "titulo": "Matamos a sus esposos"
-  },
-  {
-   "video_id": "wZ40oyGcPIw",
-   "fecha": "2026-10-18",
-   "publicado": "2026-10-28",
-   "predicador": "Carlos Campos",
-   "sermon": "Una familia que levanta",
-   "titulo": "Él cargó la cruz"
   }
  ],
  "agenda": [
