@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T22:50",
+ "generado": "2026-11-28T00:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -1035,6 +1035,14 @@
  ],
  "shorts": [
   {
+   "video_id": "TGjEdPdvZDI",
+   "fecha": "2025-07-06",
+   "publicado": "2026-11-28",
+   "predicador": "Carlos Campos",
+   "sermon": "El evangelio de la salvación",
+   "titulo": "Pero Dios"
+  },
+  {
    "video_id": "IvQjwlgqJ5Y",
    "fecha": "2025-08-03",
    "publicado": "2026-11-27",
@@ -1505,22 +1513,9 @@
    "predicador": "Carlos Campos",
    "sermon": "Llamados a la verdad",
    "titulo": "Sobre alas de águila"
-  },
-  {
-   "video_id": "yAOT-9MzjsU",
-   "fecha": "2026-10-18",
-   "publicado": "2026-10-29",
-   "predicador": "Carlos Campos",
-   "sermon": "Una familia que levanta",
-   "titulo": "A tu conciencia y a Dios no los engañas"
   }
  ],
  "agenda": [
-  {
-   "fecha": "2026-11-27",
-   "hora": "19:00",
-   "nombre": "Vigilia unida · <r>Calahorra</r><br>C/ Cavas 44, Calahorra"
-  },
   {
    "fecha": "2026-12-02",
    "hora": "19:00",
