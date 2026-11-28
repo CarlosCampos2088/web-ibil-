@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-28T00:50",
+ "generado": "2026-11-28T16:50",
  "sermones": [
   {
    "video_id": "sbhOs2dZxs4",
@@ -1551,6 +1551,12 @@
   }
  ],
  "diario": [
+  {
+   "fecha": "2026-11-28",
+   "texto": "Historia de IBIL, iglesia evangélica en Logroño: culto-B",
+   "id": "semana-20261123-culto-B",
+   "imagen": "/img/diario/semana-20261123-culto-b.webp"
+  },
   {
    "fecha": "2026-11-27",
    "texto": "Historia de IBIL: hoy, vigilia unida de Logroño, Calahorra y Tudela desde las 19:00 en la Iglesia Bautista Internacional de Calahorra",
